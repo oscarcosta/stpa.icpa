@@ -1,8 +1,6 @@
-#STPA.ICPA
+# STPA.ICPA
 
-
-
-##Project structure:
+## Project structure:
 
 - **com.mbeddr.formal.safety.stpa**: stpa language (extension of mbeddr.formal)
 - **stpa-cdx**: industry case
