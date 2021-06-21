@@ -57,8 +57,6 @@
   <node concept="1TIwiD" id="5FhsyklnASj">
     <property role="EcuMT" value="6544137237143907859" />
     <property role="TrG5h" value="ActionRef" />
-    <property role="34LRSv" value="action ref" />
-    <property role="R4oN_" value="reference to action" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5FhsyklnASk" role="1TKVEi">
       <property role="IQ2ns" value="6544137237143907860" />
