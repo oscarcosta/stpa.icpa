@@ -290,7 +290,6 @@
       <node concept="1XypPU" id="5t8ByuUUaJb" role="2I3o71">
         <ref role="SrP08" node="4heNENPeklr" resolve="Primary Care Giver" />
         <ref role="SrP07" node="594BkWrxxe4" resolve="Patient Health" />
-        <node concept="Sqzvu" id="49kVxkQrIsT" role="Sq$B$" />
         <node concept="Sqzvu" id="5t8ByuUUaJc" role="Sq$B$">
           <property role="TrG5h" value="intervention" />
         </node>
@@ -2779,7 +2778,6 @@
       <node concept="1XypPU" id="4xXrDsEvzcV" role="2I3o71">
         <ref role="SrP08" node="594BkWrxzM1" resolve="Secondary Care Giver" />
         <ref role="SrP07" node="594BkWrx$Ac" resolve="Patient Health" />
-        <node concept="Sqzvu" id="49kVxkQrIsY" role="Sq$B$" />
         <node concept="Sqzvu" id="4xXrDsEvzcW" role="Sq$B$">
           <property role="TrG5h" value="intervention" />
         </node>
