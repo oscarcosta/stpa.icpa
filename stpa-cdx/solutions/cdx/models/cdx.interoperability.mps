@@ -287,21 +287,14 @@
     <property role="TrG5h" value="2.1_Ordering Control Structure" />
     <node concept="1XyJaU" id="4heNENPeklr" role="1X_0GB">
       <property role="TrG5h" value="Primary Care Giver" />
-      <node concept="1XypPU" id="5t8ByuUUaJb" role="2I3o71">
-        <ref role="SrP08" node="4heNENPeklr" resolve="Primary Care Giver" />
-        <ref role="SrP07" node="594BkWrxxe4" resolve="Patient Health" />
-        <node concept="Sqzvu" id="5t8ByuUUaJc" role="Sq$B$">
-          <property role="TrG5h" value="intervention" />
-        </node>
-      </node>
     </node>
     <node concept="37mRI7" id="4heNENPeklv" role="lGtFl">
       <node concept="37mRIm" id="4heNENPeklw" role="37mRID">
         <property role="37mO49" value="4922098685006398811" />
         <node concept="gqqVs" id="4heNENPeklu" role="37mO4d">
-          <property role="gqqTZ" value="60.0" />
+          <property role="gqqTZ" value="79.0" />
           <property role="gqqTW" value="15.0" />
-          <property role="gqqTX" value="175.0" />
+          <property role="gqqTX" value="190.0" />
           <property role="gqqTy" value="32.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
         </node>
@@ -309,7 +302,7 @@
       <node concept="37mRIm" id="4heNENPeklH" role="37mRID">
         <property role="37mO49" value="4922098685006398824" />
         <node concept="gqqVs" id="4heNENPeklG" role="37mO4d">
-          <property role="gqqTZ" value="501.0" />
+          <property role="gqqTZ" value="500.0" />
           <property role="gqqTW" value="15.0" />
           <property role="gqqTX" value="196.0" />
           <property role="gqqTy" value="32.0" />
@@ -752,7 +745,7 @@
             <node concept="3wpmZ1" id="594BkWrxwCc" role="3ul5Gz">
               <node concept="2VclrF" id="594BkWrxwCd" role="3wpmZR">
                 <property role="2Vclpx" value="272.0" />
-                <property role="2Vclpz" value="166.0" />
+                <property role="2Vclpz" value="158.0" />
               </node>
               <node concept="2VclrF" id="594BkWrxwCe" role="3wpmZP">
                 <property role="2Vclpx" value="0.0" />
@@ -1621,9 +1614,6 @@
       <node concept="Sqzvu" id="594BkWrxwrQ" role="Sq$B$">
         <property role="TrG5h" value="patient_matched" />
       </node>
-      <node concept="Sqzvu" id="2bJEt0AEc6X" role="Sq$B$">
-        <property role="TrG5h" value="patient_not_matched" />
-      </node>
     </node>
     <node concept="1XyJaU" id="594BkWrxwsj" role="1X_0GB">
       <property role="TrG5h" value="EMR Charting" />
@@ -1672,6 +1662,9 @@
       <node concept="Sqzvu" id="7JRpzsvZwOc" role="Sq$B$">
         <property role="TrG5h" value="store_order" />
       </node>
+      <node concept="Sqzvu" id="3pcs0ZTWCf2" role="Sq$B$">
+        <property role="TrG5h" value="store_ack" />
+      </node>
     </node>
     <node concept="Sq$B_" id="594BkWrxwEN" role="1X_0G_">
       <ref role="SrP07" node="4heNENPeklQ" resolve="EMR Order Entry" />
@@ -1701,30 +1694,6 @@
       </node>
       <node concept="Sqzvu" id="594BkWrxwZs" role="Sq$B$">
         <property role="TrG5h" value="providers" />
-      </node>
-    </node>
-    <node concept="1XyJaU" id="594BkWrxxe4" role="1X_0GB">
-      <property role="TrG5h" value="Patient Health" />
-      <node concept="Sq$B_" id="5t8ByuUUaPz" role="2I3o71">
-        <ref role="SrP08" node="594BkWrxxe4" resolve="Patient Health" />
-        <ref role="SrP07" node="4heNENPeklr" resolve="Primary Care Giver" />
-        <node concept="Sqzvu" id="5t8ByuUUaP$" role="Sq$B$">
-          <property role="TrG5h" value="observation" />
-        </node>
-      </node>
-    </node>
-    <node concept="1XypPU" id="5O4PMDpZCEu" role="1X_0G_">
-      <ref role="SrP08" node="4heNENPeklC" resolve="Secondary Care Giver" />
-      <ref role="SrP07" node="594BkWrxxe4" resolve="Patient Health" />
-      <node concept="Sqzvu" id="5O4PMDpZCEv" role="Sq$B$">
-        <property role="TrG5h" value="intervention" />
-      </node>
-    </node>
-    <node concept="Sq$B_" id="5O4PMDpZCJy" role="1X_0G_">
-      <ref role="SrP07" node="4heNENPeklC" resolve="Secondary Care Giver" />
-      <ref role="SrP08" node="594BkWrxxe4" resolve="Patient Health" />
-      <node concept="Sqzvu" id="5O4PMDpZCJz" role="Sq$B$">
-        <property role="TrG5h" value="observation" />
       </node>
     </node>
     <node concept="1XyJaU" id="7JRpzsvZtDY" role="1X_0GB">
@@ -1776,7 +1745,7 @@
       <node concept="1E0nOJ" id="4heNENPeklp" role="1E0nOC">
         <ref role="1E0n_N" node="4heNENPekmn" resolve="create_order" />
         <node concept="1E0uc6" id="5O4PMDpZCf8" role="1E0tWM">
-          <property role="TrG5h" value="UCA-create_order-provided_1" />
+          <property role="TrG5h" value="UCA-create_order-provided_with_wrong_target" />
           <node concept="19SGf9" id="5O4PMDpZCfr" role="1E0uc7">
             <node concept="19SUe$" id="5O4PMDpZCfz" role="19SJt6" />
             <node concept="1irL6x" id="5O4PMDpZCfx" role="19SJt6">
@@ -1797,7 +1766,7 @@
           </node>
         </node>
         <node concept="1E0uc6" id="5O4PMDpZCh5" role="1E0tWM">
-          <property role="TrG5h" value="UCA-create_order-provided_2" />
+          <property role="TrG5h" value="UCA-create_order-provided_with_wrong_recipient" />
           <node concept="19SGf9" id="5O4PMDpZChq" role="1E0uc7">
             <node concept="19SUe$" id="5O4PMDpZChv" role="19SJt6" />
             <node concept="1irL6x" id="5O4PMDpZChu" role="19SJt6">
@@ -1821,7 +1790,7 @@
           </node>
         </node>
         <node concept="1E0uc6" id="5O4PMDpZCi$" role="1E0tWM">
-          <property role="TrG5h" value="UCA-create_order-provided_3" />
+          <property role="TrG5h" value="UCA-create_order-provided_with_wrong_content" />
           <node concept="19SGf9" id="5O4PMDpZCiX" role="1E0uc7">
             <node concept="19SUe$" id="5O4PMDpZCj2" role="19SJt6" />
             <node concept="1irL6x" id="5O4PMDpZCj1" role="19SJt6">
@@ -1889,7 +1858,7 @@
           </node>
         </node>
         <node concept="1E0uc6" id="7f9Jps8Qx_e" role="1E0tWM">
-          <property role="TrG5h" value="UCA-update_order-provided" />
+          <property role="TrG5h" value="UCA-update_order-provided_with_wrong_content" />
           <node concept="19SGf9" id="7f9Jps8Qx_f" role="1E0uc7">
             <node concept="19SUe$" id="7f9Jps8Qx_g" role="19SJt6" />
             <node concept="1irL6x" id="7f9Jps8Qx_h" role="19SJt6">
@@ -1941,13 +1910,6 @@
       </node>
       <node concept="1E0nOJ" id="2TxgiT9x8YY" role="1E0nOC">
         <ref role="1E0n_N" node="5RqsIjzqy0a" resolve="search_document" />
-      </node>
-      <node concept="1E0nOJ" id="2TxgiT9x9kL" role="1E0nOC">
-        <ref role="1E0n_N" node="5t8ByuUUaJc" resolve="intervention" />
-        <node concept="3XErhT" id="2TxgiT9x9o3" role="1E0ucd" />
-        <node concept="3XErhT" id="2TxgiT9x9o5" role="1E0tWM" />
-        <node concept="3XErhT" id="2TxgiT9x9o7" role="1E0tXe" />
-        <node concept="3XErhT" id="2TxgiT9x9o9" role="1E0tXb" />
       </node>
     </node>
     <node concept="1E0nOG" id="4heNENPeofm" role="1E0n_e">
@@ -2172,6 +2134,61 @@
           </node>
         </node>
         <node concept="3XErhT" id="4pr9KvK92o7" role="1E0tXb" />
+      </node>
+      <node concept="1E0nOJ" id="6Xd1LEcwO4B" role="1E0nOC">
+        <ref role="1E0n_N" node="5RqsIjzquQ6" resolve="validate_document" />
+        <node concept="1E0uc6" id="6Xd1LEcwO53" role="1E0ucd">
+          <property role="TrG5h" value="UCA-validate_document-not_provided" />
+          <node concept="19SGf9" id="6Xd1LEcwO55" role="1E0uc7">
+            <node concept="19SUe$" id="6Xd1LEcwO5a" role="19SJt6" />
+            <node concept="1irL6x" id="6Xd1LEcwO59" role="19SJt6">
+              <ref role="1irL7C" node="4heNENPekzM" resolve="CDX Document Distribution" />
+            </node>
+            <node concept="19SUe$" id="6Xd1LEcwO5b" role="19SJt6">
+              <property role="19SUeA" value="does not provide " />
+            </node>
+            <node concept="1iqAl5" id="6Xd1LEcwO5f" role="19SJt6">
+              <ref role="1iqAlh" node="5RqsIjzquQ6" resolve="validate_document" />
+            </node>
+            <node concept="19SUe$" id="6Xd1LEcwO5g" role="19SJt6">
+              <property role="19SUeA" value="for a received document, resulting in order " />
+            </node>
+          </node>
+          <node concept="DABN8" id="6Xd1LEcwO5T" role="2Dy4$W">
+            <ref role="DABNb" node="4heNENPekvI" resolve="Order target (patient) is incorrect or incomplete" />
+          </node>
+          <node concept="DABN8" id="6Xd1LEcwO5Y" role="2Dy4$W">
+            <ref role="DABNb" node="4heNENPekxT" resolve="Order recipient (clinic or provider) is incorrect" />
+          </node>
+          <node concept="DABN8" id="6Xd1LEcwO6h" role="2Dy4$W">
+            <ref role="DABNb" node="4heNENPekyz" resolve="Order content (body or attachment) is incorrect or incomplete" />
+          </node>
+          <node concept="DABN8" id="6Xd1LEcwO6r" role="2Dy4$W">
+            <ref role="DABNb" node="4heNENPekyY" resolve="Order is delayed, not delivered, or lost" />
+          </node>
+        </node>
+        <node concept="3XErhT" id="6Xd1LEcwO6x" role="1E0tWM" />
+        <node concept="1E0uc6" id="6Xd1LEcwOLb" role="1E0tXe">
+          <property role="TrG5h" value="UCA_validate_document-provided_to_late" />
+          <node concept="19SGf9" id="6Xd1LEcwOLd" role="1E0uc7">
+            <node concept="19SUe$" id="6Xd1LEcwOLi" role="19SJt6" />
+            <node concept="1irL6x" id="6Xd1LEcwOLh" role="19SJt6">
+              <ref role="1irL7C" node="4heNENPekzM" resolve="CDX Document Distribution" />
+            </node>
+            <node concept="19SUe$" id="6Xd1LEcwOLj" role="19SJt6">
+              <property role="19SUeA" value="provides too late " />
+            </node>
+            <node concept="1iqAl5" id="6Xd1LEcwOLn" role="19SJt6">
+              <ref role="1iqAlh" node="5RqsIjzquQ6" resolve="validate_document" />
+            </node>
+            <node concept="19SUe$" id="6Xd1LEcwOLo" role="19SJt6">
+              <property role="19SUeA" value="for a received document, resulting in order not delivered" />
+            </node>
+          </node>
+          <node concept="DABN8" id="6Xd1LEcwOLu" role="2Dy4$W">
+            <ref role="DABNb" node="4heNENPekyY" resolve="Order is delayed, not delivered, or lost" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="1E0nOG" id="5O4PMDpZC$G" role="1E0n_e">
@@ -2423,6 +2440,36 @@
             <ref role="DABNb" node="4heNENPekyY" resolve="Order is delayed, not delivered, or lost" />
           </node>
         </node>
+      </node>
+      <node concept="1E0nOJ" id="6Xd1LEcwO7A" role="1E0nOC">
+        <ref role="1E0n_N" node="594BkWrxwun" resolve="get_patient" />
+      </node>
+      <node concept="1E0nOJ" id="6Xd1LEcwO9c" role="1E0nOC">
+        <ref role="1E0n_N" node="2bJEt0AEcH0" resolve="maintain_order_history" />
+      </node>
+      <node concept="1E0nOJ" id="6Xd1LEcwOaN" role="1E0nOC">
+        <ref role="1E0n_N" node="5RqsIjzqwa7" resolve="store_document" />
+      </node>
+      <node concept="1E0nOJ" id="6Xd1LEcwOcr" role="1E0nOC">
+        <ref role="1E0n_N" node="2bJEt0AEd1F" resolve="store_attachment" />
+      </node>
+      <node concept="1E0nOJ" id="6Xd1LEcwOnZ" role="1E0nOC">
+        <ref role="1E0n_N" node="594BkWrxwrH" resolve="order_rendered" />
+      </node>
+      <node concept="1E0nOJ" id="6Xd1LEcwOpD" role="1E0nOC">
+        <ref role="1E0n_N" node="2bJEt0AEcvc" resolve="order_status" />
+      </node>
+      <node concept="1E0nOJ" id="6Xd1LEcwOrk" role="1E0nOC">
+        <ref role="1E0n_N" node="2bJEt0AEcMG" resolve="order_visualized" />
+      </node>
+      <node concept="1E0nOJ" id="6Xd1LEcwOt0" role="1E0nOC">
+        <ref role="1E0n_N" node="2bJEt0AEcVU" resolve="order_attachments" />
+      </node>
+      <node concept="1E0nOJ" id="6Xd1LEcwOuH" role="1E0nOC">
+        <ref role="1E0n_N" node="5RqsIjzqu_p" resolve="order_history" />
+      </node>
+      <node concept="1E0nOJ" id="6Xd1LEcwOwr" role="1E0nOC">
+        <ref role="1E0n_N" node="594BkWrxwrQ" resolve="patient_matched" />
       </node>
     </node>
     <node concept="1E0nOG" id="5O4PMDpZCOQ" role="1E0n_e">
@@ -2769,27 +2816,26 @@
         <node concept="3XErhT" id="7f9Jps8Qzcs" role="1E0tXe" />
         <node concept="3XErhT" id="7f9Jps8Qzcu" role="1E0tXb" />
       </node>
+      <node concept="1E0nOJ" id="6Xd1LEcwOe4" role="1E0nOC">
+        <ref role="1E0n_N" node="2bJEt0AEc75" resolve="update_patient" />
+      </node>
+      <node concept="1E0nOJ" id="6Xd1LEcwOgd" role="1E0nOC">
+        <ref role="1E0n_N" node="5RqsIjzqy0g" resolve="search_document" />
+      </node>
     </node>
   </node>
   <node concept="1X_0jQ" id="594BkWrxzLZ">
     <property role="TrG5h" value="2.2_Reporting Control Structure" />
     <node concept="1XyJaU" id="594BkWrxzM1" role="1X_0GB">
       <property role="TrG5h" value="Secondary Care Giver" />
-      <node concept="1XypPU" id="4xXrDsEvzcV" role="2I3o71">
-        <ref role="SrP08" node="594BkWrxzM1" resolve="Secondary Care Giver" />
-        <ref role="SrP07" node="594BkWrx$Ac" resolve="Patient Health" />
-        <node concept="Sqzvu" id="4xXrDsEvzcW" role="Sq$B$">
-          <property role="TrG5h" value="intervention" />
-        </node>
-      </node>
     </node>
     <node concept="37mRI7" id="594BkWrxzM5" role="lGtFl">
       <node concept="37mRIm" id="594BkWrxzM6" role="37mRID">
         <property role="37mO49" value="5928035972616174721" />
         <node concept="gqqVs" id="594BkWrxzM4" role="37mO4d">
-          <property role="gqqTZ" value="47.0" />
-          <property role="gqqTW" value="11.0" />
-          <property role="gqqTX" value="183.0" />
+          <property role="gqqTZ" value="66.0" />
+          <property role="gqqTW" value="10.0" />
+          <property role="gqqTX" value="191.0" />
           <property role="gqqTy" value="32.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
         </node>
@@ -2797,9 +2843,9 @@
       <node concept="37mRIm" id="594BkWrxzMj" role="37mRID">
         <property role="37mO49" value="5928035972616174734" />
         <node concept="gqqVs" id="594BkWrxzMi" role="37mO4d">
-          <property role="gqqTZ" value="489.0" />
-          <property role="gqqTW" value="11.0" />
-          <property role="gqqTX" value="175.0" />
+          <property role="gqqTZ" value="488.0" />
+          <property role="gqqTW" value="10.0" />
+          <property role="gqqTX" value="196.0" />
           <property role="gqqTy" value="32.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
         </node>
@@ -3114,7 +3160,7 @@
             <node concept="3wpmZ1" id="594BkWrx$sy" role="3ul5Gz">
               <node concept="2VclrF" id="594BkWrx$sz" role="3wpmZR">
                 <property role="2Vclpx" value="590.0" />
-                <property role="2Vclpz" value="58.5" />
+                <property role="2Vclpz" value="59.5" />
               </node>
               <node concept="2VclrF" id="594BkWrx$s$" role="3wpmZP">
                 <property role="2Vclpx" value="0.0" />
@@ -3598,9 +3644,6 @@
       <node concept="Sqzvu" id="594BkWrx$uJ" role="Sq$B$">
         <property role="TrG5h" value="patient_matched" />
       </node>
-      <node concept="Sqzvu" id="2bJEt0AEep5" role="Sq$B$">
-        <property role="TrG5h" value="patient_not_matched" />
-      </node>
     </node>
     <node concept="1XypPU" id="594BkWrx$v4" role="1X_0G_">
       <ref role="SrP07" node="594BkWrxzZC" resolve="EMR Charting" />
@@ -3637,16 +3680,6 @@
         <property role="TrG5h" value="patient" />
       </node>
     </node>
-    <node concept="1XyJaU" id="594BkWrx$Ac" role="1X_0GB">
-      <property role="TrG5h" value="Patient Health" />
-      <node concept="Sq$B_" id="4xXrDsEvzgA" role="2I3o71">
-        <ref role="SrP08" node="594BkWrx$Ac" resolve="Patient Health" />
-        <ref role="SrP07" node="594BkWrxzM1" resolve="Secondary Care Giver" />
-        <node concept="Sqzvu" id="4xXrDsEvzgB" role="Sq$B$">
-          <property role="TrG5h" value="observation" />
-        </node>
-      </node>
-    </node>
     <node concept="1XyJaU" id="7JRpzsvZvIs" role="1X_0GB">
       <property role="TrG5h" value="CDX Document Retrieval" />
     </node>
@@ -3668,20 +3701,6 @@
       </node>
       <node concept="Sqzvu" id="7JRpzsvZvUK" role="Sq$B$">
         <property role="TrG5h" value="get_document" />
-      </node>
-    </node>
-    <node concept="1XypPU" id="7JRpzsvZvWH" role="1X_0G_">
-      <ref role="SrP08" node="594BkWrxzMe" resolve="Primary Care Giver" />
-      <ref role="SrP07" node="594BkWrx$Ac" resolve="Patient Health" />
-      <node concept="Sqzvu" id="7JRpzsvZvWI" role="Sq$B$">
-        <property role="TrG5h" value="examination" />
-      </node>
-    </node>
-    <node concept="Sq$B_" id="7JRpzsvZw0x" role="1X_0G_">
-      <ref role="SrP07" node="594BkWrxzMe" resolve="Primary Care Giver" />
-      <ref role="SrP08" node="594BkWrx$Ac" resolve="Patient Health" />
-      <node concept="Sqzvu" id="7JRpzsvZw0y" role="Sq$B$">
-        <property role="TrG5h" value="observation" />
       </node>
     </node>
     <node concept="Sq$B_" id="7JRpzsvZw5B" role="1X_0G_">
@@ -5004,7 +5023,7 @@
       </node>
       <node concept="19SGf9" id="5RqsIjzqusO" role="1QQeG9">
         <node concept="19SUe$" id="5RqsIjzqusP" role="19SJt6">
-          <property role="19SUeA" value="Received documents can be manually assigned to a provider" />
+          <property role="19SUeA" value="Received documents can be manually assigned to a provider (SHOULD)" />
         </node>
       </node>
       <node concept="1QQeAY" id="5RqsIjzqx86" role="1QQeAC">
@@ -5084,14 +5103,14 @@
       <node concept="1TVFYH" id="2bJEt0AEc6H" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEc6M" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPek$$" resolve="EMR Order Processing" />
-          <node concept="1fzLKQ" id="2bJEt0AEc7k" role="1fzK9R">
-            <ref role="1fzLKL" node="2bJEt0AEc6X" resolve="patient_not_matched" />
+          <node concept="1fzLKQ" id="6Xd1LEcwO$2" role="1fzK9R">
+            <ref role="1fzLKL" node="594BkWrxwrQ" resolve="patient_matched" />
           </node>
         </node>
         <node concept="1fzK9F" id="2bJEt0AEeoV" role="1H_VwB">
           <ref role="1fGttc" node="594BkWrxzME" resolve="EMR Report Processing" />
-          <node concept="1fzLKQ" id="2bJEt0AEepg" role="1fzK9R">
-            <ref role="1fzLKL" node="2bJEt0AEep5" resolve="patient_not_matched" />
+          <node concept="1fzLKQ" id="6Xd1LEcwO$k" role="1fzK9R">
+            <ref role="1fzLKL" node="594BkWrx$uJ" resolve="patient_matched" />
           </node>
         </node>
       </node>
@@ -5128,7 +5147,7 @@
       </node>
       <node concept="19SGf9" id="2bJEt0AEc7R" role="1QQeG9">
         <node concept="19SUe$" id="2bJEt0AEc7S" role="19SJt6">
-          <property role="19SUeA" value="Patient demographic data can be manually updated to match a received document" />
+          <property role="19SUeA" value="Patient demographic data can be manually updated to match a received document (SHOULD)" />
         </node>
       </node>
       <node concept="1QQeAY" id="2bJEt0AEchI" role="1QQeAC">
@@ -5246,7 +5265,7 @@
       </node>
       <node concept="19SGf9" id="2bJEt0AEcpn" role="1QQeG9">
         <node concept="19SUe$" id="2bJEt0AEcpo" role="19SJt6">
-          <property role="19SUeA" value="Deleted documents can be manually restored after deletion" />
+          <property role="19SUeA" value="Deleted documents can be manually restored after deletion (SHOULD)" />
         </node>
       </node>
       <node concept="1QQeAY" id="2bJEt0AEcsc" role="1QQeAC">
@@ -5277,7 +5296,7 @@
       </node>
       <node concept="19SGf9" id="2bJEt0AEcsE" role="1QQeG9">
         <node concept="19SUe$" id="2bJEt0AEcsF" role="19SJt6">
-          <property role="19SUeA" value="Status of received documents are indicated in the UI" />
+          <property role="19SUeA" value="Status of received documents are indicated in the user interface" />
         </node>
       </node>
       <node concept="1QQeAY" id="2bJEt0AEcvq" role="1QQeAC">
@@ -5308,7 +5327,7 @@
       </node>
       <node concept="19SGf9" id="2bJEt0AEcvB" role="1QQeG9">
         <node concept="19SUe$" id="2bJEt0AEcvC" role="19SJt6">
-          <property role="19SUeA" value="Existing documents can replaced with the most recent version of the received document" />
+          <property role="19SUeA" value="An existing document is replaced with the most recent version of that document" />
         </node>
       </node>
       <node concept="1QQeAY" id="2bJEt0AEcyo" role="1QQeAC">
@@ -5370,14 +5389,14 @@
       </node>
       <node concept="19SGf9" id="2bJEt0AEc_G" role="1QQeG9">
         <node concept="19SUe$" id="2bJEt0AEc_H" role="19SJt6">
-          <property role="19SUeA" value="Users are notified when cancelled documents are received (may)" />
+          <property role="19SUeA" value="Users are notified when updated or cancelled documents are received (MAY)" />
         </node>
       </node>
       <node concept="1QQeAY" id="2bJEt0AEcCJ" role="1QQeAC">
         <node concept="0nzK2" id="2bJEt0AEcCL" role="1QQeAV">
           <node concept="19SGf9" id="2bJEt0AEcCN" role="0nzdz">
             <node concept="19SUe$" id="2bJEt0AEcCO" role="19SJt6">
-              <property role="19SUeA" value="Reference: CDX Conformance Profile - CDA Level 1, &#10;Conformance Sessions IDs 23" />
+              <property role="19SUeA" value="Reference: CDX Conformance Profile - CDA Level 1, &#10;Conformance Sessions IDs 23&#10;* Improved constraint!&#10;* SHOULD constraint!" />
             </node>
           </node>
         </node>
@@ -5432,7 +5451,7 @@
       </node>
       <node concept="19SGf9" id="2bJEt0AEcJm" role="1QQeG9">
         <node concept="19SUe$" id="2bJEt0AEcJn" role="19SJt6">
-          <property role="19SUeA" value="Received documents that are new or were not opened are indicated in the UI" />
+          <property role="19SUeA" value="Received documents that are new (not reviewed) are indicated in the user interface" />
         </node>
       </node>
       <node concept="1QQeAY" id="2bJEt0AEcNp" role="1QQeAC">
@@ -5476,8 +5495,39 @@
         </node>
       </node>
     </node>
-    <node concept="0lhDl" id="2bJEt0AEcS6" role="1QQeBF">
+    <node concept="0lhDl" id="3pcs0ZTWCrn" role="1QQeBF">
       <property role="0lsPA" value="CC20" />
+      <node concept="1TVFYH" id="3pcs0ZTWCAH" role="0nOlf">
+        <node concept="1fzK9F" id="3pcs0ZTWCAM" role="1H_VwB">
+          <ref role="1fGttc" node="4heNENPek$$" resolve="EMR Order Processing" />
+          <node concept="1fzLKQ" id="3pcs0ZTWCAS" role="1fzK9R">
+            <ref role="1fzLKL" node="2bJEt0AEcvc" resolve="order_status" />
+          </node>
+        </node>
+        <node concept="1fzK9F" id="3pcs0ZTWCAZ" role="1H_VwB">
+          <ref role="1fGttc" node="594BkWrxzME" resolve="EMR Report Processing" />
+          <node concept="1fzLKQ" id="3pcs0ZTWCB7" role="1fzK9R">
+            <ref role="1fzLKL" node="2bJEt0AEcGs" resolve="report_status" />
+          </node>
+        </node>
+      </node>
+      <node concept="19SGf9" id="3pcs0ZTWCrp" role="1QQeG9">
+        <node concept="19SUe$" id="3pcs0ZTWCrq" role="19SJt6">
+          <property role="19SUeA" value="Users are notified when new versions of documents are received" />
+        </node>
+      </node>
+      <node concept="1QQeAY" id="3pcs0ZTWCBc" role="1QQeAC">
+        <node concept="0nzK2" id="3pcs0ZTWCBe" role="1QQeAV">
+          <node concept="19SGf9" id="3pcs0ZTWCBg" role="0nzdz">
+            <node concept="19SUe$" id="3pcs0ZTWCBh" role="19SJt6">
+              <property role="19SUeA" value="* Missing constraint!" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="0lhDl" id="2bJEt0AEcS6" role="1QQeBF">
+      <property role="0lsPA" value="CC21" />
       <node concept="1TVFYH" id="2bJEt0AEcVI" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEcVN" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPek$$" resolve="EMR Order Processing" />
@@ -5494,7 +5544,7 @@
       </node>
       <node concept="19SGf9" id="2bJEt0AEcS8" role="1QQeG9">
         <node concept="19SUe$" id="2bJEt0AEcS9" role="19SJt6">
-          <property role="19SUeA" value="Presence and number of attachments in a received documents are indicated in the UI" />
+          <property role="19SUeA" value="Presence and number of attachments in a received documents are indicated in the user interface" />
         </node>
       </node>
       <node concept="1QQeAY" id="2bJEt0AEcWS" role="1QQeAC">
@@ -5508,7 +5558,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="5RqsIjzqwVO" role="1QQeBF">
-      <property role="0lsPA" value="CC21" />
+      <property role="0lsPA" value="CC22" />
       <node concept="1TVFYH" id="5RqsIjzqx5F" role="0nOlf">
         <node concept="1fzK9F" id="5RqsIjzqx5K" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPek$$" resolve="EMR Order Processing" />
@@ -5539,7 +5589,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2bJEt0AEcX3" role="1QQeBF">
-      <property role="0lsPA" value="CC22" />
+      <property role="0lsPA" value="CC23" />
       <node concept="1TVFYH" id="2bJEt0AEd0R" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEd0W" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPek$$" resolve="EMR Order Processing" />
@@ -5576,7 +5626,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2bJEt0AEd2B" role="1QQeBF">
-      <property role="0lsPA" value="CC23" />
+      <property role="0lsPA" value="CC24" />
       <node concept="1TVFYH" id="5RqsIjzqxsM" role="0nOlf">
         <node concept="1fzK9F" id="5RqsIjzqxsR" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPeklQ" resolve="EMR Order Entry" />
@@ -5607,7 +5657,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="5RqsIjzqxih" role="1QQeBF">
-      <property role="0lsPA" value="CC24" />
+      <property role="0lsPA" value="CC25" />
       <node concept="1TVFYH" id="5RqsIjzqxsl" role="0nOlf">
         <node concept="1fzK9F" id="5RqsIjzqxsq" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPeklQ" resolve="EMR Order Entry" />
@@ -5624,21 +5674,52 @@
       </node>
       <node concept="19SGf9" id="5RqsIjzqxij" role="1QQeG9">
         <node concept="19SUe$" id="5RqsIjzqxik" role="19SJt6">
-          <property role="19SUeA" value="Sending of attachments is restrict to specified formats" />
+          <property role="19SUeA" value="Attachments being send are restrict to specified formats" />
         </node>
       </node>
       <node concept="1QQeAY" id="5RqsIjzqxti" role="1QQeAC">
         <node concept="0nzK2" id="5RqsIjzqxtk" role="1QQeAV">
           <node concept="19SGf9" id="5RqsIjzqxtm" role="0nzdz">
             <node concept="19SUe$" id="5RqsIjzqxtn" role="19SJt6">
-              <property role="19SUeA" value="Reference: CDX Conformance Profile - CDA Level 1, &#10;Conformance Sessions IDs 35" />
+              <property role="19SUeA" value="Reference: CDX Conformance Profile - CDA Level 1, &#10;Conformance Sessions IDs 33, 35" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="0lhDl" id="3pcs0ZTWCfz" role="1QQeBF">
+      <property role="0lsPA" value="CC26" />
+      <node concept="1TVFYH" id="3pcs0ZTWCqH" role="0nOlf">
+        <node concept="1fzK9F" id="3pcs0ZTWCqM" role="1H_VwB">
+          <ref role="1fGttc" node="4heNENPeklQ" resolve="EMR Order Entry" />
+          <node concept="1fzLKQ" id="3pcs0ZTWCqS" role="1fzK9R">
+            <ref role="1fzLKL" node="4heNENPek_X" resolve="submit_document" />
+          </node>
+        </node>
+        <node concept="1fzK9F" id="3pcs0ZTWCqZ" role="1H_VwB">
+          <ref role="1fGttc" node="594BkWrxzMq" resolve="EMR Report Entry" />
+          <node concept="1fzLKQ" id="3pcs0ZTWCr7" role="1fzK9R">
+            <ref role="1fzLKL" node="594BkWrx$db" resolve="submit_document" />
+          </node>
+        </node>
+      </node>
+      <node concept="19SGf9" id="3pcs0ZTWCf_" role="1QQeG9">
+        <node concept="19SUe$" id="3pcs0ZTWCfA" role="19SJt6">
+          <property role="19SUeA" value="Attachments being send are secured by cryptographic hash function" />
+        </node>
+      </node>
+      <node concept="1QQeAY" id="3pcs0ZTWCrc" role="1QQeAC">
+        <node concept="0nzK2" id="3pcs0ZTWCre" role="1QQeAV">
+          <node concept="19SGf9" id="3pcs0ZTWCrg" role="0nzdz">
+            <node concept="19SUe$" id="3pcs0ZTWCrh" role="19SJt6">
+              <property role="19SUeA" value="* Missing constraint!" />
             </node>
           </node>
         </node>
       </node>
     </node>
     <node concept="0lhDl" id="2bJEt0AEc9t" role="1QQeBF">
-      <property role="0lsPA" value="CC25" />
+      <property role="0lsPA" value="CC27" />
       <node concept="1TVFYH" id="2bJEt0AEc9x" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEdVy" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPeklQ" resolve="EMR Order Entry" />
@@ -5662,14 +5743,45 @@
         <node concept="0nzK2" id="2bJEt0AEc9Q" role="1QQeAV">
           <node concept="19SGf9" id="2bJEt0AEc9R" role="0nzdz">
             <node concept="19SUe$" id="2bJEt0AEc9T" role="19SJt6">
-              <property role="19SUeA" value="Reference: CDX Conformance Profile - CDA Level 1, &#10;Conformance Sessions IDs 39, 40" />
+              <property role="19SUeA" value="Reference: CDX Conformance Profile - CDA Level 1, &#10;Conformance Sessions IDs 39" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="0lhDl" id="3pcs0ZTWCMV" role="1QQeBF">
+      <property role="0lsPA" value="CC28" />
+      <node concept="1TVFYH" id="3pcs0ZTWCYx" role="0nOlf">
+        <node concept="1fzK9F" id="3pcs0ZTWCYA" role="1H_VwB">
+          <ref role="1fGttc" node="4heNENPeklQ" resolve="EMR Order Entry" />
+          <node concept="1fzLKQ" id="3pcs0ZTWCYG" role="1fzK9R">
+            <ref role="1fzLKL" node="4heNENPek_X" resolve="submit_document" />
+          </node>
+        </node>
+        <node concept="1fzK9F" id="3pcs0ZTWCYN" role="1H_VwB">
+          <ref role="1fGttc" node="594BkWrxzMq" resolve="EMR Report Entry" />
+          <node concept="1fzLKQ" id="3pcs0ZTWCYV" role="1fzK9R">
+            <ref role="1fzLKL" node="594BkWrx$db" resolve="submit_document" />
+          </node>
+        </node>
+      </node>
+      <node concept="19SGf9" id="3pcs0ZTWCMX" role="1QQeG9">
+        <node concept="19SUe$" id="3pcs0ZTWCMY" role="19SJt6">
+          <property role="19SUeA" value="Sending documents have approved template IDs and LOINC codes" />
+        </node>
+      </node>
+      <node concept="1QQeAY" id="3pcs0ZTWCZ1" role="1QQeAC">
+        <node concept="0nzK2" id="3pcs0ZTWCZ3" role="1QQeAV">
+          <node concept="19SGf9" id="3pcs0ZTWCZ5" role="0nzdz">
+            <node concept="19SUe$" id="3pcs0ZTWCZ6" role="19SJt6">
+              <property role="19SUeA" value="Reference: CDX Conformance Profile - CDA Level 1, &#10;Conformance Sessions IDs 40, 56" />
             </node>
           </node>
         </node>
       </node>
     </node>
     <node concept="0lhDl" id="2bJEt0AEd6R" role="1QQeBF">
-      <property role="0lsPA" value="CC26" />
+      <property role="0lsPA" value="CC29" />
       <node concept="1TVFYH" id="2bJEt0AEdb2" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEdb7" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPeklQ" resolve="EMR Order Entry" />
@@ -5706,7 +5818,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2bJEt0AEdbR" role="1QQeBF">
-      <property role="0lsPA" value="CC27" />
+      <property role="0lsPA" value="CC30" />
       <node concept="1TVFYH" id="2bJEt0AEdge" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEdgj" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPeklQ" resolve="EMR Order Entry" />
@@ -5723,7 +5835,7 @@
       </node>
       <node concept="19SGf9" id="2bJEt0AEdbT" role="1QQeG9">
         <node concept="19SUe$" id="2bJEt0AEdbU" role="19SJt6">
-          <property role="19SUeA" value="Patient information (at least 4-matching-point) is included in sent documents" />
+          <property role="19SUeA" value="Patient information (at least 4-matching-point) is included in documents being created" />
         </node>
       </node>
       <node concept="1QQeAY" id="2bJEt0AEdgI" role="1QQeAC">
@@ -5737,7 +5849,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2bJEt0AEdgT" role="1QQeBF">
-      <property role="0lsPA" value="CC28" />
+      <property role="0lsPA" value="CC31" />
       <node concept="1TVFYH" id="2bJEt0AEdls" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEdlx" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPeklQ" resolve="EMR Order Entry" />
@@ -5798,7 +5910,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2bJEt0AEdtw" role="1QQeBF">
-      <property role="0lsPA" value="CC29" />
+      <property role="0lsPA" value="CC32" />
       <node concept="1TVFYH" id="2bJEt0AEdyy" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEdyB" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPeklQ" resolve="EMR Order Entry" />
@@ -5815,7 +5927,7 @@
       </node>
       <node concept="19SGf9" id="2bJEt0AEdty" role="1QQeG9">
         <node concept="19SUe$" id="2bJEt0AEdtz" role="19SJt6">
-          <property role="19SUeA" value="Clinics and providers registered within CDX are included in sent documents" />
+          <property role="19SUeA" value="Clinics and providers registered within CDX are included in documents being created" />
         </node>
       </node>
       <node concept="1QQeAY" id="2bJEt0AEdz2" role="1QQeAC">
@@ -5829,7 +5941,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2bJEt0AEdnU" role="1QQeBF">
-      <property role="0lsPA" value="CC30" />
+      <property role="0lsPA" value="CC33" />
       <node concept="1TVFYH" id="2bJEt0AEdsL" role="0nOlf">
         <node concept="1fzK9F" id="5RqsIjzqxvk" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPekzM" resolve="CDX Document Distribution" />
@@ -5872,7 +5984,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2bJEt0AEdzd" role="1QQeBF">
-      <property role="0lsPA" value="CC31" />
+      <property role="0lsPA" value="CC34" />
       <node concept="1TVFYH" id="2bJEt0AEdCs" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEdCx" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPeklQ" resolve="EMR Order Entry" />
@@ -5903,7 +6015,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="5RqsIjzqxOH" role="1QQeBF">
-      <property role="0lsPA" value="CC32" />
+      <property role="0lsPA" value="CC35" />
       <node concept="1TVFYH" id="5RqsIjzqxZb" role="0nOlf">
         <node concept="1fzK9F" id="5RqsIjzqxZg" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPek$$" resolve="EMR Order Processing" />
@@ -5934,7 +6046,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2bJEt0AEdDa" role="1QQeBF">
-      <property role="0lsPA" value="CC33" />
+      <property role="0lsPA" value="CC36" />
       <node concept="1TVFYH" id="2bJEt0AEdI$" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEdID" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPeklQ" resolve="EMR Order Entry" />
@@ -5965,7 +6077,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2bJEt0AEdJf" role="1QQeBF">
-      <property role="0lsPA" value="CC34" />
+      <property role="0lsPA" value="CC37" />
       <node concept="1TVFYH" id="2bJEt0AEdOP" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEdOU" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPeklr" resolve="Primary Care Giver" />
@@ -5982,7 +6094,7 @@
       </node>
       <node concept="19SGf9" id="2bJEt0AEdJh" role="1QQeG9">
         <node concept="19SUe$" id="2bJEt0AEdJi" role="19SJt6">
-          <property role="19SUeA" value="Sent documents can be updated by the sender" />
+          <property role="19SUeA" value="Sent documents can be updated by the sender (SHOULD)" />
         </node>
       </node>
       <node concept="1QQeAY" id="2bJEt0AEdP6" role="1QQeAC">
@@ -5995,8 +6107,33 @@
         </node>
       </node>
     </node>
+    <node concept="0lhDl" id="3pcs0ZTWDnh" role="1QQeBF">
+      <property role="0lsPA" value="CC38" />
+      <node concept="1TVFYH" id="3pcs0ZTWDzb" role="0nOlf">
+        <node concept="1fzK9F" id="3pcs0ZTWDz_" role="1H_VwB">
+          <ref role="1fGttc" node="4heNENPeklr" resolve="Primary Care Giver" />
+          <node concept="1fzLKQ" id="3pcs0ZTWDzH" role="1fzK9R">
+            <ref role="1fzLKL" node="4heNENPeksY" resolve="update_order" />
+          </node>
+        </node>
+      </node>
+      <node concept="19SGf9" id="3pcs0ZTWDnj" role="1QQeG9">
+        <node concept="19SUe$" id="3pcs0ZTWDnk" role="19SJt6">
+          <property role="19SUeA" value="Updated documents are sent to all recipients" />
+        </node>
+      </node>
+      <node concept="1QQeAY" id="3pcs0ZTWDzO" role="1QQeAC">
+        <node concept="0nzK2" id="3pcs0ZTWDzQ" role="1QQeAV">
+          <node concept="19SGf9" id="3pcs0ZTWDzS" role="0nzdz">
+            <node concept="19SUe$" id="3pcs0ZTWDzT" role="19SJt6">
+              <property role="19SUeA" value="* Missing constraint!" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="0lhDl" id="5RqsIjzqtJC" role="1QQeBF">
-      <property role="0lsPA" value="CC35" />
+      <property role="0lsPA" value="CC39" />
       <node concept="1TVFYH" id="5RqsIjzqtQF" role="0nOlf">
         <node concept="1fzK9F" id="5RqsIjzqtQK" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPek$$" resolve="EMR Order Processing" />
@@ -6013,7 +6150,7 @@
       </node>
       <node concept="19SGf9" id="5RqsIjzqtJE" role="1QQeG9">
         <node concept="19SUe$" id="5RqsIjzqtJF" role="19SJt6">
-          <property role="19SUeA" value="Updated information is clearly identifiable in the documents" />
+          <property role="19SUeA" value="Updated information is clearly identifiable in the documents (SHOULD)" />
         </node>
       </node>
       <node concept="1QQeAY" id="5RqsIjzqtRa" role="1QQeAC">
@@ -6027,7 +6164,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="5RqsIjzqtRo" role="1QQeBF">
-      <property role="0lsPA" value="CC36" />
+      <property role="0lsPA" value="CC40" />
       <node concept="1TVFYH" id="5RqsIjzqtYG" role="0nOlf">
         <node concept="1fzK9F" id="5RqsIjzqtYL" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPek$$" resolve="EMR Order Processing" />
@@ -6058,7 +6195,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="5RqsIjzqu_I" role="1QQeBF">
-      <property role="0lsPA" value="CC37" />
+      <property role="0lsPA" value="CC41" />
       <node concept="1TVFYH" id="5RqsIjzquHf" role="0nOlf">
         <node concept="1fzK9F" id="5RqsIjzquHk" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPek$$" resolve="EMR Order Processing" />
@@ -6089,7 +6226,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2bJEt0AEdPh" role="1QQeBF">
-      <property role="0lsPA" value="CC38" />
+      <property role="0lsPA" value="CC42" />
       <node concept="1TVFYH" id="2bJEt0AEdYg" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEdYl" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPeklr" resolve="Primary Care Giver" />
@@ -6106,13 +6243,44 @@
       </node>
       <node concept="19SGf9" id="2bJEt0AEdPj" role="1QQeG9">
         <node concept="19SUe$" id="2bJEt0AEdPk" role="19SJt6">
-          <property role="19SUeA" value="Sent documents can be canceled by the sender" />
+          <property role="19SUeA" value="Sent documents can be canceled by the sender (MAY)" />
         </node>
       </node>
       <node concept="1QQeAY" id="2bJEt0AEdYK" role="1QQeAC">
         <node concept="0nzK2" id="2bJEt0AEdYM" role="1QQeAV">
           <node concept="19SGf9" id="2bJEt0AEdYO" role="0nzdz">
             <node concept="19SUe$" id="2bJEt0AEdYP" role="19SJt6">
+              <property role="19SUeA" value="Reference: CDX Conformance Profile - CDA Level 1, &#10;Conformance Sessions IDs 57&#10;* SHOULD constraint!" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="0lhDl" id="3pcs0ZTWDaO" role="1QQeBF">
+      <property role="0lsPA" value="CC43" />
+      <node concept="1TVFYH" id="3pcs0ZTWDm_" role="0nOlf">
+        <node concept="1fzK9F" id="3pcs0ZTWDmE" role="1H_VwB">
+          <ref role="1fGttc" node="4heNENPeklr" resolve="Primary Care Giver" />
+          <node concept="1fzLKQ" id="3pcs0ZTWDmK" role="1fzK9R">
+            <ref role="1fzLKL" node="4heNENPekt2" resolve="cancel_order" />
+          </node>
+        </node>
+        <node concept="1fzK9F" id="3pcs0ZTWDmR" role="1H_VwB">
+          <ref role="1fGttc" node="594BkWrxzM1" resolve="Secondary Care Giver" />
+          <node concept="1fzLKQ" id="3pcs0ZTWDmZ" role="1fzK9R">
+            <ref role="1fzLKL" node="594BkWrx$20" resolve="cancel_report" />
+          </node>
+        </node>
+      </node>
+      <node concept="19SGf9" id="3pcs0ZTWDaQ" role="1QQeG9">
+        <node concept="19SUe$" id="3pcs0ZTWDaR" role="19SJt6">
+          <property role="19SUeA" value="Canceled documents are sent to all receipients" />
+        </node>
+      </node>
+      <node concept="1QQeAY" id="3pcs0ZTWDn4" role="1QQeAC">
+        <node concept="0nzK2" id="3pcs0ZTWDn6" role="1QQeAV">
+          <node concept="19SGf9" id="3pcs0ZTWDn8" role="0nzdz">
+            <node concept="19SUe$" id="3pcs0ZTWDn9" role="19SJt6">
               <property role="19SUeA" value="Reference: CDX Conformance Profile - CDA Level 1, &#10;Conformance Sessions IDs 57" />
             </node>
           </node>
@@ -6120,7 +6288,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2bJEt0AEdZf" role="1QQeBF">
-      <property role="0lsPA" value="CC39" />
+      <property role="0lsPA" value="CC44" />
       <node concept="1TVFYH" id="2bJEt0AEe57" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEe5c" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPeklQ" resolve="EMR Order Entry" />
@@ -6151,7 +6319,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2bJEt0AEeqj" role="1QQeBF">
-      <property role="0lsPA" value="CC40" />
+      <property role="0lsPA" value="CC45" />
       <node concept="1TVFYH" id="2bJEt0AEex4" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEex9" role="1H_VwB">
           <ref role="1fGttc" node="594BkWrxzMq" resolve="EMR Report Entry" />
@@ -6171,7 +6339,7 @@
       </node>
       <node concept="19SGf9" id="2bJEt0AEeql" role="1QQeG9">
         <node concept="19SUe$" id="2bJEt0AEeqm" role="19SJt6">
-          <property role="19SUeA" value="Documents in a workflow are linked together" />
+          <property role="19SUeA" value="Documents in a clinical workflow are linked together" />
         </node>
       </node>
       <node concept="1QQeAY" id="2bJEt0AEexK" role="1QQeAC">
@@ -6185,7 +6353,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2bJEt0AEe5M" role="1QQeBF">
-      <property role="0lsPA" value="CC41" />
+      <property role="0lsPA" value="CC46" />
       <node concept="1TVFYH" id="2bJEt0AEees" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEeex" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPeklr" resolve="Primary Care Giver" />
@@ -6228,7 +6396,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2bJEt0AEeh9" role="1QQeBF">
-      <property role="0lsPA" value="CC42" />
+      <property role="0lsPA" value="CC47" />
       <node concept="1TVFYH" id="2bJEt0AEen$" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEenD" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPeklQ" resolve="EMR Order Entry" />
@@ -6263,7 +6431,7 @@
       </node>
       <node concept="19SGf9" id="2bJEt0AEehb" role="1QQeG9">
         <node concept="19SUe$" id="2bJEt0AEehc" role="19SJt6">
-          <property role="19SUeA" value="Delivery status of sent documents are retrievable" />
+          <property role="19SUeA" value="Delivery status of sent documents are retrievable (SHOULD)" />
         </node>
       </node>
       <node concept="1QQeAY" id="2bJEt0AEeo7" role="1QQeAC">
@@ -6276,45 +6444,8 @@
         </node>
       </node>
     </node>
-    <node concept="0lhDl" id="5RqsIjzquIb" role="1QQeBF">
-      <property role="0lsPA" value="CC43" />
-      <node concept="1TVFYH" id="5RqsIjzquPS" role="0nOlf">
-        <node concept="1fzK9F" id="5RqsIjzquPX" role="1H_VwB">
-          <ref role="1fGttc" node="4heNENPekzM" resolve="CDX Document Distribution" />
-          <node concept="1fzLKQ" id="5RqsIjzqv0s" role="1fzK9R">
-            <ref role="1fzLKL" node="5RqsIjzquQ6" resolve="validate_document" />
-          </node>
-          <node concept="1fzLKQ" id="5RqsIjzqy1F" role="1fzK9R">
-            <ref role="1fzLKL" node="5O4PMDpZD1t" resolve="submission_ack" />
-          </node>
-        </node>
-        <node concept="1fzK9F" id="5RqsIjzquWt" role="1H_VwB">
-          <ref role="1fGttc" node="594BkWrx$0s" resolve="CDX Document Distribution" />
-          <node concept="1fzLKQ" id="5RqsIjzqv0v" role="1fzK9R">
-            <ref role="1fzLKL" node="5RqsIjzquWB" resolve="validate_document" />
-          </node>
-          <node concept="1fzLKQ" id="5RqsIjzqy1M" role="1fzK9R">
-            <ref role="1fzLKL" node="594BkWrx$g1" resolve="submission_ack" />
-          </node>
-        </node>
-      </node>
-      <node concept="19SGf9" id="5RqsIjzquId" role="1QQeG9">
-        <node concept="19SUe$" id="5RqsIjzquIe" role="19SJt6">
-          <property role="19SUeA" value="CDX validates the documents when them are received" />
-        </node>
-      </node>
-      <node concept="1QQeAY" id="5RqsIjzqv0f" role="1QQeAC">
-        <node concept="0nzK2" id="5RqsIjzqv0h" role="1QQeAV">
-          <node concept="19SGf9" id="5RqsIjzqv0j" role="0nzdz">
-            <node concept="19SUe$" id="5RqsIjzqv0k" role="19SJt6">
-              <property role="19SUeA" value="Reference: CDX Clinical Document Exchange - Tecnical Overview,&#10;Section 3.5.1" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="0lhDl" id="5RqsIjzqv0z" role="1QQeBF">
-      <property role="0lsPA" value="CC44" />
+      <property role="0lsPA" value="CC48" />
       <node concept="1TVFYH" id="5RqsIjzqv8u" role="0nOlf">
         <node concept="1fzK9F" id="5RqsIjzqv8z" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPekzM" resolve="CDX Document Distribution" />
@@ -6331,7 +6462,7 @@
       </node>
       <node concept="19SGf9" id="5RqsIjzqv0_" role="1QQeG9">
         <node concept="19SUe$" id="5RqsIjzqv0A" role="19SJt6">
-          <property role="19SUeA" value="CDX routes documents using association routing when intended recipients (provider) are in the document" />
+          <property role="19SUeA" value="CDX routes documents to all locations (clinics) associated with the intended recipients (provider) &#10;present in the document if no clinic is specified" />
         </node>
       </node>
       <node concept="1QQeAY" id="5RqsIjzqv8Y" role="1QQeAC">
@@ -6345,7 +6476,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="5RqsIjzqv9b" role="1QQeBF">
-      <property role="0lsPA" value="CC45" />
+      <property role="0lsPA" value="CC49" />
       <node concept="1TVFYH" id="5RqsIjzqvhi" role="0nOlf">
         <node concept="1fzK9F" id="5RqsIjzqvhn" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPekzM" resolve="CDX Document Distribution" />
@@ -6362,7 +6493,7 @@
       </node>
       <node concept="19SGf9" id="5RqsIjzqv9d" role="1QQeG9">
         <node concept="19SUe$" id="5RqsIjzqv9e" role="19SJt6">
-          <property role="19SUeA" value="CDX routes documents using location routing when locations (clinics) are in the document" />
+          <property role="19SUeA" value="CDX routes documents to the specific locations (clinics) present in the document,&#10;regardless of whether the providers are specified and are not associated to the specified clinics" />
         </node>
       </node>
       <node concept="1QQeAY" id="5RqsIjzqvhM" role="1QQeAC">
@@ -6376,7 +6507,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="5RqsIjzqvhZ" role="1QQeBF">
-      <property role="0lsPA" value="CC46" />
+      <property role="0lsPA" value="CC50" />
       <node concept="1TVFYH" id="5RqsIjzqvqi" role="0nOlf">
         <node concept="1fzK9F" id="5RqsIjzqvqn" role="1H_VwB">
           <ref role="1fGttc" node="594BkWrxwJ$" resolve="CDX Registry" />
@@ -6393,7 +6524,7 @@
       </node>
       <node concept="19SGf9" id="5RqsIjzqvi1" role="1QQeG9">
         <node concept="19SUe$" id="5RqsIjzqvi2" role="19SJt6">
-          <property role="19SUeA" value="CDX allows providers with multiple types of identifiers" />
+          <property role="19SUeA" value="CDX allows providers with multiple types of unique identifiers" />
         </node>
       </node>
       <node concept="1QQeAY" id="5RqsIjzqvqw" role="1QQeAC">
@@ -6407,7 +6538,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="5RqsIjzqvqH" role="1QQeBF">
-      <property role="0lsPA" value="CC47" />
+      <property role="0lsPA" value="CC51" />
       <node concept="1TVFYH" id="5RqsIjzqvz8" role="0nOlf">
         <node concept="1fzK9F" id="5RqsIjzqvzd" role="1H_VwB">
           <ref role="1fGttc" node="594BkWrxwJ$" resolve="CDX Registry" />
@@ -6424,7 +6555,7 @@
       </node>
       <node concept="19SGf9" id="5RqsIjzqvqJ" role="1QQeG9">
         <node concept="19SUe$" id="5RqsIjzqvqK" role="19SJt6">
-          <property role="19SUeA" value="CDX uses only CDX identifiers for clinics" />
+          <property role="19SUeA" value="CDX uses only unique CDX identifiers for clinics" />
         </node>
       </node>
       <node concept="1QQeAY" id="5RqsIjzqvzm" role="1QQeAC">
@@ -6437,39 +6568,76 @@
         </node>
       </node>
     </node>
-    <node concept="0lhDl" id="5RqsIjzqvzz" role="1QQeBF">
-      <property role="0lsPA" value="CC48" />
-      <node concept="1TVFYH" id="5RqsIjzqvGa" role="0nOlf">
-        <node concept="1fzK9F" id="5RqsIjzqvGf" role="1H_VwB">
+    <node concept="0lhDl" id="3pcs0ZTWADw" role="1QQeBF">
+      <property role="0lsPA" value="CC52" />
+      <node concept="1TVFYH" id="3pcs0ZTWAD$" role="0nOlf">
+        <node concept="1fzK9F" id="3pcs0ZTWAD_" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPekzM" resolve="CDX Document Distribution" />
-          <node concept="1fzLKQ" id="5RqsIjzqy4z" role="1fzK9R">
+          <node concept="1fzLKQ" id="3pcs0ZTWADA" role="1fzK9R">
             <ref role="1fzLKL" node="5RqsIjzquQ6" resolve="validate_document" />
           </node>
+          <node concept="1fzLKQ" id="3pcs0ZTWADC" role="1fzK9R">
+            <ref role="1fzLKL" node="5O4PMDpZD1t" resolve="submission_ack" />
+          </node>
         </node>
-        <node concept="1fzK9F" id="5RqsIjzqy4E" role="1H_VwB">
+        <node concept="1fzK9F" id="3pcs0ZTWADF" role="1H_VwB">
           <ref role="1fGttc" node="594BkWrx$0s" resolve="CDX Document Distribution" />
-          <node concept="1fzLKQ" id="5RqsIjzqy4M" role="1fzK9R">
+          <node concept="1fzLKQ" id="3pcs0ZTWADG" role="1fzK9R">
             <ref role="1fzLKL" node="5RqsIjzquWB" resolve="validate_document" />
+          </node>
+          <node concept="1fzLKQ" id="3pcs0ZTWADI" role="1fzK9R">
+            <ref role="1fzLKL" node="594BkWrx$g1" resolve="submission_ack" />
           </node>
         </node>
       </node>
-      <node concept="19SGf9" id="5RqsIjzqvz_" role="1QQeG9">
-        <node concept="19SUe$" id="5RqsIjzqvzA" role="19SJt6">
-          <property role="19SUeA" value="CDX supports multiple attachments alongside the submitted documents" />
+      <node concept="19SGf9" id="3pcs0ZTWADL" role="1QQeG9">
+        <node concept="19SUe$" id="3pcs0ZTWADN" role="19SJt6">
+          <property role="19SUeA" value="CDX validates the documents when they are received" />
         </node>
       </node>
-      <node concept="1QQeAY" id="5RqsIjzqvGo" role="1QQeAC">
-        <node concept="0nzK2" id="5RqsIjzqvGq" role="1QQeAV">
-          <node concept="19SGf9" id="5RqsIjzqvGs" role="0nzdz">
-            <node concept="19SUe$" id="5RqsIjzqvGt" role="19SJt6">
-              <property role="19SUeA" value="Reference: CDX Clinical Document Exchange - Tecnical Overview,&#10;Section 3.5.1.2" />
+      <node concept="1QQeAY" id="3pcs0ZTWADO" role="1QQeAC">
+        <node concept="0nzK2" id="3pcs0ZTWADP" role="1QQeAV">
+          <node concept="19SGf9" id="3pcs0ZTWADQ" role="0nzdz">
+            <node concept="19SUe$" id="3pcs0ZTWADS" role="19SJt6">
+              <property role="19SUeA" value="Reference: CDX Clinical Document Exchange - Tecnical Overview,&#10;Section 3.5.1" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="0lhDl" id="3pcs0ZTWB0v" role="1QQeBF">
+      <property role="0lsPA" value="CC53" />
+      <node concept="1TVFYH" id="3pcs0ZTWB0z" role="0nOlf">
+        <node concept="1fzK9F" id="3pcs0ZTWCfl" role="1H_VwB">
+          <ref role="1fGttc" node="4heNENPekzM" resolve="CDX Document Distribution" />
+          <node concept="1fzLKQ" id="3pcs0ZTWCft" role="1fzK9R">
+            <ref role="1fzLKL" node="5O4PMDpZD1t" resolve="submission_ack" />
+          </node>
+        </node>
+        <node concept="1fzK9F" id="3pcs0ZTWB0$" role="1H_VwB">
+          <ref role="1fGttc" node="4heNENPeklQ" resolve="EMR Order Entry" />
+          <node concept="1fzLKQ" id="3pcs0ZTWCfw" role="1fzK9R">
+            <ref role="1fzLKL" node="3pcs0ZTWCf2" resolve="store_ack" />
+          </node>
+        </node>
+      </node>
+      <node concept="19SGf9" id="3pcs0ZTWB0C" role="1QQeG9">
+        <node concept="19SUe$" id="3pcs0ZTWB0E" role="19SJt6">
+          <property role="19SUeA" value="Submitting systems log and report submission errors" />
+        </node>
+      </node>
+      <node concept="1QQeAY" id="3pcs0ZTWB0F" role="1QQeAC">
+        <node concept="0nzK2" id="3pcs0ZTWB0G" role="1QQeAV">
+          <node concept="19SGf9" id="3pcs0ZTWB0H" role="0nzdz">
+            <node concept="19SUe$" id="3pcs0ZTWB0J" role="19SJt6">
+              <property role="19SUeA" value="Reference: CDX Clinical Document Exchange - Tecnical Overview,&#10;Section 3.5.1.1" />
             </node>
           </node>
         </node>
       </node>
     </node>
     <node concept="0lhDl" id="5RqsIjzqvGA" role="1QQeBF">
-      <property role="0lsPA" value="CC49" />
+      <property role="0lsPA" value="CC54" />
       <node concept="1TVFYH" id="5RqsIjzqvPn" role="0nOlf">
         <node concept="1fzK9F" id="5RqsIjzqvPs" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPek$$" resolve="EMR Order Processing" />
@@ -6498,7 +6666,7 @@
       </node>
       <node concept="19SGf9" id="5RqsIjzqvGC" role="1QQeG9">
         <node concept="19SUe$" id="5RqsIjzqvGD" role="19SJt6">
-          <property role="19SUeA" value="Receiving system is responsible for listing new documents available on CDX" />
+          <property role="19SUeA" value="Receiving system is responsible for keeping track of the listing of new documents" />
         </node>
       </node>
       <node concept="1QQeAY" id="5RqsIjzqvPS" role="1QQeAC">
@@ -6512,7 +6680,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="5RqsIjzqvQ7" role="1QQeBF">
-      <property role="0lsPA" value="CC50" />
+      <property role="0lsPA" value="CC55" />
       <node concept="1TVFYH" id="5RqsIjzqvZ4" role="0nOlf">
         <node concept="1fzK9F" id="5RqsIjzqvZ9" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPek$$" resolve="EMR Order Processing" />
@@ -6541,7 +6709,7 @@
       </node>
       <node concept="19SGf9" id="5RqsIjzqvQ9" role="1QQeG9">
         <node concept="19SUe$" id="5RqsIjzqvQa" role="19SJt6">
-          <property role="19SUeA" value="Receiving system is responsible for download documents from CDX" />
+          <property role="19SUeA" value="Receiving system is responsible for download and store documents from CDX" />
         </node>
       </node>
       <node concept="1QQeAY" id="5RqsIjzqvZ_" role="1QQeAC">
@@ -6554,39 +6722,8 @@
         </node>
       </node>
     </node>
-    <node concept="0lhDl" id="5RqsIjzqvZO" role="1QQeBF">
-      <property role="0lsPA" value="CC51" />
-      <node concept="1TVFYH" id="5RqsIjzqw91" role="0nOlf">
-        <node concept="1fzK9F" id="5RqsIjzqw96" role="1H_VwB">
-          <ref role="1fGttc" node="4heNENPek$$" resolve="EMR Order Processing" />
-          <node concept="1fzLKQ" id="5RqsIjzqwah" role="1fzK9R">
-            <ref role="1fzLKL" node="5RqsIjzqwa7" resolve="store_document" />
-          </node>
-        </node>
-        <node concept="1fzK9F" id="5RqsIjzqwao" role="1H_VwB">
-          <ref role="1fGttc" node="594BkWrxzME" resolve="EMR Report Processing" />
-          <node concept="1fzLKQ" id="5RqsIjzqwaw" role="1fzK9R">
-            <ref role="1fzLKL" node="5RqsIjzqw9d" resolve="store_document" />
-          </node>
-        </node>
-      </node>
-      <node concept="19SGf9" id="5RqsIjzqvZQ" role="1QQeG9">
-        <node concept="19SUe$" id="5RqsIjzqvZR" role="19SJt6">
-          <property role="19SUeA" value="Receiving system is responsible for store the documents downloaded from CDX" />
-        </node>
-      </node>
-      <node concept="1QQeAY" id="5RqsIjzqwaC" role="1QQeAC">
-        <node concept="0nzK2" id="5RqsIjzqwaE" role="1QQeAV">
-          <node concept="19SGf9" id="5RqsIjzqwaG" role="0nzdz">
-            <node concept="19SUe$" id="5RqsIjzqwaH" role="19SJt6">
-              <property role="19SUeA" value="Reference: CDX Clinical Document Exchange - Tecnical Overview,&#10;Section 3.5.2.1" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="0lhDl" id="5RqsIjzqwtd" role="1QQeBF">
-      <property role="0lsPA" value="CC52" />
+      <property role="0lsPA" value="CC56" />
       <node concept="1TVFYH" id="5RqsIjzqwAy" role="0nOlf">
         <node concept="1fzK9F" id="5RqsIjzqwAB" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPek$$" resolve="EMR Order Processing" />
@@ -6629,7 +6766,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="5RqsIjzqwAY" role="1QQeBF">
-      <property role="0lsPA" value="CC53" />
+      <property role="0lsPA" value="CC57" />
       <node concept="1TVFYH" id="5RqsIjzqwKu" role="0nOlf">
         <node concept="1fzK9F" id="5RqsIjzqwKz" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPeklQ" resolve="EMR Order Entry" />
@@ -6684,7 +6821,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="5RqsIjzqwKT" role="1QQeBF">
-      <property role="0lsPA" value="CC54" />
+      <property role="0lsPA" value="CC58" />
       <node concept="1TVFYH" id="5RqsIjzqwUy" role="0nOlf">
         <node concept="1fzK9F" id="5RqsIjzqwUB" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPekzM" resolve="CDX Document Distribution" />
@@ -6709,6 +6846,37 @@
           <node concept="19SGf9" id="5RqsIjzqwUO" role="0nzdz">
             <node concept="19SUe$" id="5RqsIjzqwUP" role="19SJt6">
               <property role="19SUeA" value="Reference: CDX Clinical Document Exchange - Tecnical Overview,&#10;Section 3.6.3" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="0lhDl" id="3pcs0ZTWC3j" role="1QQeBF">
+      <property role="0lsPA" value="CC59" />
+      <node concept="1TVFYH" id="3pcs0ZTWCeh" role="0nOlf">
+        <node concept="1fzK9F" id="3pcs0ZTWCeA" role="1H_VwB">
+          <ref role="1fGttc" node="4heNENPekzM" resolve="CDX Document Distribution" />
+          <node concept="1fzLKQ" id="3pcs0ZTWCeJ" role="1fzK9R">
+            <ref role="1fzLKL" node="5O4PMDpZD1t" resolve="submission_ack" />
+          </node>
+        </node>
+        <node concept="1fzK9F" id="3pcs0ZTWCeQ" role="1H_VwB">
+          <ref role="1fGttc" node="4heNENPeklQ" resolve="EMR Order Entry" />
+          <node concept="1fzLKQ" id="3pcs0ZTWCfe" role="1fzK9R">
+            <ref role="1fzLKL" node="3pcs0ZTWCf2" resolve="store_ack" />
+          </node>
+        </node>
+      </node>
+      <node concept="19SGf9" id="3pcs0ZTWC3l" role="1QQeG9">
+        <node concept="19SUe$" id="3pcs0ZTWC3m" role="19SJt6">
+          <property role="19SUeA" value="Submitting system retains the acknowledgement response " />
+        </node>
+      </node>
+      <node concept="1QQeAY" id="3pcs0ZTWCep" role="1QQeAC">
+        <node concept="0nzK2" id="3pcs0ZTWCer" role="1QQeAV">
+          <node concept="19SGf9" id="3pcs0ZTWCet" role="0nzdz">
+            <node concept="19SUe$" id="3pcs0ZTWCeu" role="19SJt6">
+              <property role="19SUeA" value="Reference: CDX Clinical Document Exchange - Tecnical Overview,&#10;Section 3.6.4.3" />
             </node>
           </node>
         </node>
@@ -6756,9 +6924,9 @@
       <node concept="37mRIm" id="49kVxkQrGFO" role="37mRID">
         <property role="37mO49" value="4779706879421893360" />
         <node concept="gqqVs" id="49kVxkQrGFN" role="37mO4d">
-          <property role="gqqTZ" value="51.0" />
-          <property role="gqqTW" value="30.0" />
-          <property role="gqqTX" value="288.0" />
+          <property role="gqqTZ" value="21.0" />
+          <property role="gqqTW" value="18.0" />
+          <property role="gqqTX" value="180.0" />
           <property role="gqqTy" value="32.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
         </node>
@@ -6766,9 +6934,9 @@
       <node concept="37mRIm" id="49kVxkQrGG5" role="37mRID">
         <property role="37mO49" value="4779706879421893376" />
         <node concept="gqqVs" id="49kVxkQrGG4" role="37mO4d">
-          <property role="gqqTZ" value="128.0" />
-          <property role="gqqTW" value="153.0" />
-          <property role="gqqTX" value="211.0" />
+          <property role="gqqTZ" value="21.0" />
+          <property role="gqqTW" value="222.99999999999994" />
+          <property role="gqqTX" value="180.0" />
           <property role="gqqTy" value="32.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
         </node>
@@ -6776,10 +6944,10 @@
       <node concept="37mRIm" id="49kVxkQrGGq" role="37mRID">
         <property role="37mO49" value="4779706879421893396" />
         <node concept="gqqVs" id="49kVxkQrGGp" role="37mO4d">
-          <property role="gqqTZ" value="51.0" />
-          <property role="gqqTW" value="283.0" />
-          <property role="gqqTX" value="288.0" />
-          <property role="gqqTy" value="32.0" />
+          <property role="gqqTZ" value="286.502462125" />
+          <property role="gqqTW" value="19.078100025461545" />
+          <property role="gqqTX" value="124.0" />
+          <property role="gqqTy" value="241.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
         </node>
       </node>
@@ -6884,8 +7052,8 @@
             <property role="3ul5GH" value="label" />
             <node concept="3wpmZ1" id="49kVxkQrGMy" role="3ul5Gz">
               <node concept="2VclrF" id="49kVxkQrGMz" role="3wpmZR">
-                <property role="2Vclpx" value="-33.75" />
-                <property role="2Vclpz" value="112.0" />
+                <property role="2Vclpx" value="171.2500000000002" />
+                <property role="2Vclpz" value="-16.000000000000085" />
               </node>
               <node concept="2VclrF" id="49kVxkQrGM$" role="3wpmZP">
                 <property role="2Vclpx" value="34.0" />
@@ -6893,9 +7061,9 @@
               </node>
             </node>
           </node>
-          <node concept="2VclrF" id="49kVxkQrGNu" role="2Vcluh">
-            <property role="2Vclpx" value="61.0" />
-            <property role="2Vclpz" value="258.0" />
+          <node concept="2VclrF" id="7e$6aGbsp8x" role="2Vcluh">
+            <property role="2Vclpx" value="245.6926593641678" />
+            <property role="2Vclpz" value="18.692659364167802" />
           </node>
         </node>
       </node>
@@ -6940,8 +7108,8 @@
             <property role="3ul5GH" value="label" />
             <node concept="3wpmZ1" id="49kVxkQrGPh" role="3ul5Gz">
               <node concept="2VclrF" id="49kVxkQrGPi" role="3wpmZR">
-                <property role="2Vclpx" value="92.5" />
-                <property role="2Vclpz" value="211.0" />
+                <property role="2Vclpx" value="172.0" />
+                <property role="2Vclpz" value="191.0000000000001" />
               </node>
               <node concept="2VclrF" id="49kVxkQrGPj" role="3wpmZP">
                 <property role="2Vclpx" value="34.0" />
@@ -6949,9 +7117,9 @@
               </node>
             </node>
           </node>
-          <node concept="2VclrF" id="49kVxkQrIoH" role="2Vcluh">
-            <property role="2Vclpx" value="186.0" />
-            <property role="2Vclpz" value="234.0" />
+          <node concept="2VclrF" id="6Xd1LEcwNrt" role="2Vcluh">
+            <property role="2Vclpx" value="261.6926593641678" />
+            <property role="2Vclpz" value="221.69265936416804" />
           </node>
         </node>
       </node>
@@ -6962,8 +7130,8 @@
             <property role="3ul5GH" value="label" />
             <node concept="3wpmZ1" id="49kVxkQrGQP" role="3ul5Gz">
               <node concept="2VclrF" id="49kVxkQrGQQ" role="3wpmZR">
-                <property role="2Vclpx" value="230.5" />
-                <property role="2Vclpz" value="210.0" />
+                <property role="2Vclpx" value="177.0" />
+                <property role="2Vclpz" value="241.00000000000017" />
               </node>
               <node concept="2VclrF" id="49kVxkQrGQR" role="3wpmZP">
                 <property role="2Vclpx" value="34.0" />
@@ -6972,8 +7140,8 @@
             </node>
           </node>
           <node concept="2VclrF" id="49kVxkQrIrI" role="2Vcluh">
-            <property role="2Vclpx" value="263.0" />
-            <property role="2Vclpz" value="231.0" />
+            <property role="2Vclpx" value="274.6926593641678" />
+            <property role="2Vclpz" value="256.5532598107369" />
           </node>
         </node>
       </node>
@@ -7220,8 +7388,8 @@
             <property role="3ul5GH" value="label" />
             <node concept="3wpmZ1" id="49kVxkQrHzb" role="3ul5Gz">
               <node concept="2VclrF" id="49kVxkQrHzc" role="3wpmZR">
-                <property role="2Vclpx" value="107.5" />
-                <property role="2Vclpz" value="128.75" />
+                <property role="2Vclpx" value="210.50000000000006" />
+                <property role="2Vclpz" value="50.74999999999997" />
               </node>
               <node concept="2VclrF" id="49kVxkQrHzd" role="3wpmZP">
                 <property role="2Vclpx" value="0.0" />
@@ -7229,9 +7397,9 @@
               </node>
             </node>
           </node>
-          <node concept="2VclrF" id="49kVxkQrH_I" role="2Vcluh">
-            <property role="2Vclpx" value="106.0" />
-            <property role="2Vclpz" value="279.0" />
+          <node concept="2VclrF" id="6Xd1LEcwNjg" role="2Vcluh">
+            <property role="2Vclpx" value="237.38537524225256" />
+            <property role="2Vclpz" value="49.69265936416784" />
           </node>
         </node>
       </node>
@@ -7352,8 +7520,8 @@
             <property role="3ul5GH" value="label" />
             <node concept="3wpmZ1" id="49kVxkQrIhj" role="3ul5Gz">
               <node concept="2VclrF" id="49kVxkQrIhk" role="3wpmZR">
-                <property role="2Vclpx" value="158.75" />
-                <property role="2Vclpz" value="100.5" />
+                <property role="2Vclpx" value="247.75" />
+                <property role="2Vclpz" value="3.5" />
               </node>
               <node concept="2VclrF" id="49kVxkQrIhl" role="3wpmZP">
                 <property role="2Vclpx" value="0.0" />
@@ -7362,8 +7530,8 @@
             </node>
           </node>
           <node concept="2VclrF" id="49kVxkQrIqO" role="2Vcluh">
-            <property role="2Vclpx" value="186.0" />
-            <property role="2Vclpz" value="112.0" />
+            <property role="2Vclpx" value="286.0" />
+            <property role="2Vclpz" value="19.0" />
           </node>
         </node>
       </node>
@@ -7374,8 +7542,8 @@
             <property role="3ul5GH" value="label" />
             <node concept="3wpmZ1" id="49kVxkQrIkV" role="3ul5Gz">
               <node concept="2VclrF" id="49kVxkQrIkW" role="3wpmZR">
-                <property role="2Vclpx" value="268.75" />
-                <property role="2Vclpz" value="98.5" />
+                <property role="2Vclpx" value="244.75" />
+                <property role="2Vclpz" value="51.5" />
               </node>
               <node concept="2VclrF" id="49kVxkQrIkX" role="3wpmZP">
                 <property role="2Vclpx" value="0.0" />
@@ -7383,9 +7551,131 @@
               </node>
             </node>
           </node>
-          <node concept="2VclrF" id="49kVxkQrIpX" role="2Vcluh">
-            <property role="2Vclpx" value="264.0" />
-            <property role="2Vclpz" value="107.0" />
+          <node concept="2VclrF" id="6Xd1LEcwNg4" role="2Vcluh">
+            <property role="2Vclpx" value="290.0" />
+            <property role="2Vclpz" value="50.0" />
+          </node>
+        </node>
+      </node>
+      <node concept="37mRIm" id="6Xd1LEcwNjQ" role="37mRID">
+        <property role="37mO49" value="8020074322024674531" />
+        <node concept="gqqVs" id="6Xd1LEcwNjP" role="37mO4d">
+          <property role="gqqTZ" value="21.0" />
+          <property role="gqqTW" value="119.00000000000014" />
+          <property role="gqqTX" value="84.0" />
+          <property role="gqqTy" value="32.0" />
+          <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+        </node>
+      </node>
+      <node concept="37mRIm" id="6Xd1LEcwNnl" role="37mRID">
+        <property role="37mO49" value="8020074322024674753" />
+        <node concept="gqqVs" id="6Xd1LEcwNnk" role="37mO4d">
+          <property role="gqqTZ" value="117.0" />
+          <property role="gqqTW" value="119.00000000000014" />
+          <property role="gqqTX" value="84.0" />
+          <property role="gqqTy" value="32.0" />
+          <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+        </node>
+      </node>
+      <node concept="37mRIm" id="6Xd1LEcwNsA" role="37mRID">
+        <property role="37mO49" value="8020074322024675102" />
+        <node concept="2VclpC" id="6Xd1LEcwNs_" role="37mO4d">
+          <node concept="3ul5H1" id="6Xd1LEcwNsB" role="3ul5Gx">
+            <property role="3ul5GH" value="label" />
+            <node concept="3wpmZ1" id="6Xd1LEcwNsC" role="3ul5Gz">
+              <node concept="2VclrF" id="6Xd1LEcwNsD" role="3wpmZR">
+                <property role="2Vclpx" value="36.99999999999994" />
+                <property role="2Vclpz" value="82.00000000000007" />
+              </node>
+              <node concept="2VclrF" id="6Xd1LEcwNsE" role="3wpmZP">
+                <property role="2Vclpx" value="0.0" />
+                <property role="2Vclpz" value="0.0" />
+              </node>
+            </node>
+          </node>
+          <node concept="2VclrF" id="6Xd1LEcwNwe" role="2Vcluh">
+            <property role="2Vclpx" value="62.692659364167596" />
+            <property role="2Vclpz" value="100.6926593641679" />
+          </node>
+        </node>
+      </node>
+      <node concept="37mRIm" id="6Xd1LEcwNwt" role="37mRID">
+        <property role="37mO49" value="8020074322024675351" />
+        <node concept="2VclpC" id="6Xd1LEcwNws" role="37mO4d">
+          <node concept="3ul5H1" id="6Xd1LEcwNwu" role="3ul5Gx">
+            <property role="3ul5GH" value="label" />
+            <node concept="3wpmZ1" id="6Xd1LEcwNwv" role="3ul5Gz">
+              <node concept="2VclrF" id="6Xd1LEcwNww" role="3wpmZR">
+                <property role="2Vclpx" value="87.0" />
+                <property role="2Vclpz" value="101.00000000000009" />
+              </node>
+              <node concept="2VclrF" id="6Xd1LEcwNwx" role="3wpmZP">
+                <property role="2Vclpx" value="0.0" />
+                <property role="2Vclpz" value="0.0" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37mRIm" id="6Xd1LEcwN$r" role="37mRID">
+        <property role="37mO49" value="8020074322024675605" />
+        <node concept="2VclpC" id="6Xd1LEcwN$q" role="37mO4d">
+          <node concept="3ul5H1" id="6Xd1LEcwN$s" role="3ul5Gx">
+            <property role="3ul5GH" value="label" />
+            <node concept="3wpmZ1" id="6Xd1LEcwN$t" role="3ul5Gz">
+              <node concept="2VclrF" id="6Xd1LEcwN$u" role="3wpmZR">
+                <property role="2Vclpx" value="36.99999999999994" />
+                <property role="2Vclpz" value="180.00000000000006" />
+              </node>
+              <node concept="2VclrF" id="6Xd1LEcwN$v" role="3wpmZP">
+                <property role="2Vclpx" value="0.0" />
+                <property role="2Vclpz" value="0.0" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37mRIm" id="6Xd1LEcwNCr" role="37mRID">
+        <property role="37mO49" value="8020074322024675859" />
+        <node concept="2VclpC" id="6Xd1LEcwNCq" role="37mO4d">
+          <node concept="3ul5H1" id="6Xd1LEcwNCs" role="3ul5Gx">
+            <property role="3ul5GH" value="label" />
+            <node concept="3wpmZ1" id="6Xd1LEcwNCt" role="3ul5Gz">
+              <node concept="2VclrF" id="6Xd1LEcwNCu" role="3wpmZR">
+                <property role="2Vclpx" value="162.00000000000003" />
+                <property role="2Vclpz" value="180.00000000000006" />
+              </node>
+              <node concept="2VclrF" id="6Xd1LEcwNCv" role="3wpmZP">
+                <property role="2Vclpx" value="0.0" />
+                <property role="2Vclpz" value="0.0" />
+              </node>
+            </node>
+          </node>
+          <node concept="2VclrF" id="6Xd1LEcwNM3" role="2Vcluh">
+            <property role="2Vclpx" value="160.64805203940742" />
+            <property role="2Vclpz" value="178.7372666889283" />
+          </node>
+        </node>
+      </node>
+      <node concept="37mRIm" id="6Xd1LEcwNGM" role="37mRID">
+        <property role="37mO49" value="8020074322024676140" />
+        <node concept="2VclpC" id="6Xd1LEcwNGL" role="37mO4d">
+          <node concept="3ul5H1" id="6Xd1LEcwNGN" role="3ul5Gx">
+            <property role="3ul5GH" value="label" />
+            <node concept="3wpmZ1" id="6Xd1LEcwNGO" role="3ul5Gz">
+              <node concept="2VclrF" id="6Xd1LEcwNGP" role="3wpmZR">
+                <property role="2Vclpx" value="164.00000000000003" />
+                <property role="2Vclpz" value="80.00000000000006" />
+              </node>
+              <node concept="2VclrF" id="6Xd1LEcwNGQ" role="3wpmZP">
+                <property role="2Vclpx" value="0.0" />
+                <property role="2Vclpz" value="0.0" />
+              </node>
+            </node>
+          </node>
+          <node concept="2VclrF" id="6Xd1LEcwNMc" role="2Vcluh">
+            <property role="2Vclpx" value="159.0" />
+            <property role="2Vclpz" value="84.1926593641679" />
           </node>
         </node>
       </node>
@@ -7395,15 +7685,14 @@
       <node concept="1XypPU" id="49kVxkQrGMq" role="2I3o71">
         <ref role="SrP08" node="49kVxkQrGFK" resolve="Primary Care Giver" />
         <ref role="SrP07" node="49kVxkQrGGk" resolve="Patient Health" />
-        <node concept="Sqzvu" id="49kVxkQrIsO" role="Sq$B$" />
         <node concept="Sqzvu" id="49kVxkQrGMr" role="Sq$B$">
           <property role="TrG5h" value="intervention" />
         </node>
       </node>
-      <node concept="1XypPU" id="49kVxkQrIh9" role="2I3o71">
+      <node concept="1XypPU" id="6Xd1LEcwNsu" role="2I3o71">
         <ref role="SrP08" node="49kVxkQrGFK" resolve="Primary Care Giver" />
-        <ref role="SrP07" node="49kVxkQrGG0" resolve="Secondary Care Giver" />
-        <node concept="Sqzvu" id="49kVxkQrIha" role="Sq$B$">
+        <ref role="SrP07" node="6Xd1LEcwNjz" resolve="Ordering" />
+        <node concept="Sqzvu" id="6Xd1LEcwNsv" role="Sq$B$">
           <property role="TrG5h" value="order" />
         </node>
       </node>
@@ -7417,10 +7706,10 @@
           <property role="TrG5h" value="intervention" />
         </node>
       </node>
-      <node concept="Sq$B_" id="49kVxkQrIkL" role="2I3o71">
+      <node concept="Sq$B_" id="6Xd1LEcwNCj" role="2I3o71">
         <ref role="SrP08" node="49kVxkQrGG0" resolve="Secondary Care Giver" />
-        <ref role="SrP07" node="49kVxkQrGFK" resolve="Primary Care Giver" />
-        <node concept="Sqzvu" id="49kVxkQrIkM" role="Sq$B$">
+        <ref role="SrP07" node="6Xd1LEcwNn1" resolve="Reporting" />
+        <node concept="Sqzvu" id="6Xd1LEcwNCk" role="Sq$B$">
           <property role="TrG5h" value="report" />
         </node>
       </node>
@@ -7439,6 +7728,26 @@
         <ref role="SrP07" node="49kVxkQrGFK" resolve="Primary Care Giver" />
         <node concept="Sqzvu" id="49kVxkQrHz2" role="Sq$B$">
           <property role="TrG5h" value="observation" />
+        </node>
+      </node>
+    </node>
+    <node concept="1XyJaU" id="6Xd1LEcwNjz" role="1X_0GB">
+      <property role="TrG5h" value="Ordering" />
+      <node concept="1XypPU" id="6Xd1LEcwN$l" role="2I3o71">
+        <ref role="SrP08" node="6Xd1LEcwNjz" resolve="Ordering" />
+        <ref role="SrP07" node="49kVxkQrGG0" resolve="Secondary Care Giver" />
+        <node concept="Sqzvu" id="6Xd1LEcwN$m" role="Sq$B$">
+          <property role="TrG5h" value="order" />
+        </node>
+      </node>
+    </node>
+    <node concept="1XyJaU" id="6Xd1LEcwNn1" role="1X_0GB">
+      <property role="TrG5h" value="Reporting" />
+      <node concept="Sq$B_" id="6Xd1LEcwNGG" role="2I3o71">
+        <ref role="SrP08" node="6Xd1LEcwNn1" resolve="Reporting" />
+        <ref role="SrP07" node="49kVxkQrGFK" resolve="Primary Care Giver" />
+        <node concept="Sqzvu" id="6Xd1LEcwNGH" role="Sq$B$">
+          <property role="TrG5h" value="report" />
         </node>
       </node>
     </node>
