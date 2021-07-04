@@ -74,7 +74,6 @@
     </language>
     <language id="0deccdfd-196b-4d8c-895e-0d6cb8014dfd" name="com.mbeddr.formal.req.base">
       <concept id="3226630706269671901" name="com.mbeddr.formal.req.base.structure.Requirement" flags="ng" index="0lhDl" />
-      <concept id="3226630706269625197" name="com.mbeddr.formal.req.base.structure.EmptyRequirement" flags="ng" index="0lH3_" />
       <concept id="3226630706270140298" name="com.mbeddr.formal.req.base.structure.TextParagraph" flags="ng" index="0nzK2">
         <child id="3226630706270140651" name="text" index="0nzdz" />
       </concept>
@@ -5396,7 +5395,7 @@
         <node concept="0nzK2" id="2bJEt0AEcCL" role="1QQeAV">
           <node concept="19SGf9" id="2bJEt0AEcCN" role="0nzdz">
             <node concept="19SUe$" id="2bJEt0AEcCO" role="19SJt6">
-              <property role="19SUeA" value="Reference: CDX Conformance Profile - CDA Level 1, &#10;Conformance Sessions IDs 23&#10;* Improved constraint!&#10;* SHOULD constraint!" />
+              <property role="19SUeA" value="Reference: CDX Conformance Profile - CDA Level 1, &#10;Conformance Sessions IDs 23&#10;* Improved / SHOULD constraint!" />
             </node>
           </node>
         </node>
@@ -6630,7 +6629,7 @@
         <node concept="0nzK2" id="3pcs0ZTWB0G" role="1QQeAV">
           <node concept="19SGf9" id="3pcs0ZTWB0H" role="0nzdz">
             <node concept="19SUe$" id="3pcs0ZTWB0J" role="19SJt6">
-              <property role="19SUeA" value="Reference: CDX Clinical Document Exchange - Tecnical Overview,&#10;Section 3.5.1.1" />
+              <property role="19SUeA" value="Reference: CDX Clinical Document Exchange - Tecnical Overview,&#10;Section 3.5.1.1&#10;* Missing constraint!" />
             </node>
           </node>
         </node>
@@ -6673,7 +6672,7 @@
         <node concept="0nzK2" id="5RqsIjzqvPU" role="1QQeAV">
           <node concept="19SGf9" id="5RqsIjzqvPW" role="0nzdz">
             <node concept="19SUe$" id="5RqsIjzqvPX" role="19SJt6">
-              <property role="19SUeA" value="Reference: CDX Clinical Document Exchange - Tecnical Overview,&#10;Section 3.5.2.1" />
+              <property role="19SUeA" value="Reference: CDX Clinical Document Exchange - Tecnical Overview,&#10;Section 3.5.2.1&#10;* Missing constraint!" />
             </node>
           </node>
         </node>
@@ -6869,20 +6868,19 @@
       </node>
       <node concept="19SGf9" id="3pcs0ZTWC3l" role="1QQeG9">
         <node concept="19SUe$" id="3pcs0ZTWC3m" role="19SJt6">
-          <property role="19SUeA" value="Submitting system retains the acknowledgement response " />
+          <property role="19SUeA" value="Submitting system retains the acknowledgement response (SHOULD)" />
         </node>
       </node>
       <node concept="1QQeAY" id="3pcs0ZTWCep" role="1QQeAC">
         <node concept="0nzK2" id="3pcs0ZTWCer" role="1QQeAV">
           <node concept="19SGf9" id="3pcs0ZTWCet" role="0nzdz">
             <node concept="19SUe$" id="3pcs0ZTWCeu" role="19SJt6">
-              <property role="19SUeA" value="Reference: CDX Clinical Document Exchange - Tecnical Overview,&#10;Section 3.6.4.3" />
+              <property role="19SUeA" value="Reference: CDX Clinical Document Exchange - Tecnical Overview,&#10;Section 3.6.4.3&#10;* Missing constraint!" />
             </node>
           </node>
         </node>
       </node>
     </node>
-    <node concept="0lH3_" id="4u9jgMxj1Jm" role="1QQeBF" />
   </node>
   <node concept="3ZpnD6" id="3I0X6zoLYlh">
     <property role="TrG5h" value="5_Reporting Loss Scenarios" />
