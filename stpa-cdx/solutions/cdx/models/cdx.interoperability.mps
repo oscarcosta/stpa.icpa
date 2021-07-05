@@ -285,7 +285,7 @@
   <node concept="1X_0jQ" id="4heNENPekll">
     <property role="TrG5h" value="2.1_Ordering Control Structure" />
     <node concept="1XyJaU" id="4heNENPeklr" role="1X_0GB">
-      <property role="TrG5h" value="Primary Care Giver" />
+      <property role="TrG5h" value="Primary Care Giver (Ordering)" />
     </node>
     <node concept="37mRI7" id="4heNENPeklv" role="lGtFl">
       <node concept="37mRIm" id="4heNENPeklw" role="37mRID">
@@ -293,7 +293,7 @@
         <node concept="gqqVs" id="4heNENPeklu" role="37mO4d">
           <property role="gqqTZ" value="79.0" />
           <property role="gqqTW" value="15.0" />
-          <property role="gqqTX" value="190.0" />
+          <property role="gqqTX" value="244.0" />
           <property role="gqqTy" value="32.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
         </node>
@@ -303,7 +303,7 @@
         <node concept="gqqVs" id="4heNENPeklG" role="37mO4d">
           <property role="gqqTZ" value="500.0" />
           <property role="gqqTW" value="15.0" />
-          <property role="gqqTX" value="196.0" />
+          <property role="gqqTX" value="260.0" />
           <property role="gqqTy" value="32.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
         </node>
@@ -1488,7 +1488,7 @@
       </node>
     </node>
     <node concept="1XyJaU" id="4heNENPeklC" role="1X_0GB">
-      <property role="TrG5h" value="Secondary Care Giver" />
+      <property role="TrG5h" value="Secondary Care Giver (Ordering)" />
     </node>
     <node concept="1XyJaU" id="4heNENPeklQ" role="1X_0GB">
       <property role="TrG5h" value="EMR Order Entry" />
@@ -1498,7 +1498,7 @@
     </node>
     <node concept="1XypPU" id="4heNENPekmm" role="1X_0G_">
       <ref role="SrP07" node="4heNENPeklQ" resolve="EMR Order Entry" />
-      <ref role="SrP08" node="4heNENPeklr" resolve="Primary Care Giver" />
+      <ref role="SrP08" node="4heNENPeklr" resolve="Primary Care Giver (Ordering)" />
       <node concept="Sqzvu" id="4heNENPekmn" role="Sq$B$">
         <property role="TrG5h" value="create_order" />
       </node>
@@ -1540,7 +1540,7 @@
     </node>
     <node concept="Sq$B_" id="4heNENPekE_" role="1X_0G_">
       <ref role="SrP08" node="4heNENPeklQ" resolve="EMR Order Entry" />
-      <ref role="SrP07" node="4heNENPeklr" resolve="Primary Care Giver" />
+      <ref role="SrP07" node="4heNENPeklr" resolve="Primary Care Giver (Ordering)" />
       <node concept="Sqzvu" id="5O4PMDpZCcQ" role="Sq$B$">
         <property role="TrG5h" value="patient_included" />
       </node>
@@ -1566,7 +1566,7 @@
     </node>
     <node concept="1XypPU" id="4heNENPekTe" role="1X_0G_">
       <ref role="SrP07" node="4heNENPek$$" resolve="EMR Order Processing" />
-      <ref role="SrP08" node="4heNENPeklC" resolve="Secondary Care Giver" />
+      <ref role="SrP08" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
       <node concept="Sqzvu" id="4heNENPekTf" role="Sq$B$">
         <property role="TrG5h" value="open_order" />
       </node>
@@ -1594,7 +1594,7 @@
     </node>
     <node concept="Sq$B_" id="4heNENPekVH" role="1X_0G_">
       <ref role="SrP08" node="4heNENPek$$" resolve="EMR Order Processing" />
-      <ref role="SrP07" node="4heNENPeklC" resolve="Secondary Care Giver" />
+      <ref role="SrP07" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
       <node concept="Sqzvu" id="594BkWrxwrH" role="Sq$B$">
         <property role="TrG5h" value="order_rendered" />
       </node>
@@ -1615,10 +1615,10 @@
       </node>
     </node>
     <node concept="1XyJaU" id="594BkWrxwsj" role="1X_0GB">
-      <property role="TrG5h" value="EMR Charting" />
+      <property role="TrG5h" value="EMR Charting (Order Processing)" />
     </node>
     <node concept="1XypPU" id="594BkWrxwum" role="1X_0G_">
-      <ref role="SrP07" node="594BkWrxwsj" resolve="EMR Charting" />
+      <ref role="SrP07" node="594BkWrxwsj" resolve="EMR Charting (Order Processing)" />
       <ref role="SrP08" node="4heNENPek$$" resolve="EMR Order Processing" />
       <node concept="Sqzvu" id="2bJEt0AEbZ7" role="Sq$B$">
         <property role="TrG5h" value="auto_assign_provider" />
@@ -1644,17 +1644,17 @@
     </node>
     <node concept="Sq$B_" id="594BkWrxwxA" role="1X_0G_">
       <ref role="SrP07" node="4heNENPek$$" resolve="EMR Order Processing" />
-      <ref role="SrP08" node="594BkWrxwsj" resolve="EMR Charting" />
+      <ref role="SrP08" node="594BkWrxwsj" resolve="EMR Charting (Order Processing)" />
       <node concept="Sqzvu" id="594BkWrxwxB" role="Sq$B$">
         <property role="TrG5h" value="patient" />
       </node>
     </node>
     <node concept="1XyJaU" id="594BkWrxw_3" role="1X_0GB">
-      <property role="TrG5h" value="EMR Charting" />
+      <property role="TrG5h" value="EMR Charting (Order Entry)" />
     </node>
     <node concept="1XypPU" id="594BkWrxwBn" role="1X_0G_">
       <ref role="SrP08" node="4heNENPeklQ" resolve="EMR Order Entry" />
-      <ref role="SrP07" node="594BkWrxw_3" resolve="EMR Charting" />
+      <ref role="SrP07" node="594BkWrxw_3" resolve="EMR Charting (Order Entry)" />
       <node concept="Sqzvu" id="594BkWrxwBo" role="Sq$B$">
         <property role="TrG5h" value="get_patient" />
       </node>
@@ -1667,7 +1667,7 @@
     </node>
     <node concept="Sq$B_" id="594BkWrxwEN" role="1X_0G_">
       <ref role="SrP07" node="4heNENPeklQ" resolve="EMR Order Entry" />
-      <ref role="SrP08" node="594BkWrxw_3" resolve="EMR Charting" />
+      <ref role="SrP08" node="594BkWrxw_3" resolve="EMR Charting (Order Entry)" />
       <node concept="Sqzvu" id="594BkWrxwEO" role="Sq$B$">
         <property role="TrG5h" value="patient" />
       </node>
@@ -1740,7 +1740,7 @@
     <property role="TrG5h" value="4_Ordering UCAs" />
     <ref role="1E05RL" node="4heNENPekll" resolve="2.1_Ordering Control Structure" />
     <node concept="1E0nOG" id="4heNENPeklo" role="1E0n_e">
-      <ref role="1E0nOH" node="4heNENPeklr" resolve="Primary Care Giver" />
+      <ref role="1E0nOH" node="4heNENPeklr" resolve="Primary Care Giver (Ordering)" />
       <node concept="1E0nOJ" id="4heNENPeklp" role="1E0nOC">
         <ref role="1E0n_N" node="4heNENPekmn" resolve="create_order" />
         <node concept="1E0uc6" id="5O4PMDpZCf8" role="1E0tWM">
@@ -1748,7 +1748,7 @@
           <node concept="19SGf9" id="5O4PMDpZCfr" role="1E0uc7">
             <node concept="19SUe$" id="5O4PMDpZCfz" role="19SJt6" />
             <node concept="1irL6x" id="5O4PMDpZCfx" role="19SJt6">
-              <ref role="1irL7C" node="4heNENPeklr" resolve="Primary Care Giver" />
+              <ref role="1irL7C" node="4heNENPeklr" resolve="Primary Care Giver (Ordering)" />
             </node>
             <node concept="19SUe$" id="5O4PMDpZCfy" role="19SJt6">
               <property role="19SUeA" value="provides " />
@@ -1769,7 +1769,7 @@
           <node concept="19SGf9" id="5O4PMDpZChq" role="1E0uc7">
             <node concept="19SUe$" id="5O4PMDpZChv" role="19SJt6" />
             <node concept="1irL6x" id="5O4PMDpZChu" role="19SJt6">
-              <ref role="1irL7C" node="4heNENPeklr" resolve="Primary Care Giver" />
+              <ref role="1irL7C" node="4heNENPeklr" resolve="Primary Care Giver (Ordering)" />
             </node>
             <node concept="19SUe$" id="5O4PMDpZChw" role="19SJt6">
               <property role="19SUeA" value="provides " />
@@ -1793,7 +1793,7 @@
           <node concept="19SGf9" id="5O4PMDpZCiX" role="1E0uc7">
             <node concept="19SUe$" id="5O4PMDpZCj2" role="19SJt6" />
             <node concept="1irL6x" id="5O4PMDpZCj1" role="19SJt6">
-              <ref role="1irL7C" node="4heNENPeklr" resolve="Primary Care Giver" />
+              <ref role="1irL7C" node="4heNENPeklr" resolve="Primary Care Giver (Ordering)" />
             </node>
             <node concept="19SUe$" id="5O4PMDpZCj3" role="19SJt6">
               <property role="19SUeA" value="provides " />
@@ -1814,7 +1814,7 @@
           <node concept="19SGf9" id="5O4PMDpZCjS" role="1E0uc7">
             <node concept="19SUe$" id="5O4PMDpZCjX" role="19SJt6" />
             <node concept="1irL6x" id="5O4PMDpZCjW" role="19SJt6">
-              <ref role="1irL7C" node="4heNENPeklr" resolve="Primary Care Giver" />
+              <ref role="1irL7C" node="4heNENPeklr" resolve="Primary Care Giver (Ordering)" />
             </node>
             <node concept="19SUe$" id="5O4PMDpZCjY" role="19SJt6">
               <property role="19SUeA" value="provides repeatedly " />
@@ -1840,7 +1840,7 @@
           <node concept="19SGf9" id="7f9Jps8Qx_O" role="1E0uc7">
             <node concept="19SUe$" id="7f9Jps8Qx_P" role="19SJt6" />
             <node concept="1irL6x" id="7f9Jps8Qx_Q" role="19SJt6">
-              <ref role="1irL7C" node="4heNENPeklr" resolve="Primary Care Giver" />
+              <ref role="1irL7C" node="4heNENPeklr" resolve="Primary Care Giver (Ordering)" />
             </node>
             <node concept="19SUe$" id="7f9Jps8Qx_R" role="19SJt6">
               <property role="19SUeA" value="provides repeatedly " />
@@ -1861,7 +1861,7 @@
           <node concept="19SGf9" id="7f9Jps8Qx_f" role="1E0uc7">
             <node concept="19SUe$" id="7f9Jps8Qx_g" role="19SJt6" />
             <node concept="1irL6x" id="7f9Jps8Qx_h" role="19SJt6">
-              <ref role="1irL7C" node="4heNENPeklr" resolve="Primary Care Giver" />
+              <ref role="1irL7C" node="4heNENPeklr" resolve="Primary Care Giver (Ordering)" />
             </node>
             <node concept="19SUe$" id="7f9Jps8Qx_i" role="19SJt6">
               <property role="19SUeA" value="provides " />
@@ -1887,7 +1887,7 @@
           <node concept="19SGf9" id="7f9Jps8QxHn" role="1E0uc7">
             <node concept="19SUe$" id="7f9Jps8QxHo" role="19SJt6" />
             <node concept="1irL6x" id="7f9Jps8QxHp" role="19SJt6">
-              <ref role="1irL7C" node="4heNENPeklr" resolve="Primary Care Giver" />
+              <ref role="1irL7C" node="4heNENPeklr" resolve="Primary Care Giver (Ordering)" />
             </node>
             <node concept="19SUe$" id="7f9Jps8QxHq" role="19SJt6">
               <property role="19SUeA" value="provides " />
@@ -1953,7 +1953,7 @@
               <property role="19SUeA" value="when " />
             </node>
             <node concept="1irL6x" id="5O4PMDpZCni" role="19SJt6">
-              <ref role="1irL7C" node="4heNENPeklr" resolve="Primary Care Giver" />
+              <ref role="1irL7C" node="4heNENPeklr" resolve="Primary Care Giver (Ordering)" />
             </node>
             <node concept="19SUe$" id="5O4PMDpZCnj" role="19SJt6">
               <property role="19SUeA" value="is still providing " />
@@ -2472,7 +2472,7 @@
       </node>
     </node>
     <node concept="1E0nOG" id="5O4PMDpZCOQ" role="1E0n_e">
-      <ref role="1E0nOH" node="4heNENPeklC" resolve="Secondary Care Giver" />
+      <ref role="1E0nOH" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
       <node concept="1E0nOJ" id="5O4PMDpZCOR" role="1E0nOC">
         <ref role="1E0n_N" node="4heNENPekTf" resolve="open_order" />
         <node concept="1E0uc6" id="7JRpzsvZwgs" role="1E0ucd">
@@ -2480,7 +2480,7 @@
           <node concept="19SGf9" id="7JRpzsvZwgu" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZwgz" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZwgy" role="19SJt6">
-              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZwg$" role="19SJt6">
               <property role="19SUeA" value="does not provide " />
@@ -2501,7 +2501,7 @@
           <node concept="19SGf9" id="7JRpzsvZwgN" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZwgS" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZwgR" role="19SJt6">
-              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZwgT" role="19SJt6">
               <property role="19SUeA" value="provides " />
@@ -2522,7 +2522,7 @@
           <node concept="19SGf9" id="7JRpzsvZwh8" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZwhd" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZwhc" role="19SJt6">
-              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZwhe" role="19SJt6">
               <property role="19SUeA" value="provides too late " />
@@ -2547,7 +2547,7 @@
           <node concept="19SGf9" id="7JRpzsvZwi7" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZwic" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZwib" role="19SJt6">
-              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZwid" role="19SJt6">
               <property role="19SUeA" value="provides too late " />
@@ -2568,7 +2568,7 @@
           <node concept="19SGf9" id="7JRpzsvZwhM" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZwhR" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZwhQ" role="19SJt6">
-              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZwhS" role="19SJt6">
               <property role="19SUeA" value="provides " />
@@ -2589,7 +2589,7 @@
           <node concept="19SGf9" id="7JRpzsvZwht" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZwhy" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZwhx" role="19SJt6">
-              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZwhz" role="19SJt6">
               <property role="19SUeA" value="does not provide " />
@@ -2614,7 +2614,7 @@
           <node concept="19SGf9" id="7JRpzsvZwj6" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZwjb" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZwja" role="19SJt6">
-              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZwjc" role="19SJt6">
               <property role="19SUeA" value="provides too late " />
@@ -2635,7 +2635,7 @@
           <node concept="19SGf9" id="7JRpzsvZwiL" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZwiQ" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZwiP" role="19SJt6">
-              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZwiR" role="19SJt6">
               <property role="19SUeA" value="provides " />
@@ -2656,7 +2656,7 @@
           <node concept="19SGf9" id="7JRpzsvZwis" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZwix" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZwiw" role="19SJt6">
-              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZwiy" role="19SJt6">
               <property role="19SUeA" value="does not provide " />
@@ -2681,7 +2681,7 @@
           <node concept="19SGf9" id="7JRpzsvZwkh" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZwkm" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZwkl" role="19SJt6">
-              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZwkn" role="19SJt6">
               <property role="19SUeA" value="provides too late " />
@@ -2702,7 +2702,7 @@
           <node concept="19SGf9" id="7JRpzsvZwjK" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZwjP" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZwjO" role="19SJt6">
-              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZwjQ" role="19SJt6">
               <property role="19SUeA" value="provides " />
@@ -2723,7 +2723,7 @@
           <node concept="19SGf9" id="7JRpzsvZwjr" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZwjw" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZwjv" role="19SJt6">
-              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZwjx" role="19SJt6">
               <property role="19SUeA" value="does not provide " />
@@ -2751,7 +2751,7 @@
           <node concept="19SGf9" id="7JRpzsvZwpv" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZwp$" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZwpz" role="19SJt6">
-              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZwp_" role="19SJt6">
               <property role="19SUeA" value="provides " />
@@ -2775,7 +2775,7 @@
           <node concept="19SGf9" id="7JRpzsvZwuY" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZwv3" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZwv2" role="19SJt6">
-              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZwv4" role="19SJt6">
               <property role="19SUeA" value="provides " />
@@ -2796,7 +2796,7 @@
           <node concept="19SGf9" id="7JRpzsvZwuD" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZwuI" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZwuH" role="19SJt6">
-              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZwuJ" role="19SJt6">
               <property role="19SUeA" value="does not provide " />
@@ -2826,7 +2826,7 @@
   <node concept="1X_0jQ" id="594BkWrxzLZ">
     <property role="TrG5h" value="2.2_Reporting Control Structure" />
     <node concept="1XyJaU" id="594BkWrxzM1" role="1X_0GB">
-      <property role="TrG5h" value="Secondary Care Giver" />
+      <property role="TrG5h" value="Secondary Care Giver (Reporting)" />
     </node>
     <node concept="37mRI7" id="594BkWrxzM5" role="lGtFl">
       <node concept="37mRIm" id="594BkWrxzM6" role="37mRID">
@@ -2834,7 +2834,7 @@
         <node concept="gqqVs" id="594BkWrxzM4" role="37mO4d">
           <property role="gqqTZ" value="66.0" />
           <property role="gqqTW" value="10.0" />
-          <property role="gqqTX" value="191.0" />
+          <property role="gqqTX" value="274.0" />
           <property role="gqqTy" value="32.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
         </node>
@@ -2844,7 +2844,7 @@
         <node concept="gqqVs" id="594BkWrxzMi" role="37mO4d">
           <property role="gqqTZ" value="488.0" />
           <property role="gqqTW" value="10.0" />
-          <property role="gqqTX" value="196.0" />
+          <property role="gqqTX" value="252.0" />
           <property role="gqqTy" value="32.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
         </node>
@@ -2961,7 +2961,7 @@
             <node concept="3wpmZ1" id="594BkWrx$4O" role="3ul5Gz">
               <node concept="2VclrF" id="594BkWrx$4P" role="3wpmZR">
                 <property role="2Vclpx" value="259.0" />
-                <property role="2Vclpz" value="162.0" />
+                <property role="2Vclpz" value="151.0" />
               </node>
               <node concept="2VclrF" id="594BkWrx$4Q" role="3wpmZP">
                 <property role="2Vclpx" value="0.0" />
@@ -3469,7 +3469,7 @@
       </node>
     </node>
     <node concept="1XyJaU" id="594BkWrxzMe" role="1X_0GB">
-      <property role="TrG5h" value="Primary Care Giver" />
+      <property role="TrG5h" value="Primary Care Giver (Reporting)" />
     </node>
     <node concept="1XyJaU" id="594BkWrxzMq" role="1X_0GB">
       <property role="TrG5h" value="EMR Report Entry" />
@@ -3484,10 +3484,10 @@
       </node>
     </node>
     <node concept="1XyJaU" id="594BkWrxzMX" role="1X_0GB">
-      <property role="TrG5h" value="EMR Charting" />
+      <property role="TrG5h" value="EMR Charting (Report Entry)" />
     </node>
     <node concept="1XyJaU" id="594BkWrxzZC" role="1X_0GB">
-      <property role="TrG5h" value="EMR Charting" />
+      <property role="TrG5h" value="EMR Charting (Report Processing)" />
     </node>
     <node concept="1XyJaU" id="594BkWrx$00" role="1X_0GB">
       <property role="TrG5h" value="CDX Registry" />
@@ -3503,7 +3503,7 @@
       </node>
     </node>
     <node concept="1XypPU" id="594BkWrx$0W" role="1X_0G_">
-      <ref role="SrP08" node="594BkWrxzM1" resolve="Secondary Care Giver" />
+      <ref role="SrP08" node="594BkWrxzM1" resolve="Secondary Care Giver (Reporting)" />
       <ref role="SrP07" node="594BkWrxzMq" resolve="EMR Report Entry" />
       <node concept="Sqzvu" id="594BkWrx$0X" role="Sq$B$">
         <property role="TrG5h" value="create_report" />
@@ -3519,7 +3519,7 @@
       </node>
     </node>
     <node concept="Sq$B_" id="594BkWrx$2O" role="1X_0G_">
-      <ref role="SrP07" node="594BkWrxzM1" resolve="Secondary Care Giver" />
+      <ref role="SrP07" node="594BkWrxzM1" resolve="Secondary Care Giver (Reporting)" />
       <ref role="SrP08" node="594BkWrxzMq" resolve="EMR Report Entry" />
       <node concept="Sqzvu" id="2bJEt0AEdbv" role="Sq$B$">
         <property role="TrG5h" value="patient_included" />
@@ -3539,7 +3539,7 @@
     </node>
     <node concept="1XypPU" id="594BkWrx$4v" role="1X_0G_">
       <ref role="SrP08" node="594BkWrxzMq" resolve="EMR Report Entry" />
-      <ref role="SrP07" node="594BkWrxzMX" resolve="EMR Charting" />
+      <ref role="SrP07" node="594BkWrxzMX" resolve="EMR Charting (Report Entry)" />
       <node concept="Sqzvu" id="7JRpzsvZwOq" role="Sq$B$">
         <property role="TrG5h" value="get_order" />
       </node>
@@ -3549,10 +3549,13 @@
       <node concept="Sqzvu" id="7JRpzsvZwO_" role="Sq$B$">
         <property role="TrG5h" value="store_report" />
       </node>
+      <node concept="Sqzvu" id="3Klv4jb1GUN" role="Sq$B$">
+        <property role="TrG5h" value="store_ack" />
+      </node>
     </node>
     <node concept="Sq$B_" id="594BkWrx$7z" role="1X_0G_">
       <ref role="SrP07" node="594BkWrxzMq" resolve="EMR Report Entry" />
-      <ref role="SrP08" node="594BkWrxzMX" resolve="EMR Charting" />
+      <ref role="SrP08" node="594BkWrxzMX" resolve="EMR Charting (Report Entry)" />
       <node concept="Sqzvu" id="7JRpzsvZwOS" role="Sq$B$">
         <property role="TrG5h" value="patient" />
       </node>
@@ -3599,7 +3602,7 @@
     </node>
     <node concept="1XypPU" id="594BkWrx$of" role="1X_0G_">
       <ref role="SrP07" node="594BkWrxzME" resolve="EMR Report Processing" />
-      <ref role="SrP08" node="594BkWrxzMe" resolve="Primary Care Giver" />
+      <ref role="SrP08" node="594BkWrxzMe" resolve="Primary Care Giver (Reporting)" />
       <node concept="Sqzvu" id="594BkWrx$og" role="Sq$B$">
         <property role="TrG5h" value="open_report" />
       </node>
@@ -3624,7 +3627,7 @@
     </node>
     <node concept="Sq$B_" id="594BkWrx$rJ" role="1X_0G_">
       <ref role="SrP08" node="594BkWrxzME" resolve="EMR Report Processing" />
-      <ref role="SrP07" node="594BkWrxzMe" resolve="Primary Care Giver" />
+      <ref role="SrP07" node="594BkWrxzMe" resolve="Primary Care Giver (Reporting)" />
       <node concept="Sqzvu" id="594BkWrx$uA" role="Sq$B$">
         <property role="TrG5h" value="report_rendered" />
       </node>
@@ -3645,7 +3648,7 @@
       </node>
     </node>
     <node concept="1XypPU" id="594BkWrx$v4" role="1X_0G_">
-      <ref role="SrP07" node="594BkWrxzZC" resolve="EMR Charting" />
+      <ref role="SrP07" node="594BkWrxzZC" resolve="EMR Charting (Report Processing)" />
       <ref role="SrP08" node="594BkWrxzME" resolve="EMR Report Processing" />
       <node concept="Sqzvu" id="2bJEt0AEeyQ" role="Sq$B$">
         <property role="TrG5h" value="auto_assign_provider" />
@@ -3673,7 +3676,7 @@
       </node>
     </node>
     <node concept="Sq$B_" id="594BkWrx$yD" role="1X_0G_">
-      <ref role="SrP08" node="594BkWrxzZC" resolve="EMR Charting" />
+      <ref role="SrP08" node="594BkWrxzZC" resolve="EMR Charting (Report Processing)" />
       <ref role="SrP07" node="594BkWrxzME" resolve="EMR Report Processing" />
       <node concept="Sqzvu" id="594BkWrx$yE" role="Sq$B$">
         <property role="TrG5h" value="patient" />
@@ -3909,7 +3912,7 @@
     <property role="TrG5h" value="4_Reporting UCAs" />
     <ref role="1E05RL" node="594BkWrxzLZ" resolve="2.2_Reporting Control Structure" />
     <node concept="1E0nOG" id="594BkWrx$NO" role="1E0n_e">
-      <ref role="1E0nOH" node="594BkWrxzM1" resolve="Secondary Care Giver" />
+      <ref role="1E0nOH" node="594BkWrxzM1" resolve="Secondary Care Giver (Reporting)" />
       <node concept="1E0nOJ" id="594BkWrx$NP" role="1E0nOC">
         <ref role="1E0n_N" node="594BkWrx$0X" resolve="create_report" />
         <node concept="1E0uc6" id="7JRpzsvZx3Z" role="1E0tWM">
@@ -3917,7 +3920,7 @@
           <node concept="19SGf9" id="7JRpzsvZx41" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZx46" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZx45" role="19SJt6">
-              <ref role="1irL7C" node="594BkWrxzM1" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="594BkWrxzM1" resolve="Secondary Care Giver (Reporting)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZx47" role="19SJt6">
               <property role="19SUeA" value="provides " />
@@ -3938,7 +3941,7 @@
           <node concept="19SGf9" id="7JRpzsvZx4D" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZx4I" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZx4H" role="19SJt6">
-              <ref role="1irL7C" node="594BkWrxzM1" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="594BkWrxzM1" resolve="Secondary Care Giver (Reporting)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZx4J" role="19SJt6">
               <property role="19SUeA" value="provides " />
@@ -3959,7 +3962,7 @@
           <node concept="19SGf9" id="7JRpzsvZx5x" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZx5A" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZx5_" role="19SJt6">
-              <ref role="1irL7C" node="594BkWrxzM1" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="594BkWrxzM1" resolve="Secondary Care Giver (Reporting)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZx5B" role="19SJt6">
               <property role="19SUeA" value="provides " />
@@ -3983,7 +3986,7 @@
           <node concept="19SGf9" id="7JRpzsvZx6F" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZx6K" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZx6J" role="19SJt6">
-              <ref role="1irL7C" node="594BkWrxzM1" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="594BkWrxzM1" resolve="Secondary Care Giver (Reporting)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZx6L" role="19SJt6">
               <property role="19SUeA" value="creates " />
@@ -4004,7 +4007,7 @@
           <node concept="19SGf9" id="7JRpzsvZx6U" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZx6Z" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZx6Y" role="19SJt6">
-              <ref role="1irL7C" node="594BkWrxzM1" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="594BkWrxzM1" resolve="Secondary Care Giver (Reporting)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZx70" role="19SJt6">
               <property role="19SUeA" value="provides repeatedly " />
@@ -4030,7 +4033,7 @@
           <node concept="19SGf9" id="7JRpzsvZx7$" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZx7D" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZx7C" role="19SJt6">
-              <ref role="1irL7C" node="594BkWrxzM1" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="594BkWrxzM1" resolve="Secondary Care Giver (Reporting)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZx7E" role="19SJt6">
               <property role="19SUeA" value="provides repeatedly " />
@@ -4051,7 +4054,7 @@
           <node concept="19SGf9" id="7JRpzsvZx7f" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZx7k" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZx7j" role="19SJt6">
-              <ref role="1irL7C" node="594BkWrxzM1" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="594BkWrxzM1" resolve="Secondary Care Giver (Reporting)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZx7l" role="19SJt6">
               <property role="19SUeA" value="provides " />
@@ -4077,7 +4080,7 @@
           <node concept="19SGf9" id="7JRpzsvZx7T" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZx7Y" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZx7X" role="19SJt6">
-              <ref role="1irL7C" node="594BkWrxzM1" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="594BkWrxzM1" resolve="Secondary Care Giver (Reporting)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZx7Z" role="19SJt6">
               <property role="19SUeA" value="provides " />
@@ -4140,7 +4143,7 @@
               <property role="19SUeA" value="with " />
             </node>
             <node concept="1irL6x" id="7JRpzsvZxb8" role="19SJt6">
-              <ref role="1irL7C" node="594BkWrxzM1" resolve="Secondary Care Giver" />
+              <ref role="1irL7C" node="594BkWrxzM1" resolve="Secondary Care Giver (Reporting)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZxb9" role="19SJt6">
               <property role="19SUeA" value="is still providing " />
@@ -4593,7 +4596,7 @@
       </node>
     </node>
     <node concept="1E0nOG" id="7JRpzsvZx1v" role="1E0n_e">
-      <ref role="1E0nOH" node="594BkWrxzMe" resolve="Primary Care Giver" />
+      <ref role="1E0nOH" node="594BkWrxzMe" resolve="Primary Care Giver (Reporting)" />
       <node concept="1E0nOJ" id="7JRpzsvZx1w" role="1E0nOC">
         <ref role="1E0n_N" node="594BkWrx$og" resolve="open_report" />
         <node concept="1E0uc6" id="7JRpzsvZxhb" role="1E0ucd">
@@ -4601,7 +4604,7 @@
           <node concept="19SGf9" id="7JRpzsvZxhd" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZxhi" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZxhh" role="19SJt6">
-              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver" />
+              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver (Reporting)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZxhj" role="19SJt6">
               <property role="19SUeA" value="does not provide " />
@@ -4622,7 +4625,7 @@
           <node concept="19SGf9" id="7JRpzsvZxhy" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZxhB" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZxhA" role="19SJt6">
-              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver" />
+              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver (Reporting)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZxhC" role="19SJt6">
               <property role="19SUeA" value="provides " />
@@ -4643,7 +4646,7 @@
           <node concept="19SGf9" id="7JRpzsvZxhR" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZxhW" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZxhV" role="19SJt6">
-              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver" />
+              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver (Reporting)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZxhX" role="19SJt6">
               <property role="19SUeA" value="provides too late " />
@@ -4670,7 +4673,7 @@
               <property role="19SUeA" value="@control" />
             </node>
             <node concept="1irL6x" id="7JRpzsvZxiU" role="19SJt6">
-              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver" />
+              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver (Reporting)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZxiV" role="19SJt6">
               <property role="19SUeA" value="provides too late " />
@@ -4691,7 +4694,7 @@
           <node concept="19SGf9" id="7JRpzsvZxix" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZxiA" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZxi_" role="19SJt6">
-              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver" />
+              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver (Reporting)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZxiB" role="19SJt6">
               <property role="19SUeA" value="provides " />
@@ -4712,7 +4715,7 @@
           <node concept="19SGf9" id="7JRpzsvZxic" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZxih" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZxig" role="19SJt6">
-              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver" />
+              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver (Reporting)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZxii" role="19SJt6">
               <property role="19SUeA" value="does not provide " />
@@ -4737,7 +4740,7 @@
           <node concept="19SGf9" id="7JRpzsvZxad" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZxai" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZxah" role="19SJt6">
-              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver" />
+              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver (Reporting)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZxaj" role="19SJt6">
               <property role="19SUeA" value="provides too late " />
@@ -4758,7 +4761,7 @@
           <node concept="19SGf9" id="7JRpzsvZx9S" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZx9X" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZx9W" role="19SJt6">
-              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver" />
+              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver (Reporting)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZx9Y" role="19SJt6">
               <property role="19SUeA" value="provides " />
@@ -4779,7 +4782,7 @@
           <node concept="19SGf9" id="7JRpzsvZx9z" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZx9C" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZx9B" role="19SJt6">
-              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver" />
+              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver (Reporting)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZx9D" role="19SJt6">
               <property role="19SUeA" value="does not provide " />
@@ -4804,7 +4807,7 @@
           <node concept="19SGf9" id="7JRpzsvZx8U" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZx8Z" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZx8Y" role="19SJt6">
-              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver" />
+              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver (Reporting)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZx90" role="19SJt6">
               <property role="19SUeA" value="provides " />
@@ -4831,7 +4834,7 @@
           <node concept="19SGf9" id="7JRpzsvZx8_" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZx8E" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZx8D" role="19SJt6">
-              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver" />
+              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver (Reporting)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZx8F" role="19SJt6">
               <property role="19SUeA" value="provides " />
@@ -4852,7 +4855,7 @@
           <node concept="19SGf9" id="7JRpzsvZx8g" role="1E0uc7">
             <node concept="19SUe$" id="7JRpzsvZx8l" role="19SJt6" />
             <node concept="1irL6x" id="7JRpzsvZx8k" role="19SJt6">
-              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver" />
+              <ref role="1irL7C" node="594BkWrxzMe" resolve="Primary Care Giver (Reporting)" />
             </node>
             <node concept="19SUe$" id="7JRpzsvZx8m" role="19SJt6">
               <property role="19SUeA" value="does not provide " />
@@ -4877,11 +4880,9 @@
     <property role="TrG5h" value="5_Ordering Loss Scenarios" />
     <node concept="3ZpnCB" id="3I0X6zoLYlf" role="3ZpnDU">
       <property role="TrG5h" value="SC-01" />
-      <ref role="3ZpnDr" node="7JRpzsvZwhr" resolve="UCA-assign_provider-not_provided" />
+      <ref role="3ZpnDr" node="5O4PMDpZCf8" resolve="UCA-create_order-provided_with_wrong_target" />
       <node concept="19SGf9" id="5Ex6KpEo153" role="2vnaTY">
-        <node concept="19SUe$" id="5Ex6KpEo154" role="19SJt6">
-          <property role="19SUeA" value="scenario description" />
-        </node>
+        <node concept="19SUe$" id="5Ex6KpEo154" role="19SJt6" />
       </node>
     </node>
   </node>
@@ -4896,22 +4897,16 @@
             <ref role="1fzLKL" node="7JRpzsvZtTA" resolve="get_document" />
           </node>
         </node>
+        <node concept="1fzK9F" id="3Klv4jb1GVq" role="1H_VwB">
+          <ref role="1fGttc" node="594BkWrxzME" resolve="EMR Report Processing" />
+          <node concept="1fzLKQ" id="3Klv4jb1GVA" role="1fzK9R">
+            <ref role="1fzLKL" node="7JRpzsvZvUK" resolve="get_document" />
+          </node>
+        </node>
         <node concept="1fzK9F" id="2bJEt0ACWQM" role="1H_VwB">
           <ref role="1fGttc" node="7JRpzsvZtDY" resolve="CDX Document Retrieval" />
           <node concept="1fzLKQ" id="2bJEt0ACWQX" role="1fzK9R">
             <ref role="1fzLKL" node="7JRpzsvZtNh" resolve="document" />
-          </node>
-        </node>
-        <node concept="1fzK9F" id="5t8ByuUUaGr" role="1H_VwB">
-          <ref role="1fGttc" node="594BkWrxzME" resolve="EMR Report Processing" />
-          <node concept="1fzLKQ" id="5t8ByuUUaGt" role="1fzK9R">
-            <ref role="1fzLKL" node="7JRpzsvZvUK" resolve="get_document" />
-          </node>
-        </node>
-        <node concept="1fzK9F" id="2bJEt0ACWR8" role="1H_VwB">
-          <ref role="1fGttc" node="7JRpzsvZvIs" resolve="CDX Document Retrieval" />
-          <node concept="1fzLKQ" id="2bJEt0ACWRk" role="1fzK9R">
-            <ref role="1fzLKL" node="7JRpzsvZw9r" resolve="document" />
           </node>
         </node>
       </node>
@@ -4934,7 +4929,7 @@
       <property role="0lsPA" value="CC2" />
       <node concept="1TVFYH" id="4u9jgMxj1JY" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0ACWQ4" role="1H_VwB">
-          <ref role="1fGttc" node="4heNENPeklC" resolve="Secondary Care Giver" />
+          <ref role="1fGttc" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
           <node concept="1fzLKQ" id="2bJEt0ACWQe" role="1fzK9R">
             <ref role="1fzLKL" node="4heNENPekTf" resolve="open_order" />
           </node>
@@ -4946,7 +4941,7 @@
           </node>
         </node>
         <node concept="1fzK9F" id="2bJEt0ACWQt" role="1H_VwB">
-          <ref role="1fGttc" node="594BkWrxzMe" resolve="Primary Care Giver" />
+          <ref role="1fGttc" node="594BkWrxzMe" resolve="Primary Care Giver (Reporting)" />
           <node concept="1fzLKQ" id="2bJEt0ACWQD" role="1fzK9R">
             <ref role="1fzLKL" node="594BkWrx$og" resolve="open_report" />
           </node>
@@ -5008,13 +5003,13 @@
       <property role="0lsPA" value="CC4" />
       <node concept="1TVFYH" id="5RqsIjzqu$d" role="0nOlf">
         <node concept="1fzK9F" id="5RqsIjzqu$i" role="1H_VwB">
-          <ref role="1fGttc" node="4heNENPeklC" resolve="Secondary Care Giver" />
+          <ref role="1fGttc" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
           <node concept="1fzLKQ" id="5RqsIjzqu$o" role="1fzK9R">
             <ref role="1fzLKL" node="4heNENPekZ$" resolve="assign_provider" />
           </node>
         </node>
         <node concept="1fzK9F" id="5RqsIjzqu$v" role="1H_VwB">
-          <ref role="1fGttc" node="594BkWrxzMe" resolve="Primary Care Giver" />
+          <ref role="1fGttc" node="594BkWrxzMe" resolve="Primary Care Giver (Reporting)" />
           <node concept="1fzLKQ" id="5RqsIjzqu$B" role="1fzK9R">
             <ref role="1fzLKL" node="594BkWrx$ra" resolve="assign_provider" />
           </node>
@@ -5132,13 +5127,13 @@
       <property role="0lsPA" value="CC8" />
       <node concept="1TVFYH" id="2bJEt0AEcht" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEchy" role="1H_VwB">
-          <ref role="1fGttc" node="4heNENPeklC" resolve="Secondary Care Giver" />
+          <ref role="1fGttc" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
           <node concept="1fzLKQ" id="2bJEt0AEchC" role="1fzK9R">
             <ref role="1fzLKL" node="2bJEt0AEc75" resolve="update_patient" />
           </node>
         </node>
         <node concept="1fzK9F" id="2bJEt0AEepn" role="1H_VwB">
-          <ref role="1fGttc" node="594BkWrxzMe" resolve="Primary Care Giver" />
+          <ref role="1fGttc" node="594BkWrxzMe" resolve="Primary Care Giver (Reporting)" />
           <node concept="1fzLKQ" id="2bJEt0AEepS" role="1fzK9R">
             <ref role="1fzLKL" node="2bJEt0AEepB" resolve="update_patient" />
           </node>
@@ -5163,7 +5158,7 @@
       <property role="0lsPA" value="CC9" />
       <node concept="1TVFYH" id="2bJEt0AEcjQ" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEcjV" role="1H_VwB">
-          <ref role="1fGttc" node="4heNENPeklC" resolve="Secondary Care Giver" />
+          <ref role="1fGttc" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
           <node concept="1fzLKQ" id="2bJEt0AEck1" role="1fzK9R">
             <ref role="1fzLKL" node="4heNENPekZH" resolve="create_patient" />
           </node>
@@ -5188,13 +5183,13 @@
       <property role="0lsPA" value="CC10" />
       <node concept="1TVFYH" id="2bJEt0AEcmq" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEcmv" role="1H_VwB">
-          <ref role="1fGttc" node="4heNENPeklC" resolve="Secondary Care Giver" />
+          <ref role="1fGttc" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
           <node concept="1fzLKQ" id="2bJEt0AEcm_" role="1fzK9R">
             <ref role="1fzLKL" node="4heNENPekZC" resolve="match_patient" />
           </node>
         </node>
         <node concept="1fzK9F" id="2bJEt0AEeq7" role="1H_VwB">
-          <ref role="1fGttc" node="594BkWrxzMe" resolve="Primary Care Giver" />
+          <ref role="1fGttc" node="594BkWrxzMe" resolve="Primary Care Giver (Reporting)" />
           <node concept="1fzLKQ" id="2bJEt0AEeqf" role="1fzK9R">
             <ref role="1fzLKL" node="594BkWrx$rg" resolve="match_patient" />
           </node>
@@ -5219,13 +5214,13 @@
       <property role="0lsPA" value="CC11" />
       <node concept="1TVFYH" id="2bJEt0AEcoT" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEcoY" role="1H_VwB">
-          <ref role="1fGttc" node="4heNENPeklC" resolve="Secondary Care Giver" />
+          <ref role="1fGttc" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
           <node concept="1fzLKQ" id="2bJEt0AEcp4" role="1fzK9R">
             <ref role="1fzLKL" node="4heNENPel0F" resolve="delete_order" />
           </node>
         </node>
         <node concept="1fzK9F" id="2bJEt0AEecq" role="1H_VwB">
-          <ref role="1fGttc" node="594BkWrxzMe" resolve="Primary Care Giver" />
+          <ref role="1fGttc" node="594BkWrxzMe" resolve="Primary Care Giver (Reporting)" />
           <node concept="1fzLKQ" id="2bJEt0AEecy" role="1fzK9R">
             <ref role="1fzLKL" node="594BkWrx$qR" resolve="delete_report" />
           </node>
@@ -5250,13 +5245,13 @@
       <property role="0lsPA" value="CC12" />
       <node concept="1TVFYH" id="2bJEt0AEcrt" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEcry" role="1H_VwB">
-          <ref role="1fGttc" node="4heNENPeklC" resolve="Secondary Care Giver" />
+          <ref role="1fGttc" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
           <node concept="1fzLKQ" id="2bJEt0AEcrC" role="1fzK9R">
             <ref role="1fzLKL" node="4heNENPel0N" resolve="restore_order" />
           </node>
         </node>
         <node concept="1fzK9F" id="2bJEt0AEecb" role="1H_VwB">
-          <ref role="1fGttc" node="594BkWrxzMe" resolve="Primary Care Giver" />
+          <ref role="1fGttc" node="594BkWrxzMe" resolve="Primary Care Giver (Reporting)" />
           <node concept="1fzLKQ" id="2bJEt0AEecj" role="1fzK9R">
             <ref role="1fzLKL" node="594BkWrx$qV" resolve="restore_report" />
           </node>
@@ -5862,15 +5857,6 @@
             <ref role="1fzLKL" node="5O4PMDpZCcW" resolve="recipients_included" />
           </node>
         </node>
-        <node concept="1fzK9F" id="5RqsIjzqxu0" role="1H_VwB">
-          <ref role="1fGttc" node="594BkWrxwJ$" resolve="CDX Registry" />
-          <node concept="1fzLKQ" id="5RqsIjzqxue" role="1fzK9R">
-            <ref role="1fzLKL" node="594BkWrxwVs" resolve="clinics" />
-          </node>
-          <node concept="1fzLKQ" id="5RqsIjzqxuk" role="1fzK9R">
-            <ref role="1fzLKL" node="594BkWrxwZs" resolve="providers" />
-          </node>
-        </node>
         <node concept="1fzK9F" id="2bJEt0AEdmm" role="1H_VwB">
           <ref role="1fGttc" node="594BkWrxzMq" resolve="EMR Report Entry" />
           <node concept="1fzLKQ" id="2bJEt0AEdmy" role="1fzK9R">
@@ -5952,12 +5938,6 @@
           <ref role="1fGttc" node="4heNENPeklQ" resolve="EMR Order Entry" />
           <node concept="1fzLKQ" id="2bJEt0AEeen" role="1fzK9R">
             <ref role="1fzLKL" node="2bJEt0AEeea" resolve="order_sent" />
-          </node>
-        </node>
-        <node concept="1fzK9F" id="5RqsIjzqxvX" role="1H_VwB">
-          <ref role="1fGttc" node="594BkWrx$0s" resolve="CDX Document Distribution" />
-          <node concept="1fzLKQ" id="5RqsIjzqxw9" role="1fzK9R">
-            <ref role="1fzLKL" node="594BkWrx$g1" resolve="submission_ack" />
           </node>
         </node>
         <node concept="1fzK9F" id="2bJEt0AEdt3" role="1H_VwB">
@@ -6079,13 +6059,13 @@
       <property role="0lsPA" value="CC37" />
       <node concept="1TVFYH" id="2bJEt0AEdOP" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEdOU" role="1H_VwB">
-          <ref role="1fGttc" node="4heNENPeklr" resolve="Primary Care Giver" />
+          <ref role="1fGttc" node="4heNENPeklr" resolve="Primary Care Giver (Ordering)" />
           <node concept="1fzLKQ" id="2bJEt0AEdP0" role="1fzK9R">
             <ref role="1fzLKL" node="4heNENPeksY" resolve="update_order" />
           </node>
         </node>
         <node concept="1fzK9F" id="2bJEt0AEdV5" role="1H_VwB">
-          <ref role="1fGttc" node="594BkWrxzM1" resolve="Secondary Care Giver" />
+          <ref role="1fGttc" node="594BkWrxzM1" resolve="Secondary Care Giver (Reporting)" />
           <node concept="1fzLKQ" id="2bJEt0AEdVd" role="1fzK9R">
             <ref role="1fzLKL" node="594BkWrx$1W" resolve="update_report" />
           </node>
@@ -6110,9 +6090,15 @@
       <property role="0lsPA" value="CC38" />
       <node concept="1TVFYH" id="3pcs0ZTWDzb" role="0nOlf">
         <node concept="1fzK9F" id="3pcs0ZTWDz_" role="1H_VwB">
-          <ref role="1fGttc" node="4heNENPeklr" resolve="Primary Care Giver" />
+          <ref role="1fGttc" node="4heNENPeklr" resolve="Primary Care Giver (Ordering)" />
           <node concept="1fzLKQ" id="3pcs0ZTWDzH" role="1fzK9R">
             <ref role="1fzLKL" node="4heNENPeksY" resolve="update_order" />
+          </node>
+        </node>
+        <node concept="1fzK9F" id="3Klv4jb1GWO" role="1H_VwB">
+          <ref role="1fGttc" node="594BkWrxzM1" resolve="Secondary Care Giver (Reporting)" />
+          <node concept="1fzLKQ" id="3Klv4jb1GWW" role="1fzK9R">
+            <ref role="1fzLKL" node="594BkWrx$1W" resolve="update_report" />
           </node>
         </node>
       </node>
@@ -6228,13 +6214,13 @@
       <property role="0lsPA" value="CC42" />
       <node concept="1TVFYH" id="2bJEt0AEdYg" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEdYl" role="1H_VwB">
-          <ref role="1fGttc" node="4heNENPeklr" resolve="Primary Care Giver" />
+          <ref role="1fGttc" node="4heNENPeklr" resolve="Primary Care Giver (Ordering)" />
           <node concept="1fzLKQ" id="2bJEt0AEdYr" role="1fzK9R">
             <ref role="1fzLKL" node="4heNENPekt2" resolve="cancel_order" />
           </node>
         </node>
         <node concept="1fzK9F" id="2bJEt0AEdYy" role="1H_VwB">
-          <ref role="1fGttc" node="594BkWrxzM1" resolve="Secondary Care Giver" />
+          <ref role="1fGttc" node="594BkWrxzM1" resolve="Secondary Care Giver (Reporting)" />
           <node concept="1fzLKQ" id="2bJEt0AEdYE" role="1fzK9R">
             <ref role="1fzLKL" node="594BkWrx$20" resolve="cancel_report" />
           </node>
@@ -6259,13 +6245,13 @@
       <property role="0lsPA" value="CC43" />
       <node concept="1TVFYH" id="3pcs0ZTWDm_" role="0nOlf">
         <node concept="1fzK9F" id="3pcs0ZTWDmE" role="1H_VwB">
-          <ref role="1fGttc" node="4heNENPeklr" resolve="Primary Care Giver" />
+          <ref role="1fGttc" node="4heNENPeklr" resolve="Primary Care Giver (Ordering)" />
           <node concept="1fzLKQ" id="3pcs0ZTWDmK" role="1fzK9R">
             <ref role="1fzLKL" node="4heNENPekt2" resolve="cancel_order" />
           </node>
         </node>
         <node concept="1fzK9F" id="3pcs0ZTWDmR" role="1H_VwB">
-          <ref role="1fGttc" node="594BkWrxzM1" resolve="Secondary Care Giver" />
+          <ref role="1fGttc" node="594BkWrxzM1" resolve="Secondary Care Giver (Reporting)" />
           <node concept="1fzLKQ" id="3pcs0ZTWDmZ" role="1fzK9R">
             <ref role="1fzLKL" node="594BkWrx$20" resolve="cancel_report" />
           </node>
@@ -6355,25 +6341,25 @@
       <property role="0lsPA" value="CC46" />
       <node concept="1TVFYH" id="2bJEt0AEees" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEeex" role="1H_VwB">
-          <ref role="1fGttc" node="4heNENPeklr" resolve="Primary Care Giver" />
+          <ref role="1fGttc" node="4heNENPeklr" resolve="Primary Care Giver (Ordering)" />
           <node concept="1fzLKQ" id="5RqsIjzqy11" role="1fzK9R">
             <ref role="1fzLKL" node="5RqsIjzqy0a" resolve="search_document" />
           </node>
         </node>
         <node concept="1fzK9F" id="2bJEt0AEegw" role="1H_VwB">
-          <ref role="1fGttc" node="4heNENPeklC" resolve="Secondary Care Giver" />
+          <ref role="1fGttc" node="4heNENPeklC" resolve="Secondary Care Giver (Ordering)" />
           <node concept="1fzLKQ" id="5RqsIjzqy14" role="1fzK9R">
             <ref role="1fzLKL" node="5RqsIjzqy0g" resolve="search_document" />
           </node>
         </node>
         <node concept="1fzK9F" id="2bJEt0AEefJ" role="1H_VwB">
-          <ref role="1fGttc" node="594BkWrxzM1" resolve="Secondary Care Giver" />
+          <ref role="1fGttc" node="594BkWrxzM1" resolve="Secondary Care Giver (Reporting)" />
           <node concept="1fzLKQ" id="5RqsIjzqy1u" role="1fzK9R">
             <ref role="1fzLKL" node="5RqsIjzqy1h" resolve="search_document" />
           </node>
         </node>
         <node concept="1fzK9F" id="2bJEt0AEeg2" role="1H_VwB">
-          <ref role="1fGttc" node="594BkWrxzMe" resolve="Primary Care Giver" />
+          <ref role="1fGttc" node="594BkWrxzMe" resolve="Primary Care Giver (Reporting)" />
           <node concept="1fzLKQ" id="5RqsIjzqy2A" role="1fzK9R">
             <ref role="1fzLKL" node="5RqsIjzqy18" resolve="search_document" />
           </node>
@@ -6404,12 +6390,6 @@
           </node>
           <node concept="1fzLKQ" id="5RqsIjzqy24" role="1fzK9R">
             <ref role="1fzLKL" node="594BkWrxtje" resolve="order_delivery_status" />
-          </node>
-        </node>
-        <node concept="1fzK9F" id="5RqsIjzqy2V" role="1H_VwB">
-          <ref role="1fGttc" node="4heNENPekzM" resolve="CDX Document Distribution" />
-          <node concept="1fzLKQ" id="5RqsIjzqy37" role="1fzK9R">
-            <ref role="1fzLKL" node="7JRpzsvZvix" resolve="document_status" />
           </node>
         </node>
         <node concept="1fzK9F" id="2bJEt0AEenS" role="1H_VwB">
@@ -6452,12 +6432,6 @@
             <ref role="1fzLKL" node="7JRpzsvZvma" resolve="route_document" />
           </node>
         </node>
-        <node concept="1fzK9F" id="5RqsIjzqv8K" role="1H_VwB">
-          <ref role="1fGttc" node="594BkWrx$0s" resolve="CDX Document Distribution" />
-          <node concept="1fzLKQ" id="5RqsIjzqv8S" role="1fzK9R">
-            <ref role="1fzLKL" node="7JRpzsvZvNb" resolve="route_document" />
-          </node>
-        </node>
       </node>
       <node concept="19SGf9" id="5RqsIjzqv0_" role="1QQeG9">
         <node concept="19SUe$" id="5RqsIjzqv0A" role="19SJt6">
@@ -6481,12 +6455,6 @@
           <ref role="1fGttc" node="4heNENPekzM" resolve="CDX Document Distribution" />
           <node concept="1fzLKQ" id="5RqsIjzqvht" role="1fzK9R">
             <ref role="1fzLKL" node="7JRpzsvZvma" resolve="route_document" />
-          </node>
-        </node>
-        <node concept="1fzK9F" id="5RqsIjzqvh$" role="1H_VwB">
-          <ref role="1fGttc" node="594BkWrx$0s" resolve="CDX Document Distribution" />
-          <node concept="1fzLKQ" id="5RqsIjzqvhG" role="1fzK9R">
-            <ref role="1fzLKL" node="7JRpzsvZvNb" resolve="route_document" />
           </node>
         </node>
       </node>
@@ -6514,12 +6482,6 @@
             <ref role="1fzLKL" node="594BkWrxwZs" resolve="providers" />
           </node>
         </node>
-        <node concept="1fzK9F" id="5RqsIjzqy49" role="1H_VwB">
-          <ref role="1fGttc" node="594BkWrx$00" resolve="CDX Registry" />
-          <node concept="1fzLKQ" id="5RqsIjzqy95" role="1fzK9R">
-            <ref role="1fzLKL" node="594BkWrx$cR" resolve="providers" />
-          </node>
-        </node>
       </node>
       <node concept="19SGf9" id="5RqsIjzqvi1" role="1QQeG9">
         <node concept="19SUe$" id="5RqsIjzqvi2" role="19SJt6">
@@ -6543,12 +6505,6 @@
           <ref role="1fGttc" node="594BkWrxwJ$" resolve="CDX Registry" />
           <node concept="1fzLKQ" id="5RqsIjzqy97" role="1fzK9R">
             <ref role="1fzLKL" node="594BkWrxwVs" resolve="clinics" />
-          </node>
-        </node>
-        <node concept="1fzK9F" id="5RqsIjzqy4o" role="1H_VwB">
-          <ref role="1fGttc" node="594BkWrx$00" resolve="CDX Registry" />
-          <node concept="1fzLKQ" id="5RqsIjzqy99" role="1fzK9R">
-            <ref role="1fzLKL" node="594BkWrx$b8" resolve="clinics" />
           </node>
         </node>
       </node>
@@ -6577,15 +6533,6 @@
           </node>
           <node concept="1fzLKQ" id="3pcs0ZTWADC" role="1fzK9R">
             <ref role="1fzLKL" node="5O4PMDpZD1t" resolve="submission_ack" />
-          </node>
-        </node>
-        <node concept="1fzK9F" id="3pcs0ZTWADF" role="1H_VwB">
-          <ref role="1fGttc" node="594BkWrx$0s" resolve="CDX Document Distribution" />
-          <node concept="1fzLKQ" id="3pcs0ZTWADG" role="1fzK9R">
-            <ref role="1fzLKL" node="5RqsIjzquWB" resolve="validate_document" />
-          </node>
-          <node concept="1fzLKQ" id="3pcs0ZTWADI" role="1fzK9R">
-            <ref role="1fzLKL" node="594BkWrx$g1" resolve="submission_ack" />
           </node>
         </node>
       </node>
@@ -6619,6 +6566,12 @@
             <ref role="1fzLKL" node="3pcs0ZTWCf2" resolve="store_ack" />
           </node>
         </node>
+        <node concept="1fzK9F" id="3Klv4jb1GXA" role="1H_VwB">
+          <ref role="1fGttc" node="594BkWrxzMq" resolve="EMR Report Entry" />
+          <node concept="1fzLKQ" id="3Klv4jb1GXK" role="1fzK9R">
+            <ref role="1fzLKL" node="3Klv4jb1GUN" resolve="store_ack" />
+          </node>
+        </node>
       </node>
       <node concept="19SGf9" id="3pcs0ZTWB0C" role="1QQeG9">
         <node concept="19SUe$" id="3pcs0ZTWB0E" role="19SJt6">
@@ -6635,19 +6588,63 @@
         </node>
       </node>
     </node>
-    <node concept="0lhDl" id="5RqsIjzqvGA" role="1QQeBF">
+    <node concept="0lhDl" id="3Klv4jb1GHB" role="1QQeBF">
       <property role="0lsPA" value="CC54" />
+      <node concept="1TVFYH" id="3Klv4jb1GTQ" role="0nOlf">
+        <node concept="1fzK9F" id="3Klv4jb1GTV" role="1H_VwB">
+          <ref role="1fGttc" node="4heNENPekzM" resolve="CDX Document Distribution" />
+          <node concept="1fzLKQ" id="3Klv4jb1GU1" role="1fzK9R">
+            <ref role="1fzLKL" node="7JRpzsvZvma" resolve="route_document" />
+          </node>
+        </node>
+      </node>
+      <node concept="19SGf9" id="3Klv4jb1GHD" role="1QQeG9">
+        <node concept="19SUe$" id="3Klv4jb1GHE" role="19SJt6">
+          <property role="19SUeA" value="CDX system only make the documents available for their recipients" />
+        </node>
+      </node>
+      <node concept="1QQeAY" id="3Klv4jb1GUl" role="1QQeAC">
+        <node concept="0nzK2" id="3Klv4jb1GUn" role="1QQeAV">
+          <node concept="19SGf9" id="3Klv4jb1GUp" role="0nzdz">
+            <node concept="19SUe$" id="3Klv4jb1GUq" role="19SJt6">
+              <property role="19SUeA" value="Reference: CDX Clinical Document Exchange - Tecnical Overview,&#10;Section 3.5.2" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="0lhDl" id="3Klv4jb1GwO" role="1QQeBF">
+      <property role="0lsPA" value="CC55" />
+      <node concept="1TVFYH" id="3Klv4jb1GGU" role="0nOlf">
+        <node concept="1fzK9F" id="3Klv4jb1GGZ" role="1H_VwB">
+          <ref role="1fGttc" node="7JRpzsvZtDY" resolve="CDX Document Retrieval" />
+          <node concept="1fzLKQ" id="3Klv4jb1GH5" role="1fzK9R">
+            <ref role="1fzLKL" node="7JRpzsvZtI8" resolve="new_documents" />
+          </node>
+        </node>
+      </node>
+      <node concept="19SGf9" id="3Klv4jb1GwQ" role="1QQeG9">
+        <node concept="19SUe$" id="3Klv4jb1GwR" role="19SJt6">
+          <property role="19SUeA" value="CDX system lists CDA documents as new documents only until the recipient/location requests the document   " />
+        </node>
+      </node>
+      <node concept="1QQeAY" id="3Klv4jb1GHp" role="1QQeAC">
+        <node concept="0nzK2" id="3Klv4jb1GHr" role="1QQeAV">
+          <node concept="19SGf9" id="3Klv4jb1GHt" role="0nzdz">
+            <node concept="19SUe$" id="3Klv4jb1GHu" role="19SJt6">
+              <property role="19SUeA" value="Reference: CDX Clinical Document Exchange - Tecnical Overview,&#10;Section 3.5.2.1" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="0lhDl" id="5RqsIjzqvGA" role="1QQeBF">
+      <property role="0lsPA" value="CC56" />
       <node concept="1TVFYH" id="5RqsIjzqvPn" role="0nOlf">
         <node concept="1fzK9F" id="5RqsIjzqvPs" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPek$$" resolve="EMR Order Processing" />
           <node concept="1fzLKQ" id="5RqsIjzqvPy" role="1fzK9R">
             <ref role="1fzLKL" node="7JRpzsvZtOj" resolve="list_new_documents" />
-          </node>
-        </node>
-        <node concept="1fzK9F" id="5RqsIjzqy5e" role="1H_VwB">
-          <ref role="1fGttc" node="7JRpzsvZtDY" resolve="CDX Document Retrieval" />
-          <node concept="1fzLKQ" id="5RqsIjzqy5o" role="1fzK9R">
-            <ref role="1fzLKL" node="7JRpzsvZtI8" resolve="new_documents" />
           </node>
         </node>
         <node concept="1fzK9F" id="5RqsIjzqvPE" role="1H_VwB">
@@ -6679,18 +6676,12 @@
       </node>
     </node>
     <node concept="0lhDl" id="5RqsIjzqvQ7" role="1QQeBF">
-      <property role="0lsPA" value="CC55" />
+      <property role="0lsPA" value="CC57" />
       <node concept="1TVFYH" id="5RqsIjzqvZ4" role="0nOlf">
         <node concept="1fzK9F" id="5RqsIjzqvZ9" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPek$$" resolve="EMR Order Processing" />
           <node concept="1fzLKQ" id="5RqsIjzqvZf" role="1fzK9R">
             <ref role="1fzLKL" node="7JRpzsvZtTA" resolve="get_document" />
-          </node>
-        </node>
-        <node concept="1fzK9F" id="5RqsIjzqy68" role="1H_VwB">
-          <ref role="1fGttc" node="7JRpzsvZtDY" resolve="CDX Document Retrieval" />
-          <node concept="1fzLKQ" id="5RqsIjzqy6i" role="1fzK9R">
-            <ref role="1fzLKL" node="7JRpzsvZtNh" resolve="document" />
           </node>
         </node>
         <node concept="1fzK9F" id="5RqsIjzqvZn" role="1H_VwB">
@@ -6722,18 +6713,12 @@
       </node>
     </node>
     <node concept="0lhDl" id="5RqsIjzqwtd" role="1QQeBF">
-      <property role="0lsPA" value="CC56" />
+      <property role="0lsPA" value="CC58" />
       <node concept="1TVFYH" id="5RqsIjzqwAy" role="0nOlf">
         <node concept="1fzK9F" id="5RqsIjzqwAB" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPek$$" resolve="EMR Order Processing" />
           <node concept="1fzLKQ" id="5RqsIjzqwUZ" role="1fzK9R">
             <ref role="1fzLKL" node="7JRpzsvZtTy" resolve="search_document" />
-          </node>
-        </node>
-        <node concept="1fzK9F" id="5RqsIjzqy6T" role="1H_VwB">
-          <ref role="1fGttc" node="7JRpzsvZtDY" resolve="CDX Document Retrieval" />
-          <node concept="1fzLKQ" id="5RqsIjzqy73" role="1fzK9R">
-            <ref role="1fzLKL" node="7JRpzsvZtNh" resolve="document" />
           </node>
         </node>
         <node concept="1fzK9F" id="5RqsIjzqwV6" role="1H_VwB">
@@ -6765,7 +6750,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="5RqsIjzqwAY" role="1QQeBF">
-      <property role="0lsPA" value="CC57" />
+      <property role="0lsPA" value="CC59" />
       <node concept="1TVFYH" id="5RqsIjzqwKu" role="0nOlf">
         <node concept="1fzK9F" id="5RqsIjzqwKz" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPeklQ" resolve="EMR Order Entry" />
@@ -6774,15 +6759,6 @@
           </node>
           <node concept="1fzLKQ" id="5RqsIjzqwVn" role="1fzK9R">
             <ref role="1fzLKL" node="594BkWrxwQe" resolve="list_providers" />
-          </node>
-        </node>
-        <node concept="1fzK9F" id="5RqsIjzqy7R" role="1H_VwB">
-          <ref role="1fGttc" node="594BkWrxwJ$" resolve="CDX Registry" />
-          <node concept="1fzLKQ" id="5RqsIjzqy83" role="1fzK9R">
-            <ref role="1fzLKL" node="594BkWrxwVs" resolve="clinics" />
-          </node>
-          <node concept="1fzLKQ" id="5RqsIjzqy89" role="1fzK9R">
-            <ref role="1fzLKL" node="594BkWrxwZs" resolve="providers" />
           </node>
         </node>
         <node concept="1fzK9F" id="5RqsIjzqwVw" role="1H_VwB">
@@ -6820,18 +6796,12 @@
       </node>
     </node>
     <node concept="0lhDl" id="5RqsIjzqwKT" role="1QQeBF">
-      <property role="0lsPA" value="CC58" />
+      <property role="0lsPA" value="CC60" />
       <node concept="1TVFYH" id="5RqsIjzqwUy" role="0nOlf">
         <node concept="1fzK9F" id="5RqsIjzqwUB" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPekzM" resolve="CDX Document Distribution" />
           <node concept="1fzLKQ" id="5RqsIjzqy8L" role="1fzK9R">
             <ref role="1fzLKL" node="7JRpzsvZvma" resolve="route_document" />
-          </node>
-        </node>
-        <node concept="1fzK9F" id="5RqsIjzqy8S" role="1H_VwB">
-          <ref role="1fGttc" node="594BkWrx$0s" resolve="CDX Document Distribution" />
-          <node concept="1fzLKQ" id="5RqsIjzqy90" role="1fzK9R">
-            <ref role="1fzLKL" node="7JRpzsvZvNb" resolve="route_document" />
           </node>
         </node>
       </node>
@@ -6851,7 +6821,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="3pcs0ZTWC3j" role="1QQeBF">
-      <property role="0lsPA" value="CC59" />
+      <property role="0lsPA" value="CC61" />
       <node concept="1TVFYH" id="3pcs0ZTWCeh" role="0nOlf">
         <node concept="1fzK9F" id="3pcs0ZTWCeA" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPekzM" resolve="CDX Document Distribution" />
@@ -6863,6 +6833,12 @@
           <ref role="1fGttc" node="4heNENPeklQ" resolve="EMR Order Entry" />
           <node concept="1fzLKQ" id="3pcs0ZTWCfe" role="1fzK9R">
             <ref role="1fzLKL" node="3pcs0ZTWCf2" resolve="store_ack" />
+          </node>
+        </node>
+        <node concept="1fzK9F" id="3Klv4jb1GUC" role="1H_VwB">
+          <ref role="1fGttc" node="594BkWrxzMq" resolve="EMR Report Entry" />
+          <node concept="1fzLKQ" id="3Klv4jb1GUT" role="1fzK9R">
+            <ref role="1fzLKL" node="3Klv4jb1GUN" resolve="store_ack" />
           </node>
         </node>
       </node>
