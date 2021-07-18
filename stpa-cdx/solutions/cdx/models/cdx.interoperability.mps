@@ -1602,8 +1602,8 @@
       <node concept="1XypPU" id="5RqsIjzquQ5" role="2I3o71">
         <ref role="SrP08" node="4heNENPekzM" resolve="CDX Document Distribution" />
         <ref role="SrP07" node="594BkWrxwJ$" resolve="CDX Registry" />
-        <node concept="Sqzvu" id="5RqsIjzquQ6" role="Sq$B$">
-          <property role="TrG5h" value="validate_document" />
+        <node concept="Sqzvu" id="7dFtR2q_sFT" role="Sq$B$">
+          <property role="TrG5h" value="get_recipients" />
         </node>
       </node>
     </node>
@@ -2163,8 +2163,35 @@
               <property role="19SUeA" value="for the submitted order, resulting in order lost " />
             </node>
           </node>
+          <node concept="DABN8" id="7dFtR2q_sIj" role="2Dy4$W">
+            <ref role="DABNb" node="4heNENPekyY" resolve="Order is delayed, not delivered, or lost" />
+          </node>
         </node>
         <node concept="3XErhT" id="7f9Jps8QxO$" role="1E0tXb" />
+        <node concept="3XErhT" id="7dFtR2q_sIo" role="1E0tWM" />
+        <node concept="1E0uc6" id="7dFtR2q_sIq" role="1E0tXe">
+          <property role="TrG5h" value="UCA-get_document_status-provided_too_late" />
+          <node concept="19SGf9" id="7dFtR2q_sIs" role="1E0uc7">
+            <node concept="19SUe$" id="7dFtR2q_sIt" role="19SJt6">
+              <property role="19SUeA" value="" />
+            </node>
+            <node concept="1irL6x" id="7dFtR2q_sIz" role="19SJt6">
+              <ref role="1irL7C" node="4heNENPeklQ" resolve="EMR Order Entry" />
+            </node>
+            <node concept="19SUe$" id="7dFtR2q_sIy" role="19SJt6">
+              <property role="19SUeA" value="provides too late " />
+            </node>
+            <node concept="1iqAl5" id="7dFtR2q_sIx" role="19SJt6">
+              <ref role="1iqAlh" node="7JRpzsvZvit" resolve="get_document_status" />
+            </node>
+            <node concept="19SUe$" id="7dFtR2q_sIw" role="19SJt6">
+              <property role="19SUeA" value="for the submitted order, resulting in order lost" />
+            </node>
+          </node>
+          <node concept="DABN8" id="7dFtR2q_sIE" role="2Dy4$W">
+            <ref role="DABNb" node="4heNENPekyY" resolve="Order is delayed, not delivered, or lost" />
+          </node>
+        </node>
       </node>
       <node concept="1E0nOJ" id="2TxgiT9x903" role="1E0nOC">
         <ref role="1E0n_N" node="2bJEt0AEeea" resolve="order_sent" />
@@ -2599,9 +2626,9 @@
         <node concept="3XErhT" id="4pr9KvK92o7" role="1E0tXb" />
       </node>
       <node concept="1E0nOJ" id="6Xd1LEcwO4B" role="1E0nOC">
-        <ref role="1E0n_N" node="5RqsIjzquQ6" resolve="validate_document" />
+        <ref role="1E0n_N" node="5O4PMDpZD1t" resolve="submission_ack" />
         <node concept="1E0uc6" id="6Xd1LEcwO53" role="1E0ucd">
-          <property role="TrG5h" value="UCA-validate_document-not_provided" />
+          <property role="TrG5h" value="UCA-submission_ack-not_provided" />
           <node concept="19SGf9" id="6Xd1LEcwO55" role="1E0uc7">
             <node concept="19SUe$" id="6Xd1LEcwO5a" role="19SJt6" />
             <node concept="1irL6x" id="6Xd1LEcwO59" role="19SJt6">
@@ -2611,28 +2638,18 @@
               <property role="19SUeA" value="does not provide " />
             </node>
             <node concept="1iqAl5" id="6Xd1LEcwO5f" role="19SJt6">
-              <ref role="1iqAlh" node="5RqsIjzquQ6" resolve="validate_document" />
+              <ref role="1iqAlh" node="5O4PMDpZD1t" resolve="submission_ack" />
             </node>
             <node concept="19SUe$" id="6Xd1LEcwO5g" role="19SJt6">
-              <property role="19SUeA" value="for a received document, resulting in order incomplete, incorrect or not delivered" />
+              <property role="19SUeA" value="for a received document, resulting in order not delivered" />
             </node>
           </node>
-          <node concept="DABN8" id="6Xd1LEcwO5T" role="2Dy4$W">
-            <ref role="DABNb" node="4heNENPekvI" resolve="Order target (patient) is incorrect or incomplete" />
-          </node>
-          <node concept="DABN8" id="6Xd1LEcwO5Y" role="2Dy4$W">
-            <ref role="DABNb" node="4heNENPekxT" resolve="Order recipient (clinic or provider) is incorrect" />
-          </node>
-          <node concept="DABN8" id="6Xd1LEcwO6h" role="2Dy4$W">
-            <ref role="DABNb" node="4heNENPekyz" resolve="Order content (body or attachment) is incorrect or incomplete" />
-          </node>
-          <node concept="DABN8" id="6Xd1LEcwO6r" role="2Dy4$W">
+          <node concept="DABN8" id="7dFtR2q_sE$" role="2Dy4$W">
             <ref role="DABNb" node="4heNENPekyY" resolve="Order is delayed, not delivered, or lost" />
           </node>
         </node>
-        <node concept="3XErhT" id="6Xd1LEcwO6x" role="1E0tWM" />
         <node concept="1E0uc6" id="6Xd1LEcwOLb" role="1E0tXe">
-          <property role="TrG5h" value="UCA_validate_document-provided_to_late" />
+          <property role="TrG5h" value="UCA-submission_ack-provided_to_late" />
           <node concept="19SGf9" id="6Xd1LEcwOLd" role="1E0uc7">
             <node concept="19SUe$" id="6Xd1LEcwOLi" role="19SJt6" />
             <node concept="1irL6x" id="6Xd1LEcwOLh" role="19SJt6">
@@ -2642,7 +2659,7 @@
               <property role="19SUeA" value="provides too late " />
             </node>
             <node concept="1iqAl5" id="6Xd1LEcwOLn" role="19SJt6">
-              <ref role="1iqAlh" node="5RqsIjzquQ6" resolve="validate_document" />
+              <ref role="1iqAlh" node="5O4PMDpZD1t" resolve="submission_ack" />
             </node>
             <node concept="19SUe$" id="6Xd1LEcwOLo" role="19SJt6">
               <property role="19SUeA" value="for a received document, resulting in order not delivered" />
@@ -2653,6 +2670,45 @@
           </node>
         </node>
         <node concept="3XErhT" id="7dFtR2q_pTZ" role="1E0tXb" />
+        <node concept="1E0uc6" id="7dFtR2q_sDL" role="1E0tWM">
+          <property role="TrG5h" value="UCA-submission_ack-provided" />
+          <node concept="19SGf9" id="7dFtR2q_sDR" role="1E0uc7">
+            <node concept="19SUe$" id="7dFtR2q_sDS" role="19SJt6">
+              <property role="19SUeA" value="" />
+            </node>
+            <node concept="1irL6x" id="7dFtR2q_sDN" role="19SJt6">
+              <ref role="1irL7C" node="4heNENPekzM" resolve="CDX Document Distribution" />
+            </node>
+            <node concept="19SUe$" id="7dFtR2q_sDO" role="19SJt6">
+              <property role="19SUeA" value="provides " />
+            </node>
+            <node concept="1iqAl5" id="7dFtR2q_sDP" role="19SJt6">
+              <ref role="1iqAlh" node="5O4PMDpZD1t" resolve="submission_ack" />
+            </node>
+            <node concept="19SUe$" id="7dFtR2q_sDQ" role="19SJt6">
+              <property role="19SUeA" value="with wrong validation status, resulting in order incomplete, incorrect or not delivered" />
+            </node>
+          </node>
+          <node concept="DABN8" id="7dFtR2q_sE1" role="2Dy4$W">
+            <ref role="DABNb" node="4heNENPekvI" resolve="Order target (patient) is incorrect or incomplete" />
+          </node>
+          <node concept="DABN8" id="7dFtR2q_sE6" role="2Dy4$W">
+            <ref role="DABNb" node="4heNENPekxT" resolve="Order recipient (clinic or provider) is incorrect" />
+          </node>
+          <node concept="DABN8" id="7dFtR2q_sEe" role="2Dy4$W">
+            <ref role="DABNb" node="4heNENPekyz" resolve="Order content (body or attachment) is incorrect or incomplete" />
+          </node>
+          <node concept="DABN8" id="7dFtR2q_sEo" role="2Dy4$W">
+            <ref role="DABNb" node="4heNENPekyY" resolve="Order is delayed, not delivered, or lost" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E0nOJ" id="7dFtR2q_sFW" role="1E0nOC">
+        <ref role="1E0n_N" node="7dFtR2q_sFT" resolve="get_recipients" />
+        <node concept="3XErhT" id="7dFtR2q_sGP" role="1E0ucd" />
+        <node concept="3XErhT" id="7dFtR2q_sGR" role="1E0tWM" />
+        <node concept="3XErhT" id="7dFtR2q_sGT" role="1E0tXe" />
+        <node concept="3XErhT" id="7dFtR2q_sGV" role="1E0tXb" />
       </node>
     </node>
     <node concept="1E0nOG" id="5O4PMDpZC$G" role="1E0n_e">
@@ -4365,7 +4421,7 @@
             <property role="3ul5GH" value="label" />
             <node concept="3wpmZ1" id="5RqsIjzquWI" role="3ul5Gz">
               <node concept="2VclrF" id="5RqsIjzquWJ" role="3wpmZR">
-                <property role="2Vclpx" value="94.5" />
+                <property role="2Vclpx" value="95.0" />
                 <property role="2Vclpz" value="405.0" />
               </node>
               <node concept="2VclrF" id="5RqsIjzquWK" role="3wpmZP">
@@ -4496,8 +4552,8 @@
       <node concept="1XypPU" id="5RqsIjzquWA" role="2I3o71">
         <ref role="SrP08" node="594BkWrx$0s" resolve="CDX Document Distribution" />
         <ref role="SrP07" node="594BkWrx$00" resolve="CDX Registry" />
-        <node concept="Sqzvu" id="5RqsIjzquWB" role="Sq$B$">
-          <property role="TrG5h" value="validate_document" />
+        <node concept="Sqzvu" id="7dFtR2q_sFP" role="Sq$B$">
+          <property role="TrG5h" value="get_recipients" />
         </node>
       </node>
     </node>
@@ -5644,9 +5700,9 @@
         <node concept="3XErhT" id="4pr9KvK92p7" role="1E0tXb" />
       </node>
       <node concept="1E0nOJ" id="3Klv4jb1Hf2" role="1E0nOC">
-        <ref role="1E0n_N" node="5RqsIjzquWB" resolve="validate_document" />
+        <ref role="1E0n_N" node="594BkWrx$g1" resolve="submission_ack" />
         <node concept="1E0uc6" id="7dFtR2q_slM" role="1E0tXe">
-          <property role="TrG5h" value="UCA_validate_document-provided_to_late-R" />
+          <property role="TrG5h" value="UCA_submission_ack-provided_to_late-R" />
           <node concept="19SGf9" id="7dFtR2q_slN" role="1E0uc7">
             <node concept="19SUe$" id="7dFtR2q_slO" role="19SJt6" />
             <node concept="1irL6x" id="7dFtR2q_slP" role="19SJt6">
@@ -5656,7 +5712,7 @@
               <property role="19SUeA" value="provides too late " />
             </node>
             <node concept="1iqAl5" id="7dFtR2q_slR" role="19SJt6">
-              <ref role="1iqAlh" node="5RqsIjzquWB" resolve="validate_document" />
+              <ref role="1iqAlh" node="594BkWrx$g1" resolve="submission_ack" />
             </node>
             <node concept="19SUe$" id="7dFtR2q_slS" role="19SJt6">
               <property role="19SUeA" value="for a received document, resulting in report not delivered" />
@@ -5667,7 +5723,7 @@
           </node>
         </node>
         <node concept="1E0uc6" id="7dFtR2q_sl2" role="1E0ucd">
-          <property role="TrG5h" value="UCA-validate_document-not_provided-R" />
+          <property role="TrG5h" value="UCA-submission_ack-not_provided-R" />
           <node concept="19SGf9" id="7dFtR2q_sl3" role="1E0uc7">
             <node concept="19SUe$" id="7dFtR2q_sl4" role="19SJt6" />
             <node concept="1irL6x" id="7dFtR2q_sl5" role="19SJt6">
@@ -5677,27 +5733,56 @@
               <property role="19SUeA" value="does not provide " />
             </node>
             <node concept="1iqAl5" id="7dFtR2q_sl7" role="19SJt6">
-              <ref role="1iqAlh" node="5RqsIjzquWB" resolve="validate_document" />
+              <ref role="1iqAlh" node="594BkWrx$g1" resolve="submission_ack" />
             </node>
             <node concept="19SUe$" id="7dFtR2q_sl8" role="19SJt6">
-              <property role="19SUeA" value="for a received document, resulting in report incomplete, incorrect or not delivered" />
+              <property role="19SUeA" value="for a received document, resulting in report not delivered" />
             </node>
-          </node>
-          <node concept="DABN8" id="7dFtR2q_slo" role="2Dy4$W">
-            <ref role="DABNb" node="594BkWrxyZ_" resolve="Report target (patient) is incorrect or incomplete" />
-          </node>
-          <node concept="DABN8" id="7dFtR2q_slu" role="2Dy4$W">
-            <ref role="DABNb" node="594BkWrxz0G" resolve="Report recipient (clinic or provider) is incorrect" />
-          </node>
-          <node concept="DABN8" id="7dFtR2q_sl$" role="2Dy4$W">
-            <ref role="DABNb" node="594BkWrxz1j" resolve="Report content (body or attachments) is incorrect or incomplete" />
           </node>
           <node concept="DABN8" id="7dFtR2q_slE" role="2Dy4$W">
             <ref role="DABNb" node="594BkWrxz26" resolve="Report is delayed, not delivered, or lost" />
           </node>
         </node>
-        <node concept="3XErhT" id="7dFtR2q_slK" role="1E0tWM" />
         <node concept="3XErhT" id="7dFtR2q_sm5" role="1E0tXb" />
+        <node concept="1E0uc6" id="7dFtR2q_sEE" role="1E0tWM">
+          <property role="TrG5h" value="UCA-submission_ack-provided-R" />
+          <node concept="19SGf9" id="7dFtR2q_sEK" role="1E0uc7">
+            <node concept="19SUe$" id="7dFtR2q_sEL" role="19SJt6">
+              <property role="19SUeA" value="" />
+            </node>
+            <node concept="1irL6x" id="7dFtR2q_sEG" role="19SJt6">
+              <ref role="1irL7C" node="594BkWrx$0s" resolve="CDX Document Distribution" />
+            </node>
+            <node concept="19SUe$" id="7dFtR2q_sEH" role="19SJt6">
+              <property role="19SUeA" value="provides " />
+            </node>
+            <node concept="1iqAl5" id="7dFtR2q_sEI" role="19SJt6">
+              <ref role="1iqAlh" node="594BkWrx$g1" resolve="submission_ack" />
+            </node>
+            <node concept="19SUe$" id="7dFtR2q_sEJ" role="19SJt6">
+              <property role="19SUeA" value="with wrong status, resulting in report incomplete, incorrect or not delivered" />
+            </node>
+          </node>
+          <node concept="DABN8" id="7dFtR2q_sFn" role="2Dy4$W">
+            <ref role="DABNb" node="594BkWrxyZ_" resolve="Report target (patient) is incorrect or incomplete" />
+          </node>
+          <node concept="DABN8" id="7dFtR2q_sFt" role="2Dy4$W">
+            <ref role="DABNb" node="594BkWrxz0G" resolve="Report recipient (clinic or provider) is incorrect" />
+          </node>
+          <node concept="DABN8" id="7dFtR2q_sFz" role="2Dy4$W">
+            <ref role="DABNb" node="594BkWrxz1j" resolve="Report content (body or attachments) is incorrect or incomplete" />
+          </node>
+          <node concept="DABN8" id="7dFtR2q_sFD" role="2Dy4$W">
+            <ref role="DABNb" node="594BkWrxz26" resolve="Report is delayed, not delivered, or lost" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E0nOJ" id="7dFtR2q_sGX" role="1E0nOC">
+        <ref role="1E0n_N" node="7dFtR2q_sFP" resolve="get_recipients" />
+        <node concept="3XErhT" id="7dFtR2q_sHQ" role="1E0ucd" />
+        <node concept="3XErhT" id="7dFtR2q_sHS" role="1E0tWM" />
+        <node concept="3XErhT" id="7dFtR2q_sHU" role="1E0tXe" />
+        <node concept="3XErhT" id="7dFtR2q_sHW" role="1E0tXb" />
       </node>
     </node>
     <node concept="1E0nOG" id="7JRpzsvZwT$" role="1E0n_e">
@@ -7274,18 +7359,12 @@
       <node concept="1TVFYH" id="2bJEt0AEcCw" role="0nOlf">
         <node concept="1fzK9F" id="2bJEt0AEcC_" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPek$$" resolve="EMR Order Processing" />
-          <node concept="1fzLKQ" id="7dFtR2q_rrh" role="1fzK9R">
-            <ref role="1fzLKL" node="7dFtR2q_rqL" resolve="order_updated" />
-          </node>
           <node concept="1fzLKQ" id="7dFtR2q_rrm" role="1fzK9R">
             <ref role="1fzLKL" node="7dFtR2q_rqC" resolve="order_canceled" />
           </node>
         </node>
         <node concept="1fzK9F" id="2bJEt0AEebW" role="1H_VwB">
           <ref role="1fGttc" node="594BkWrxzME" resolve="EMR Report Processing" />
-          <node concept="1fzLKQ" id="7dFtR2q_rrq" role="1fzK9R">
-            <ref role="1fzLKL" node="7dFtR2q_rr5" resolve="report_updated" />
-          </node>
           <node concept="1fzLKQ" id="7dFtR2q_rrv" role="1fzK9R">
             <ref role="1fzLKL" node="7dFtR2q_rqW" resolve="report_canceled" />
           </node>
@@ -7300,7 +7379,7 @@
         <node concept="0nzK2" id="2bJEt0AEcCL" role="1QQeAV">
           <node concept="19SGf9" id="2bJEt0AEcCN" role="0nzdz">
             <node concept="19SUe$" id="2bJEt0AEcCO" role="19SJt6">
-              <property role="19SUeA" value="Reference: CDX Conformance Profile - CDA Level 1, &#10;Conformance Sessions IDs 23&#10;* Improved / SHOULD constraint!" />
+              <property role="19SUeA" value="Reference: CDX Conformance Profile - CDA Level 1, &#10;Conformance Sessions IDs 23&#10;* SHOULD constraint!" />
             </node>
           </node>
         </node>
@@ -8417,9 +8496,6 @@
       <node concept="1TVFYH" id="3pcs0ZTWAD$" role="0nOlf">
         <node concept="1fzK9F" id="3pcs0ZTWAD_" role="1H_VwB">
           <ref role="1fGttc" node="4heNENPekzM" resolve="CDX Document Distribution" />
-          <node concept="1fzLKQ" id="3pcs0ZTWADA" role="1fzK9R">
-            <ref role="1fzLKL" node="5RqsIjzquQ6" resolve="validate_document" />
-          </node>
           <node concept="1fzLKQ" id="3pcs0ZTWADC" role="1fzK9R">
             <ref role="1fzLKL" node="5O4PMDpZD1t" resolve="submission_ack" />
           </node>
@@ -8546,7 +8622,7 @@
         <node concept="0nzK2" id="5RqsIjzqvPU" role="1QQeAV">
           <node concept="19SGf9" id="5RqsIjzqvPW" role="0nzdz">
             <node concept="19SUe$" id="5RqsIjzqvPX" role="19SJt6">
-              <property role="19SUeA" value="Reference: CDX Technical Overview,&#10;Section 3.5.2.1&#10;* Missing constraint!" />
+              <property role="19SUeA" value="Reference: CDX Technical Overview,&#10;Section 3.5.2.1&#10;* Missing constraint in conformance profile!" />
             </node>
           </node>
         </node>
@@ -8583,7 +8659,7 @@
         <node concept="0nzK2" id="5RqsIjzqvZB" role="1QQeAV">
           <node concept="19SGf9" id="5RqsIjzqvZD" role="0nzdz">
             <node concept="19SUe$" id="5RqsIjzqvZE" role="19SJt6">
-              <property role="19SUeA" value="Reference: CDX Technical Overview,&#10;Section 3.5.2.1&#10;* Missing constraint!" />
+              <property role="19SUeA" value="Reference: CDX Technical Overview,&#10;Section 3.5.2.1&#10;* Missing constraint in conformance profile!" />
             </node>
           </node>
         </node>
