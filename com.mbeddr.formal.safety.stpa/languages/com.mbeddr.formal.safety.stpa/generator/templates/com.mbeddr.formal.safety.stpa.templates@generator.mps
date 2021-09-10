@@ -7,6 +7,7 @@
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="2" />
     <use id="0deccdfd-196b-4d8c-895e-0d6cb8014dfd" name="com.mbeddr.formal.req.base" version="0" />
     <use id="434b2bfb-bd7a-47c9-bced-b445035e6d96" name="com.mbeddr.formal.safety.req" version="1" />
+    <use id="7e777b53-0a6b-4719-b36d-10475788d49f" name="com.mbeddr.formal.safety.stamp" version="1" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
@@ -433,15 +434,15 @@
             </node>
           </node>
         </node>
-        <node concept="356sEK" id="1CGnoiWLmzE" role="383Ya9">
-          <node concept="2EixSi" id="1CGnoiWLmzG" role="2EinRH" />
-        </node>
         <node concept="356sEK" id="1CGnoiWEyHu" role="383Ya9">
-          <node concept="356sEF" id="1CGnoiWEyHv" role="356sEH">
-            <property role="TrG5h" value="--------" />
-          </node>
           <node concept="2EixSi" id="1CGnoiWEyHw" role="2EinRH" />
         </node>
+      </node>
+      <node concept="356sEK" id="3Ja6L61sPxP" role="383Ya9">
+        <node concept="356sEF" id="3Ja6L61sPFa" role="356sEH">
+          <property role="TrG5h" value="--------" />
+        </node>
+        <node concept="2EixSi" id="3Ja6L61sPxR" role="2EinRH" />
       </node>
       <node concept="raruj" id="1CGnoiWEyNw" role="lGtFl" />
     </node>
@@ -454,7 +455,7 @@
       <node concept="356sEK" id="1CGnoiWFV_o" role="383Ya9">
         <node concept="2EixSi" id="1CGnoiWFV_q" role="2EinRH" />
         <node concept="356sEF" id="1CGnoiWFVua" role="356sEH">
-          <property role="TrG5h" value="functional safety - addressed hazards " />
+          <property role="TrG5h" value="functional safety - addressed hazards: " />
         </node>
         <node concept="356sEQ" id="1CGnoiWHMxl" role="356sEH">
           <property role="333NGx" value=" " />
@@ -536,7 +537,7 @@
             </node>
             <node concept="356sEK" id="1CGnoiWJqbC" role="383Ya9">
               <node concept="356sEF" id="1CGnoiWJqbD" role="356sEH">
-                <property role="TrG5h" value=" " />
+                <property role="TrG5h" value="controller" />
                 <node concept="29HgVG" id="1CGnoiWJqiQ" role="lGtFl">
                   <node concept="3NFfHV" id="1CGnoiWJqp3" role="3NFExx">
                     <node concept="3clFbS" id="1CGnoiWJqp4" role="2VODD2">
@@ -657,7 +658,7 @@
           <property role="TrG5h" value="**uca:** " />
         </node>
         <node concept="356sEF" id="1CGnoiWL3az" role="356sEH">
-          <property role="TrG5h" value="controller" />
+          <property role="TrG5h" value="uca" />
           <node concept="17Uvod" id="1CGnoiWL3a$" role="lGtFl">
             <property role="2qtEX9" value="name" />
             <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
