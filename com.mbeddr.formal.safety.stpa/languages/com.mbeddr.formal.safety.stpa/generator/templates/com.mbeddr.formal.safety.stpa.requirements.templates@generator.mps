@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:3c10c6de-4524-4c6d-ae52-e6a0400761a9(com.mbeddr.formal.safety.stpa.templates@generator)">
+<model ref="r:3c10c6de-4524-4c6d-ae52-e6a0400761a9(com.mbeddr.formal.safety.stpa.requirements.templates@generator)">
   <persistence version="9" />
   <languages>
     <use id="990507d3-3527-4c54-bfe9-0ca3c9c6247a" name="com.dslfoundry.plaintextgen" version="0" />
@@ -143,7 +143,7 @@
     </language>
   </registry>
   <node concept="bUwia" id="7ijUq0dvlo8">
-    <property role="TrG5h" value="main" />
+    <property role="TrG5h" value="requirements" />
     <node concept="3aamgX" id="1CGnoiWEvXc" role="3acgRq">
       <ref role="30HIoZ" to="z27p:2N7iSwG$_7t" resolve="Requirement" />
       <node concept="j$656" id="1CGnoiWExdS" role="1lVwrX">
