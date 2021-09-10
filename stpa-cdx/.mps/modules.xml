@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/solutions/cdx/cdx.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/../com.mbeddr.formal.safety.stpa/languages/com.mbeddr.formal.safety.stpa/com.mbeddr.formal.safety.stpa.mpl" folder="" />
     </projectModules>
   </component>
 </project>
