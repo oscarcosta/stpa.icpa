@@ -10827,6 +10827,395 @@
         </node>
       </node>
     </node>
+    <node concept="AYXo0" id="3WW5IftiLW$" role="AYXoY">
+      <ref role="AYXoz" node="5O4PMDpZCh5" resolve="UCA-create_order-provided_with_wrong_recipient" />
+      <node concept="AYXoK" id="3WW5IftiLWA" role="AYXoP">
+        <property role="TrG5h" value="LS-002.1" />
+        <node concept="19SGf9" id="3WW5IftiLX2" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiLX3" role="19SJt6">
+            <property role="19SUeA" value="The Primary Caregiver selects the wrong recipient (location or clinic) because the recipient has a similar name or id." />
+          </node>
+        </node>
+      </node>
+      <node concept="AYXoK" id="3WW5IftiLY$" role="AYXoP">
+        <property role="TrG5h" value="LS-002.2" />
+        <node concept="19SGf9" id="3WW5IftiLYI" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiLYJ" role="19SJt6">
+            <property role="19SUeA" value="The Primary Caregiver forgets to select the order recipients (location or clinic).&#10;* Addressed by " />
+          </node>
+          <node concept="2aGvr3" id="3WW5IftiLYE" role="19SJt6">
+            <ref role="2aGvrx" node="2bJEt0AEdgT" />
+          </node>
+          <node concept="19SUe$" id="3WW5IftiLYF" role="19SJt6">
+            <property role="19SUeA" value=" and " />
+          </node>
+          <node concept="2aGvr3" id="3WW5IftiLYG" role="19SJt6">
+            <ref role="2aGvrx" node="2bJEt0AEdtw" />
+          </node>
+          <node concept="19SUe$" id="3WW5IftiLYH" role="19SJt6">
+            <property role="19SUeA" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="3WW5IftiLZN" role="AYXoY">
+      <ref role="AYXoz" node="5O4PMDpZCi$" resolve="UCA-create_order-provided_with_wrong_content" />
+      <node concept="AYXoK" id="3WW5IftiLZP" role="AYXoP">
+        <property role="TrG5h" value="LS-003.1" />
+        <node concept="19SGf9" id="3WW5IftiM0t" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiM0u" role="19SJt6">
+            <property role="19SUeA" value="The Primary Caregiver gets an outdated exam or patient clinical information from the system." />
+          </node>
+        </node>
+      </node>
+      <node concept="AYXoK" id="3WW5IftiM0z" role="AYXoP">
+        <property role="TrG5h" value="LS-003.2" />
+        <node concept="19SGf9" id="3WW5IftiM0D" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiM0E" role="19SJt6">
+            <property role="19SUeA" value="The Primary Caregiver forget to select the patients medical information from the system or forget to insert the order content.&#10;* New CC? (check if content is filled)" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="3WW5IftiM1r" role="AYXoY">
+      <ref role="AYXoz" node="5O4PMDpZCjK" resolve="UCA-create_order-provided_repeatedly" />
+      <node concept="AYXoK" id="3WW5IftiM1t" role="AYXoP">
+        <property role="TrG5h" value="LS-004.1" />
+        <node concept="19SGf9" id="3WW5IftiM2e" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiM2f" role="19SJt6">
+            <property role="19SUeA" value="The Primary Caregiver creates a new order because he/she believes the order was not successfully created.&#10;* Mitigated by " />
+          </node>
+          <node concept="2aGvr3" id="3WW5IftiM2c" role="19SJt6">
+            <ref role="2aGvrx" node="2bJEt0AEdnU" />
+          </node>
+          <node concept="19SUe$" id="3WW5IftiM2d" role="19SJt6">
+            <property role="19SUeA" value="" />
+          </node>
+        </node>
+      </node>
+      <node concept="AYXoK" id="3WW5IftiM2m" role="AYXoP">
+        <property role="TrG5h" value="LS-004.2" />
+        <node concept="19SGf9" id="3WW5IftiM2u" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiM2v" role="19SJt6">
+            <property role="19SUeA" value="The EMR System receives multiple &quot;create order&quot; actions from the user and saves a new order for each action.&#10;* New CC? (block multiple clicks)" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="3WW5IftiM3p" role="AYXoY">
+      <ref role="AYXoz" node="7dFtR2q_puK" resolve="UCA-create_order-stopped_too_soon" />
+      <node concept="AYXoK" id="3WW5IftiM3r" role="AYXoP">
+        <property role="TrG5h" value="LS-005.1" />
+        <node concept="19SGf9" id="3WW5IftiM4k" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiM4l" role="19SJt6">
+            <property role="19SUeA" value="The Primary Caregiver performs some action that cancels the order creation believing that he/she is executing  &quot;create order.&quot;" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="3WW5IftiM5j" role="AYXoY">
+      <ref role="AYXoz" node="177sLY4iHa8" resolve="UCA-update_order-provided" />
+      <node concept="AYXoK" id="3WW5IftiM5l" role="AYXoP">
+        <property role="TrG5h" value="Ls-006.1" />
+        <node concept="19SGf9" id="3WW5IftiM6h" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiM6i" role="19SJt6">
+            <property role="19SUeA" value="The Primary Caregiver picks the wrong order to update." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="3WW5IftiM7k" role="AYXoY">
+      <ref role="AYXoz" node="7f9Jps8Qx_e" resolve="UCA-update_order-provided_with_wrong_content" />
+      <node concept="AYXoK" id="3WW5IftiM7m" role="AYXoP">
+        <property role="TrG5h" value="LS-007.1" />
+        <node concept="19SGf9" id="3WW5IftiM8m" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiM8n" role="19SJt6">
+            <property role="19SUeA" value="The Primary Caregiver gets an outdated exam or patient medical information from the system." />
+          </node>
+        </node>
+      </node>
+      <node concept="AYXoK" id="3WW5IftiM8s" role="AYXoP">
+        <property role="TrG5h" value="LS-007.2" />
+        <node concept="19SGf9" id="3WW5IftiM8y" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiM8z" role="19SJt6">
+            <property role="19SUeA" value="The Primary Caregiver forgets to update the order content.&#10;* New CC? (check if content == previous)" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="3WW5IftiM8C" role="AYXoY">
+      <ref role="AYXoz" node="7dFtR2q_pxj" resolve="UCA-update_order-stopped_too_soon" />
+      <node concept="AYXoK" id="3WW5IftiM8E" role="AYXoP">
+        <property role="TrG5h" value="LS-008.1" />
+        <node concept="19SGf9" id="3WW5IftiM9K" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiM9L" role="19SJt6">
+            <property role="19SUeA" value="The Primary Caregiver performs some action that cancels the order update believing that he/she is executing &quot;update order.&quot;" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="3WW5IftiMaX" role="AYXoY">
+      <ref role="AYXoz" node="7f9Jps8QxHm" resolve="UCA-cancel_order-provided" />
+      <node concept="AYXoK" id="3WW5IftiMaZ" role="AYXoP">
+        <property role="TrG5h" value="LS-009.1" />
+        <node concept="19SGf9" id="3WW5IftiMc9" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiMca" role="19SJt6">
+            <property role="19SUeA" value="The Primary Caregiver picks the wrong order to cancel." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="3WW5IftiMdq" role="AYXoY">
+      <ref role="AYXoz" node="7dFtR2q_p$3" resolve="UCA-cancel_order_stopped_too_soon" />
+      <node concept="AYXoK" id="3WW5IftiMds" role="AYXoP">
+        <property role="TrG5h" value="LS-010.1" />
+        <node concept="19SGf9" id="3WW5IftiMeF" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiMeG" role="19SJt6">
+            <property role="19SUeA" value="The Primary Caregiver performs some action that cancels the order cancellation believing that he/she is executing &quot;cancel order.&quot;" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="3WW5IftiMg0" role="AYXoY">
+      <ref role="AYXoz" node="5O4PMDpZCmA" resolve="UCA-submit_document-not_provided" />
+      <node concept="AYXoK" id="3WW5IftiMg2" role="AYXoP">
+        <property role="TrG5h" value="LS-011.1" />
+        <node concept="19SGf9" id="3WW5IftiMhk" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiMhl" role="19SJt6">
+            <property role="19SUeA" value="The EMR System fails to submit the document due to an internal error or connection issue. &#10;* New CC? (notify the user)" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="3WW5IftiMiH" role="AYXoY">
+      <ref role="AYXoz" node="5O4PMDpZCmV" resolve="UCA-submit_document-provided_too_soon" />
+      <node concept="AYXoK" id="3WW5IftiMiJ" role="AYXoP">
+        <property role="TrG5h" value="LS-012.1" />
+        <node concept="19SGf9" id="3WW5IftiMk5" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiMk6" role="19SJt6">
+            <property role="19SUeA" value="The primary caregiver mistakenly performs the action to complete the creation, update, or cancel the order, submiting an incomplete order.&#10;* New CC? (ask for confirmation)" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="3WW5IftiMly" role="AYXoY">
+      <ref role="AYXoz" node="5O4PMDpZCnS" resolve="UCA-submit_document-stopped_too_soon" />
+      <node concept="AYXoK" id="3WW5IftiMl$" role="AYXoP">
+        <property role="TrG5h" value="LS-013.1" />
+        <node concept="19SGf9" id="3WW5IftiMmY" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiMmZ" role="19SJt6">
+            <property role="19SUeA" value="The EMR System stops submitting the document due to an internal error or connection issue.&#10;* New CC? (similar to LS-011.1)" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="3WW5IftiMov" role="AYXoY">
+      <ref role="AYXoz" node="7f9Jps8QxOg" resolve="UCA-get_document_status-not_provided" />
+      <node concept="AYXoK" id="3WW5IftiMox" role="AYXoP">
+        <property role="TrG5h" value="LS-014.1" />
+        <node concept="19SGf9" id="3WW5IftiMq1" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiMq2" role="19SJt6">
+            <property role="19SUeA" value="The EMR System does not get the document status because this feature is not implemented. &#10;* Mitigated by " />
+          </node>
+          <node concept="2aGvr3" id="3WW5IftiMpZ" role="19SJt6">
+            <ref role="2aGvrx" node="2bJEt0AEeh9" />
+          </node>
+          <node concept="19SUe$" id="3WW5IftiMq0" role="19SJt6">
+            <property role="19SUeA" value="" />
+          </node>
+        </node>
+      </node>
+      <node concept="AYXoK" id="3WW5IftiMqa" role="AYXoP">
+        <property role="TrG5h" value="LS-014.2" />
+        <node concept="19SGf9" id="3WW5IftiMqh" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiMqi" role="19SJt6">
+            <property role="19SUeA" value="The EMR System fails to get the document status due to an internal error or connection issue.&#10;* New CC? (improve CC47 to make new attempts)" />
+          </node>
+        </node>
+      </node>
+      <node concept="AYXoK" id="3WW5IftiMqn" role="AYXoP">
+        <property role="TrG5h" value="LS-014.3" />
+        <node concept="19SGf9" id="3WW5IftiMqy" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiMqz" role="19SJt6">
+            <property role="19SUeA" value="The EMR System does not get the final document status because new attempts to get the document status are not made after receive a premilinary document status.&#10;* New CC? (similar to LS-014.2)" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="3WW5IftiMsf" role="AYXoY">
+      <ref role="AYXoz" node="7dFtR2q_sIq" resolve="UCA-get_document_status-provided_too_late" />
+      <node concept="AYXoK" id="3WW5IftiMsh" role="AYXoP">
+        <property role="TrG5h" value="LS-015.1" />
+        <node concept="19SGf9" id="3WW5IftiMtV" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiMtW" role="19SJt6">
+            <property role="19SUeA" value="The EMR system is configured to request the document status only a few times, so the final document status is never retrieved.&#10;* New CC? (similar to LS-014.2)" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="3WW5IftiMvG" role="AYXoY">
+      <ref role="AYXoz" node="7dFtR2q_p_P" resolve="UCA-order_sent-not_provided" />
+      <node concept="AYXoK" id="3WW5IftiMvI" role="AYXoP">
+        <property role="TrG5h" value="LS-016.1" />
+        <node concept="19SGf9" id="3WW5IftiMxs" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiMxt" role="19SJt6">
+            <property role="19SUeA" value="The EMR System does not show the order submission confirmation due to an error during the document submission.&#10;* New CC? (similar to LS-011.1) " />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="3WW5IftiMzh" role="AYXoY">
+      <ref role="AYXoz" node="7dFtR2q_pAp" resolve="UCA-order_sent-provided_too_soon" />
+      <node concept="AYXoK" id="3WW5IftiMzj" role="AYXoP">
+        <property role="TrG5h" value="Ls-017.1" />
+        <node concept="19SGf9" id="3WW5IftiM_5" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiM_6" role="19SJt6">
+            <property role="19SUeA" value="The EMR System show the document submission confirmation with an error status before the ???" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="3WW5IftiMAY" role="AYXoY">
+      <ref role="AYXoz" node="7dFtR2q_pHh" resolve="UCA-order_sent-provided_too_late" />
+      <node concept="AYXoK" id="3WW5IftiMB0" role="AYXoP">
+        <property role="TrG5h" value="LS-018.1" />
+        <node concept="19SGf9" id="3WW5IftiMCQ" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiMCR" role="19SJt6">
+            <property role="19SUeA" value="The EMR System does not show the document submission confirmation because the user closes the window." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="3WW5IftiMEN" role="AYXoY">
+      <ref role="AYXoz" node="7dFtR2q_pLc" resolve="UCA-list_clinics-not_provided" />
+      <node concept="AYXoK" id="3WW5IftiMEP" role="AYXoP">
+        <property role="TrG5h" value="LS-019.1" />
+        <node concept="19SGf9" id="3WW5IftiMGN" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiMGO" role="19SJt6">
+            <property role="19SUeA" value="The EMR System fails to list the clinics due to an internal error, connection issue or error on the CDX System.&#10;* Mitigated by " />
+          </node>
+          <node concept="2aGvr3" id="3WW5IftiMGJ" role="19SJt6">
+            <ref role="2aGvrx" node="2bJEt0AEdgT" />
+          </node>
+          <node concept="19SUe$" id="3WW5IftiMGK" role="19SJt6">
+            <property role="19SUeA" value=" and " />
+          </node>
+          <node concept="2aGvr3" id="3WW5IftiMGL" role="19SJt6">
+            <ref role="2aGvrx" node="2bJEt0AEdtw" />
+          </node>
+          <node concept="19SUe$" id="3WW5IftiMGM" role="19SJt6">
+            <property role="19SUeA" value="" />
+          </node>
+        </node>
+      </node>
+      <node concept="AYXoK" id="3WW5IftiMGX" role="AYXoP">
+        <property role="TrG5h" value="LS-019.2" />
+        <node concept="19SGf9" id="3WW5IftiMH7" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiMH8" role="19SJt6">
+            <property role="19SUeA" value="The EMR System fails to list the clinic because the searched clinic does not exist in the CDX System." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="3WW5IftiMJf" role="AYXoY">
+      <ref role="AYXoz" node="7dFtR2q_pM6" resolve="UCA-list_clinics-provided" />
+      <node concept="AYXoK" id="3WW5IftiMJh" role="AYXoP">
+        <property role="TrG5h" value="LS-020.1" />
+      </node>
+    </node>
+    <node concept="AYXo0" id="3WW5IftiMNt" role="AYXoY">
+      <ref role="AYXoz" node="7dFtR2q_pLE" resolve="UCA-list_providers-not_provided" />
+      <node concept="AYXoK" id="3WW5IftiMNv" role="AYXoP">
+        <property role="TrG5h" value="LS-021.1" />
+        <node concept="19SGf9" id="3WW5IftiMPE" role="AYXoN">
+          <node concept="19SUe$" id="3WW5IftiMPF" role="19SJt6">
+            <property role="19SUeA" value="The EMR System fails to list the providers due to an internal error, connection issue or error on the CDX System.&#10;* Mitigated by " />
+          </node>
+          <node concept="2aGvr3" id="3WW5IftiMPA" role="19SJt6">
+            <ref role="2aGvrx" node="2bJEt0AEdgT" />
+          </node>
+          <node concept="19SUe$" id="3WW5IftiMPB" role="19SJt6">
+            <property role="19SUeA" value=" and " />
+          </node>
+          <node concept="2aGvr3" id="3WW5IftiMPC" role="19SJt6">
+            <ref role="2aGvrx" node="2bJEt0AEdtw" />
+          </node>
+          <node concept="19SUe$" id="3WW5IftiMPD" role="19SJt6">
+            <property role="19SUeA" value="" />
+          </node>
+        </node>
+      </node>
+      <node concept="AYXoK" id="6BJWF8JIAu_" role="AYXoP">
+        <property role="TrG5h" value="LS-021.2" />
+        <node concept="19SGf9" id="6BJWF8JIAuI" role="AYXoN">
+          <node concept="19SUe$" id="6BJWF8JIAuJ" role="19SJt6">
+            <property role="19SUeA" value="The EMR System fails to list the providers because the searched provider does not exist in the CDX System." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="6BJWF8JIAx3" role="AYXoY">
+      <ref role="AYXoz" node="7dFtR2q_pMx" resolve="UCA-list_providers-provided" />
+      <node concept="AYXoK" id="6BJWF8JIAx5" role="AYXoP">
+        <property role="TrG5h" value="LS-022.1" />
+      </node>
+    </node>
+    <node concept="AYXo0" id="6BJWF8JIA_B" role="AYXoY">
+      <ref role="AYXoz" node="7dFtR2q_pNa" resolve="UCA-order_delivery_status-not_provided" />
+      <node concept="AYXoK" id="6BJWF8JIA_D" role="AYXoP">
+        <property role="TrG5h" value="LS-023.1" />
+        <node concept="19SGf9" id="6BJWF8JIABX" role="AYXoN">
+          <node concept="19SUe$" id="6BJWF8JIABY" role="19SJt6">
+            <property role="19SUeA" value="The EMR System does not return the order delivery status because it didn't receive the document delivery status from the CDX System or didn't requested it.&#10;* New CC?" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="6BJWF8JIAJ8" role="AYXoY">
+      <ref role="AYXoz" node="4VFcnwZ9Ymz" resolve="UCA-order_delivery_status-provided" />
+      <node concept="AYXoK" id="6BJWF8JIAJa" role="AYXoP">
+        <property role="TrG5h" value="LS-024.1" />
+      </node>
+    </node>
+    <node concept="AYXo0" id="6BJWF8JIANS" role="AYXoY">
+      <ref role="AYXoz" node="7dFtR2q_pSi" resolve="UCA-patient_included-not_provided" />
+      <node concept="AYXoK" id="6BJWF8JIANU" role="AYXoP">
+        <property role="TrG5h" value="LS-025.1" />
+        <node concept="19SGf9" id="6BJWF8JIAQm" role="AYXoN">
+          <node concept="19SUe$" id="6BJWF8JIAQn" role="19SJt6">
+            <property role="19SUeA" value="The EMR System does not show the patient info during order creation because the patient was not inserted or is not registered in the system.&#10;* Mitigated by " />
+          </node>
+          <node concept="2aGvr3" id="6BJWF8JIAQk" role="19SJt6">
+            <ref role="2aGvrx" node="2bJEt0AEd6R" />
+          </node>
+          <node concept="19SUe$" id="6BJWF8JIAQj" role="19SJt6">
+            <property role="19SUeA" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="6BJWF8JIAXN" role="AYXoY">
+      <ref role="AYXoz" node="7dFtR2q_pSC" resolve="UCA-patient_included-provided" />
+      <node concept="AYXoK" id="6BJWF8JIAXP" role="AYXoP">
+        <property role="TrG5h" value="LS-026.1" />
+        <node concept="19SGf9" id="6BJWF8JIB0l" role="AYXoN">
+          <node concept="19SUe$" id="6BJWF8JIB0m" role="19SJt6">
+            <property role="19SUeA" value="The EMR System show the wrong patient info during order creation because the patient has similiar name with the searched one, or the patient info is outdated in the system." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="6BJWF8JIB2W" role="AYXoY">
+      <ref role="AYXoz" node="7dFtR2q_pT0" resolve="UCA-recipient_included-not_provided" />
+      <node concept="AYXoK" id="6BJWF8JIB2Y" role="AYXoP">
+        <property role="TrG5h" value="LS-027.1" />
+        <node concept="19SGf9" id="6BJWF8JIB5y" role="AYXoN">
+          <node concept="19SUe$" id="6BJWF8JIB5z" role="19SJt6">
+            <property role="19SUeA" value="The EMR System does not show the recipient (clinic or profile) information during the order creation because the recipient was not found in the CDX System." />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
