@@ -189,7 +189,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5dyF1_PAto1">
-    <ref role="1XX52x" to="9v79:5dyF1_PAnCi" resolve="LossScenarios" />
+    <ref role="1XX52x" to="9v79:5dyF1_PAnCi" resolve="Losses" />
     <node concept="3EZMnI" id="4gtLUSMLiTb" role="2wV5jI">
       <node concept="PMmxH" id="4qtpAOhXdCO" role="3EZMnx">
         <ref role="PMmxG" to="xnej:4gtLUSMLjsp" resolve="HeaderComponent" />

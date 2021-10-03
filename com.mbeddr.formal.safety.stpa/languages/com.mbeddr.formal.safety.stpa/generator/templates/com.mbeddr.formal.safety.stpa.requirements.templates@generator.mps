@@ -4,10 +4,6 @@
   <languages>
     <use id="990507d3-3527-4c54-bfe9-0ca3c9c6247a" name="com.dslfoundry.plaintextgen" version="0" />
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="3" />
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="2" />
-    <use id="0deccdfd-196b-4d8c-895e-0d6cb8014dfd" name="com.mbeddr.formal.req.base" version="0" />
-    <use id="434b2bfb-bd7a-47c9-bced-b445035e6d96" name="com.mbeddr.formal.safety.req" version="1" />
-    <use id="7e777b53-0a6b-4719-b36d-10475788d49f" name="com.mbeddr.formal.safety.stamp" version="1" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
@@ -284,7 +280,7 @@
           </node>
         </node>
         <node concept="356sEF" id="1CGnoiWF2lL" role="356sEH">
-          <property role="TrG5h" value="requirements" />
+          <property role="TrG5h" value="requirement" />
           <node concept="29HgVG" id="1CGnoiWF2tj" role="lGtFl" />
         </node>
       </node>
@@ -318,7 +314,7 @@
           <property role="TrG5h" value="#### Req " />
         </node>
         <node concept="356sEF" id="1CGnoiWEyGx" role="356sEH">
-          <property role="TrG5h" value="id" />
+          <property role="TrG5h" value="requeriment.id" />
           <node concept="17Uvod" id="1CGnoiWEyGy" role="lGtFl">
             <property role="2qtEX9" value="name" />
             <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
@@ -340,7 +336,7 @@
           <property role="TrG5h" value=" : " />
         </node>
         <node concept="356sEF" id="1CGnoiWEyGL" role="356sEH">
-          <property role="TrG5h" value="title" />
+          <property role="TrG5h" value="requeriment.title" />
           <node concept="17Uvod" id="1CGnoiWEyGM" role="lGtFl">
             <property role="2qtEX9" value="name" />
             <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
@@ -409,7 +405,7 @@
         <node concept="356sEK" id="7Y3mKAmrnkU" role="383Ya9">
           <node concept="2EixSi" id="7Y3mKAmrnkV" role="2EinRH" />
           <node concept="356sEF" id="7Y3mKAmrnkW" role="356sEH">
-            <property role="TrG5h" value="spec" />
+            <property role="TrG5h" value="spec.text" />
             <node concept="17Uvod" id="7Y3mKAmrnkX" role="lGtFl">
               <property role="2qtEX9" value="name" />
               <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
@@ -495,7 +491,7 @@
           </node>
           <node concept="356sEK" id="1CGnoiWHXsV" role="383Ya9">
             <node concept="356sEF" id="1CGnoiWHXtW" role="356sEH">
-              <property role="TrG5h" value="id" />
+              <property role="TrG5h" value="hazard.id" />
               <node concept="17Uvod" id="1CGnoiWHX$H" role="lGtFl">
                 <property role="2qtEX9" value="name" />
                 <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
@@ -593,7 +589,7 @@
             <property role="TrG5h" value="**controller:** " />
           </node>
           <node concept="356sEF" id="1CGnoiWKuGj" role="356sEH">
-            <property role="TrG5h" value="controller" />
+            <property role="TrG5h" value="controller.name" />
             <node concept="17Uvod" id="1CGnoiWKuGo" role="lGtFl">
               <property role="2qtEX9" value="name" />
               <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
@@ -637,7 +633,7 @@
             </node>
             <node concept="356sEK" id="1CGnoiWKPKf" role="383Ya9">
               <node concept="356sEF" id="1CGnoiWKPKg" role="356sEH">
-                <property role="TrG5h" value="action" />
+                <property role="TrG5h" value="action.name" />
                 <node concept="17Uvod" id="1CGnoiWKPKh" role="lGtFl">
                   <property role="2qtEX9" value="name" />
                   <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
@@ -678,7 +674,7 @@
           <property role="TrG5h" value="**uca:** " />
         </node>
         <node concept="356sEF" id="1CGnoiWL3az" role="356sEH">
-          <property role="TrG5h" value="uca" />
+          <property role="TrG5h" value="uca.name" />
           <node concept="17Uvod" id="1CGnoiWL3a$" role="lGtFl">
             <property role="2qtEX9" value="name" />
             <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />

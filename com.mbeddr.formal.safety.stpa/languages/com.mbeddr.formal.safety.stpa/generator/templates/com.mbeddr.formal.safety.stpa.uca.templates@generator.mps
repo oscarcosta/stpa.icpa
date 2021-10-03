@@ -8,10 +8,8 @@
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
-    <import index="9v79" ref="r:15c4cfd4-0e32-4d0b-9d55-97b8292a7752(com.mbeddr.formal.safety.stpa.structure)" />
     <import index="bewr" ref="r:a5d87024-d7b0-459e-b0ec-a9c089196f41(com.mbeddr.formal.safety.stamp.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <import index="z27p" ref="r:9796df7f-5d01-4a46-b1e4-58be8e3ac472(com.mbeddr.formal.req.base.structure)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
@@ -261,7 +259,7 @@
         </node>
         <node concept="2EixSi" id="3Ja6L61uakY" role="2EinRH" />
         <node concept="356sEF" id="3Ja6L61uapS" role="356sEH">
-          <property role="TrG5h" value="control" />
+          <property role="TrG5h" value="controlStruncture.name" />
           <node concept="17Uvod" id="3Ja6L61uapV" role="lGtFl">
             <property role="2qtEX9" value="name" />
             <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
@@ -455,7 +453,7 @@
           <property role="TrG5h" value="&gt;" />
         </node>
         <node concept="356sEF" id="2$lU$aqP8BB" role="356sEH">
-          <property role="TrG5h" value="controller" />
+          <property role="TrG5h" value="controller.name" />
           <node concept="17Uvod" id="2$lU$aqP9tX" role="lGtFl">
             <property role="2qtEX9" value="name" />
             <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
@@ -557,7 +555,7 @@
           <property role="TrG5h" value="&lt;td&gt;" />
         </node>
         <node concept="356sEF" id="2$lU$aqQjHa" role="356sEH">
-          <property role="TrG5h" value="action" />
+          <property role="TrG5h" value="action.name" />
           <node concept="17Uvod" id="2$lU$aqQjHd" role="lGtFl">
             <property role="2qtEX9" value="name" />
             <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
@@ -713,7 +711,7 @@
     <node concept="356WMU" id="2$lU$aqQrlA" role="13RCb5">
       <node concept="356sEK" id="2$lU$aqQrlE" role="383Ya9">
         <node concept="356sEF" id="2$lU$aqQrlF" role="356sEH">
-          <property role="TrG5h" value="n" />
+          <property role="TrG5h" value="text" />
           <node concept="17Uvod" id="2$lU$aqQrlK" role="lGtFl">
             <property role="2qtEX9" value="name" />
             <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
