@@ -61,10 +61,13 @@
       </concept>
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
+      <concept id="6702802731807351367" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" flags="in" index="9S07l" />
+      <concept id="1202989658459" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" flags="nn" index="nLn13" />
       <concept id="8966504967485224688" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_contextNode" flags="nn" index="2rP1CM" />
       <concept id="5564765827938091039" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Scope" flags="ig" index="3dgokm" />
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
+        <child id="6702802731807737306" name="canBeChild" index="9Vyp8" />
         <child id="1213100494875" name="referent" index="1Mr941" />
       </concept>
       <concept id="1148687176410" name="jetbrains.mps.lang.constraints.structure.NodeReferentConstraint" flags="ng" index="1N5Pfh">
@@ -90,6 +93,7 @@
       </concept>
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
@@ -262,6 +266,29 @@
                 <ref role="3cqZAo" node="201rJR8uWB_" resolve="actionsInScope" />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="5Nyc18UB57W">
+    <ref role="1M2myG" to="9v79:5Nyc18Uy4nw" resolve="LossScenarioWord" />
+    <node concept="9S07l" id="5Nyc18UB5gT" role="9Vyp8">
+      <node concept="3clFbS" id="5Nyc18UB5gU" role="2VODD2">
+        <node concept="3clFbF" id="5Nyc18UB5hh" role="3cqZAp">
+          <node concept="2OqwBi" id="5Nyc18UB7eR" role="3clFbG">
+            <node concept="2OqwBi" id="5Nyc18UB5pP" role="2Oq$k0">
+              <node concept="nLn13" id="5Nyc18UB5hg" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="5Nyc18UB6ME" role="2OqNvi">
+                <node concept="1xMEDy" id="5Nyc18UB6MG" role="1xVPHs">
+                  <node concept="chp4Y" id="5Nyc18UB6TC" role="ri$Ld">
+                    <ref role="cht4Q" to="9v79:5dyF1_PAnCi" resolve="LossScenarios" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="5Nyc18UB74_" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="5Nyc18UB7pt" role="2OqNvi" />
           </node>
         </node>
       </node>

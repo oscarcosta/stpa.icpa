@@ -7,9 +7,9 @@
   </languages>
   <imports>
     <import index="z27p" ref="r:9796df7f-5d01-4a46-b1e4-58be8e3ac472(com.mbeddr.formal.req.base.structure)" />
+    <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="bewr" ref="r:a5d87024-d7b0-459e-b0ec-a9c089196f41(com.mbeddr.formal.safety.stamp.structure)" implicit="true" />
-    <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" implicit="true" />
     <import index="cjwq" ref="r:7e1f4da1-19b3-4ceb-bcab-0237eb7a50b7(com.mbeddr.formal.safety.hara.structure)" implicit="true" />
   </imports>
   <registry>
@@ -201,6 +201,22 @@
       <property role="20kJfa" value="controller" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="bewr:3HVC1H6Wlax" resolve="Controller" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5Nyc18Uy4nw">
+    <property role="EcuMT" value="6692964851075532256" />
+    <property role="TrG5h" value="LossScenarioWord" />
+    <property role="34LRSv" value="@lossScenario" />
+    <property role="R4oN_" value="referencin a loss scenario" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5Nyc18Uy4nx" role="PzmwI">
+      <ref role="PrY4T" to="87nw:2dWzqxEBBFG" resolve="IWord" />
+    </node>
+    <node concept="1TJgyj" id="5Nyc18Uy4nz" role="1TKVEi">
+      <property role="IQ2ns" value="6692964851075532259" />
+      <property role="20kJfa" value="loss" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5dyF1_PAnCD" resolve="LossScenario" />
     </node>
   </node>
 </model>
