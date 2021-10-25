@@ -14627,7 +14627,13 @@
             <ref role="1iqAlh" node="5M3qF83HQT6" resolve="create_document" />
           </node>
           <node concept="19SUe$" id="3uLth44ZmXa" role="19SJt6">
-            <property role="19SUeA" value="with the wrong content when a document is being created because the SCG gets an outdated exam or clinical information from the EMR system.&#10;* New CC? (render the content and attachments)" />
+            <property role="19SUeA" value="with the wrong content when a document is being created because the SCG gets an outdated exam or clinical information from the EMR system.&#10;* New " />
+          </node>
+          <node concept="2aGvr3" id="2cZ4Q1qHeI3" role="19SJt6">
+            <ref role="2aGvrx" node="2cZ4Q1qHeHP" />
+          </node>
+          <node concept="19SUe$" id="2cZ4Q1qHeI4" role="19SJt6">
+            <property role="19SUeA" value="" />
           </node>
         </node>
         <node concept="DABN8" id="3uLth44ZmXb" role="AYXo$">
@@ -14650,7 +14656,19 @@
             <ref role="1iqAlh" node="5M3qF83HQT6" resolve="create_document" />
           </node>
           <node concept="19SUe$" id="3uLth44Zn1x" role="19SJt6">
-            <property role="19SUeA" value="with the wrong content when a document is being created because the SCG forgets to select the patients medical information from the EMR system or to insert the document content.&#10;* New CC? (render the content and attachments; check if content if filled and attachments are added)" />
+            <property role="19SUeA" value="with the wrong content when a document is being created because the SCG forgets to select the patients medical information from the EMR system or to insert the document content.&#10;* New " />
+          </node>
+          <node concept="2aGvr3" id="2cZ4Q1qHeJ2" role="19SJt6">
+            <ref role="2aGvrx" node="2cZ4Q1qHeHP" />
+          </node>
+          <node concept="19SUe$" id="2cZ4Q1qHeJ1" role="19SJt6">
+            <property role="19SUeA" value=" and " />
+          </node>
+          <node concept="2aGvr3" id="2cZ4Q1qHeJl" role="19SJt6">
+            <ref role="2aGvrx" node="2cZ4Q1qHeIN" />
+          </node>
+          <node concept="19SUe$" id="2cZ4Q1qHeJm" role="19SJt6">
+            <property role="19SUeA" value="" />
           </node>
         </node>
         <node concept="DABN8" id="3uLth44Zn1y" role="AYXo$">
@@ -14682,7 +14700,13 @@
             <ref role="2aGvrx" node="3HX0uqcM5Nf" />
           </node>
           <node concept="19SUe$" id="3uLth44Zn23" role="19SJt6">
-            <property role="19SUeA" value="&#10;* New CC? (block multiple submissions)" />
+            <property role="19SUeA" value="&#10;* New " />
+          </node>
+          <node concept="2aGvr3" id="2cZ4Q1qHeK2" role="19SJt6">
+            <ref role="2aGvrx" node="2cZ4Q1qHeJJ" />
+          </node>
+          <node concept="19SUe$" id="2cZ4Q1qHeK3" role="19SJt6">
+            <property role="19SUeA" value="" />
           </node>
         </node>
         <node concept="DABN8" id="3uLth44ZmZJ" role="AYXo$">
@@ -14705,7 +14729,13 @@
             <ref role="1iqAlh" node="5M3qF83HQT6" resolve="create_document" />
           </node>
           <node concept="19SUe$" id="3uLth44Zn1T" role="19SJt6">
-            <property role="19SUeA" value="for a same document because the EMR system receives and processes miltiple create_documents actions.&#10;* New CC? (block multiple submissions)" />
+            <property role="19SUeA" value="for a same document because the EMR system receives and processes miltiple create_documents actions.&#10;* New " />
+          </node>
+          <node concept="2aGvr3" id="2cZ4Q1qHeKn" role="19SJt6">
+            <ref role="2aGvrx" node="2cZ4Q1qHeJJ" />
+          </node>
+          <node concept="19SUe$" id="2cZ4Q1qHeKm" role="19SJt6">
+            <property role="19SUeA" value="" />
           </node>
         </node>
         <node concept="DABN8" id="3uLth44Zn1U" role="AYXo$">
@@ -14737,8 +14767,12 @@
             <ref role="2aGvrx" node="3HX0uqcM5Nf" />
           </node>
           <node concept="19SUe$" id="7UpQVz39sKv" role="19SJt6">
-            <property role="19SUeA" value="&#10;* New CC? (require confirmation to stop the creation of a document)" />
+            <property role="19SUeA" value="&#10;* New " />
           </node>
+          <node concept="2aGvr3" id="2cZ4Q1qHeLl" role="19SJt6">
+            <ref role="2aGvrx" node="2cZ4Q1qHeKN" />
+          </node>
+          <node concept="19SUe$" id="2cZ4Q1qHeLm" role="19SJt6" />
         </node>
         <node concept="DABN8" id="3uLth44ZnRV" role="AYXo$">
           <ref role="DABNb" node="3HX0uqcM6tX" resolve="Order/report target (patient) is incorrect or incomplete" />
@@ -14784,7 +14818,13 @@
             <ref role="2aGvrx" node="3HX0uqcM5MH" />
           </node>
           <node concept="19SUe$" id="7UpQVz39sKN" role="19SJt6">
-            <property role="19SUeA" value=" &#10;* New CC? (render the previous document content)" />
+            <property role="19SUeA" value=" &#10;* New " />
+          </node>
+          <node concept="2aGvr3" id="2cZ4Q1qHeO1" role="19SJt6">
+            <ref role="2aGvrx" node="2cZ4Q1qHeLQ" />
+          </node>
+          <node concept="19SUe$" id="2cZ4Q1qHeO2" role="19SJt6">
+            <property role="19SUeA" value="" />
           </node>
         </node>
         <node concept="DABN8" id="3uLth44Zn5Y" role="AYXo$">
@@ -14810,7 +14850,13 @@
             <ref role="1iqAlh" node="5M3qF83HQTR" resolve="update_document" />
           </node>
           <node concept="19SUe$" id="3uLth44Zn9E" role="19SJt6">
-            <property role="19SUeA" value="with wrong content when updating a document because the SCG gets and outdated exam or clinical inforrmation from the EMR system.&#10;* New CC? (render the content and attachments)" />
+            <property role="19SUeA" value="with wrong content when updating a document because the SCG gets and outdated exam or clinical inforrmation from the EMR system.&#10;* New " />
+          </node>
+          <node concept="2aGvr3" id="2cZ4Q1qHeMl" role="19SJt6">
+            <ref role="2aGvrx" node="2cZ4Q1qHeHP" />
+          </node>
+          <node concept="19SUe$" id="2cZ4Q1qHeMm" role="19SJt6">
+            <property role="19SUeA" value="" />
           </node>
         </node>
         <node concept="DABN8" id="3uLth44Zn9F" role="AYXo$">
@@ -14833,7 +14879,13 @@
             <ref role="1iqAlh" node="5M3qF83HQTR" resolve="update_document" />
           </node>
           <node concept="19SUe$" id="3uLth44Zna2" role="19SJt6">
-            <property role="19SUeA" value="with wrong content when updating a document because the SCG forgets to update the document content.&#10;* New CC? (check if content or attachments are updated)" />
+            <property role="19SUeA" value="with wrong content when updating a document because the SCG forgets to update the document content.&#10;* New " />
+          </node>
+          <node concept="2aGvr3" id="2cZ4Q1qHeR4" role="19SJt6">
+            <ref role="2aGvrx" node="2cZ4Q1qHeQf" />
+          </node>
+          <node concept="19SUe$" id="2cZ4Q1qHeR5" role="19SJt6">
+            <property role="19SUeA" value="" />
           </node>
         </node>
         <node concept="DABN8" id="3uLth44Zna3" role="AYXo$">
@@ -14859,8 +14911,12 @@
             <ref role="1iqAlh" node="5M3qF83HQTR" resolve="update_document" />
           </node>
           <node concept="19SUe$" id="3uLth44Znej" role="19SJt6">
-            <property role="19SUeA" value="for a same document because the SCG believes the document was not successfully updated.&#10;* New CC? (block multiple submissions)" />
+            <property role="19SUeA" value="for a same document because the SCG believes the document was not successfully updated.&#10;* New " />
           </node>
+          <node concept="2aGvr3" id="2cZ4Q1qHeMw" role="19SJt6">
+            <ref role="2aGvrx" node="2cZ4Q1qHeJJ" />
+          </node>
+          <node concept="19SUe$" id="2cZ4Q1qHeMx" role="19SJt6" />
         </node>
         <node concept="DABN8" id="3uLth44Znek" role="AYXo$">
           <ref role="DABNb" node="3HX0uqcM6u7" resolve="Order/report is duplicated" />
@@ -14882,7 +14938,13 @@
             <ref role="1iqAlh" node="5M3qF83HQTR" resolve="update_document" />
           </node>
           <node concept="19SUe$" id="3uLth44Znje" role="19SJt6">
-            <property role="19SUeA" value="for a same document because the system receives and processes multiple update_documents actions.&#10;* New CC? (block multiple submissions)" />
+            <property role="19SUeA" value="for a same document because the system receives and processes multiple update_documents actions.&#10;* New " />
+          </node>
+          <node concept="2aGvr3" id="2cZ4Q1qHeMG" role="19SJt6">
+            <ref role="2aGvrx" node="2cZ4Q1qHeJJ" />
+          </node>
+          <node concept="19SUe$" id="2cZ4Q1qHeMF" role="19SJt6">
+            <property role="19SUeA" value="" />
           </node>
         </node>
         <node concept="DABN8" id="3uLth44Znjf" role="AYXo$">
@@ -14914,8 +14976,12 @@
             <ref role="2aGvrx" node="3HX0uqcM5Nf" />
           </node>
           <node concept="19SUe$" id="7UpQVz39sL8" role="19SJt6">
-            <property role="19SUeA" value="&#10;* New CC? (require confirmation to stop the creation of a document)" />
+            <property role="19SUeA" value="&#10;* New " />
           </node>
+          <node concept="2aGvr3" id="2cZ4Q1qHeMR" role="19SJt6">
+            <ref role="2aGvrx" node="2cZ4Q1qHeKN" />
+          </node>
+          <node concept="19SUe$" id="2cZ4Q1qHeMS" role="19SJt6" />
         </node>
         <node concept="DABN8" id="3uLth44ZnSq" role="AYXo$">
           <ref role="DABNb" node="3HX0uqcM6u2" resolve="Order/report content (body or attachment) is incorrect or incomplete" />
@@ -14955,8 +15021,12 @@
             <ref role="2aGvrx" node="3HX0uqcM5MH" />
           </node>
           <node concept="19SUe$" id="7UpQVz39sLx" role="19SJt6">
-            <property role="19SUeA" value="&#10;* New CC? (render the previous document content)" />
+            <property role="19SUeA" value="&#10;* New " />
           </node>
+          <node concept="2aGvr3" id="2cZ4Q1qHePu" role="19SJt6">
+            <ref role="2aGvrx" node="2cZ4Q1qHeLQ" />
+          </node>
+          <node concept="19SUe$" id="2cZ4Q1qHePv" role="19SJt6" />
         </node>
         <node concept="DABN8" id="3uLth44Znol" role="AYXo$">
           <ref role="DABNb" node="3HX0uqcM6u5" resolve="Order/report is delayed, not delivered, or lost" />
@@ -14987,7 +15057,13 @@
             <ref role="2aGvrx" node="3HX0uqcM5Nf" />
           </node>
           <node concept="19SUe$" id="7UpQVz39sLl" role="19SJt6">
-            <property role="19SUeA" value="&#10;* New CC? (require confirmation to stop the creation of a document)" />
+            <property role="19SUeA" value="&#10;* New " />
+          </node>
+          <node concept="2aGvr3" id="2cZ4Q1qHeNE" role="19SJt6">
+            <ref role="2aGvrx" node="2cZ4Q1qHeKN" />
+          </node>
+          <node concept="19SUe$" id="2cZ4Q1qHeNF" role="19SJt6">
+            <property role="19SUeA" value="" />
           </node>
         </node>
         <node concept="DABN8" id="3uLth44ZntD" role="AYXo$">
@@ -15112,7 +15188,7 @@
             <ref role="1AqBnL" node="3uLth44ZmZR" resolve="LS-SD-002.3" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_Vey" role="19SJt6">
-            <property role="19SUeA" value="and @lossc" />
+            <property role="19SUeA" value="and" />
           </node>
           <node concept="1AqBnM" id="5Nyc18U_VeO" role="19SJt6">
             <ref role="1AqBnL" node="3uLth44Zn1i" resolve="LS-SD-003.2" />
@@ -15424,7 +15500,13 @@
             <ref role="1iqAlh" node="5M3qF83HRcI" resolve="route_document" />
           </node>
           <node concept="19SUe$" id="57SYOblyFyp" role="19SJt6">
-            <property role="19SUeA" value="out of sequence for two or more versions of a same document when one or more updates or cancelations are submitted short time after the first document.&#10;???" />
+            <property role="19SUeA" value="out of sequence for two or more versions of a same document when one or more updates or cancelations are submitted short time after the first document.&#10;* Mitigated by " />
+          </node>
+          <node concept="2aGvr3" id="2cZ4Q1qHeRe" role="19SJt6">
+            <ref role="2aGvrx" node="3HX0uqcM5Kr" />
+          </node>
+          <node concept="19SUe$" id="2cZ4Q1qHeRf" role="19SJt6">
+            <property role="19SUeA" value=" on reveiver side" />
           </node>
         </node>
       </node>
@@ -15891,7 +15973,13 @@
             <ref role="2aGvrx" node="3HX0uqcM5RH" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VIN" role="19SJt6">
-            <property role="19SUeA" value="&#10;* New CC? (list of new documents is performed automatically with reasonable time intervals)" />
+            <property role="19SUeA" value="&#10;* New " />
+          </node>
+          <node concept="2aGvr3" id="2cZ4Q1qHeRT" role="19SJt6">
+            <ref role="2aGvrx" node="2cZ4Q1qHeLQ" />
+          </node>
+          <node concept="19SUe$" id="2cZ4Q1qHeRS" role="19SJt6">
+            <property role="19SUeA" value="" />
           </node>
         </node>
         <node concept="DABN8" id="5Nyc18U_VIO" role="AYXo$">
@@ -15921,7 +16009,13 @@
             <ref role="2aGvrx" node="3HX0uqcM5RH" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VIY" role="19SJt6">
-            <property role="19SUeA" value="&#10;* New CC? (list of new documents is performed automatically with reasonable time intervals)" />
+            <property role="19SUeA" value="&#10;* New " />
+          </node>
+          <node concept="2aGvr3" id="2cZ4Q1qHeRH" role="19SJt6">
+            <ref role="2aGvrx" node="2cZ4Q1qHeLQ" />
+          </node>
+          <node concept="19SUe$" id="2cZ4Q1qHeRI" role="19SJt6">
+            <property role="19SUeA" value="" />
           </node>
         </node>
         <node concept="DABN8" id="5Nyc18U_VIZ" role="AYXo$">
@@ -16172,7 +16266,13 @@
             <ref role="1iqAlh" node="5M3qF83HRr0" resolve="auto_assign_provider" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VKm" role="19SJt6">
-            <property role="19SUeA" value="for received document because the provider is not registered within the EMR system or the registry is incomplete (missing CDX id).&#10;* New CC? (provider registry is up to date)" />
+            <property role="19SUeA" value="for received document because the provider is not registered within the EMR system or the registry is incomplete (missing CDX id).&#10;* New " />
+          </node>
+          <node concept="2aGvr3" id="2cZ4Q1qHeTF" role="19SJt6">
+            <ref role="2aGvrx" node="2cZ4Q1qHeSJ" />
+          </node>
+          <node concept="19SUe$" id="2cZ4Q1qHeTG" role="19SJt6">
+            <property role="19SUeA" value="" />
           </node>
         </node>
         <node concept="DABN8" id="5Nyc18U_VKn" role="AYXo$">
@@ -16414,6 +16514,131 @@
         </node>
         <node concept="DABN8" id="7SToB$3E_rJ" role="AYXo$">
           <ref role="DABNb" node="3HX0uqcM6u5" resolve="Order/report is delayed, not delivered, or lost" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1QQeGf" id="2cZ4Q1qHeHN">
+    <property role="TrG5h" value="6_New Constraints" />
+    <node concept="0lhDl" id="2cZ4Q1qHeHP" role="1QQeBF">
+      <property role="0lsPA" value="LC-001" />
+      <node concept="19SGf9" id="2cZ4Q1qHeHR" role="1QQeG9">
+        <node concept="19SUe$" id="2cZ4Q1qHeHS" role="19SJt6">
+          <property role="19SUeA" value="Preview the document using the approved document viewer before submission" />
+        </node>
+      </node>
+      <node concept="1TVFYH" id="2cZ4Q1qHeIp" role="0nOlf">
+        <node concept="3vtsJT" id="2cZ4Q1qHeIu" role="1H_VwB">
+          <ref role="KKOSj" node="3HX0uqcM68U" resolve="UCA-create_document-provided_with_wrong_content" />
+        </node>
+        <node concept="3vtsJT" id="2cZ4Q1qHeN5" role="1H_VwB">
+          <ref role="KKOSj" node="3HX0uqcM69u" resolve="UCA-update_document-provided_with_wrong_content" />
+        </node>
+      </node>
+    </node>
+    <node concept="0lhDl" id="2cZ4Q1qHeIN" role="1QQeBF">
+      <property role="0lsPA" value="LC-002" />
+      <node concept="1TVFYH" id="2cZ4Q1qHeJg" role="0nOlf">
+        <node concept="3vtsJT" id="2cZ4Q1qHeJw" role="1H_VwB">
+          <ref role="KKOSj" node="3HX0uqcM68U" resolve="UCA-create_document-provided_with_wrong_content" />
+        </node>
+      </node>
+      <node concept="19SGf9" id="2cZ4Q1qHeIP" role="1QQeG9">
+        <node concept="19SUe$" id="2cZ4Q1qHeIQ" role="19SJt6">
+          <property role="19SUeA" value="Document content is included in documents being created" />
+        </node>
+      </node>
+    </node>
+    <node concept="0lhDl" id="2cZ4Q1qHeQf" role="1QQeBF">
+      <property role="0lsPA" value="LC-003" />
+      <node concept="1TVFYH" id="2cZ4Q1qHeQU" role="0nOlf">
+        <node concept="3vtsJT" id="2cZ4Q1qHeQZ" role="1H_VwB">
+          <ref role="KKOSj" node="3HX0uqcM69u" resolve="UCA-update_document-provided_with_wrong_content" />
+        </node>
+      </node>
+      <node concept="19SGf9" id="2cZ4Q1qHeQh" role="1QQeG9">
+        <node concept="19SUe$" id="2cZ4Q1qHeQi" role="19SJt6">
+          <property role="19SUeA" value="When updating a document, the document content is compared with the previous document" />
+        </node>
+      </node>
+    </node>
+    <node concept="0lhDl" id="2cZ4Q1qHeJJ" role="1QQeBF">
+      <property role="0lsPA" value="LC-004" />
+      <node concept="1TVFYH" id="2cZ4Q1qHeKd" role="0nOlf">
+        <node concept="3vtsJT" id="2cZ4Q1qHeKi" role="1H_VwB">
+          <ref role="KKOSj" node="3HX0uqcM692" resolve="UCA-create_document-provided_repeatedly" />
+        </node>
+        <node concept="3vtsJT" id="2cZ4Q1qHeNc" role="1H_VwB">
+          <ref role="KKOSj" node="3HX0uqcM69C" resolve="UCA-update_document-provided_repeatedly" />
+        </node>
+      </node>
+      <node concept="19SGf9" id="2cZ4Q1qHeJL" role="1QQeG9">
+        <node concept="19SUe$" id="2cZ4Q1qHeJM" role="19SJt6">
+          <property role="19SUeA" value="Multiple submission of the same document is prevented" />
+        </node>
+      </node>
+    </node>
+    <node concept="0lhDl" id="2cZ4Q1qHeKN" role="1QQeBF">
+      <property role="0lsPA" value="LC-005" />
+      <node concept="1TVFYH" id="2cZ4Q1qHeLd" role="0nOlf">
+        <node concept="3vtsJT" id="2cZ4Q1qHeLi" role="1H_VwB">
+          <ref role="KKOSj" node="3HX0uqcM69a" resolve="UCA-create_document-stopped_too_soon" />
+        </node>
+        <node concept="3vtsJT" id="2cZ4Q1qHeNj" role="1H_VwB">
+          <ref role="KKOSj" node="3HX0uqcM69G" resolve="UCA-update_document-stopped_too_soon" />
+        </node>
+        <node concept="3vtsJT" id="2cZ4Q1qHeNx" role="1H_VwB">
+          <ref role="KKOSj" node="3HX0uqcM69Z" resolve="UCA-cancel_document_stopped_too_soon" />
+        </node>
+      </node>
+      <node concept="19SGf9" id="2cZ4Q1qHeKP" role="1QQeG9">
+        <node concept="19SUe$" id="2cZ4Q1qHeKQ" role="19SJt6">
+          <property role="19SUeA" value="After starting the composition of the document, confirm to cancel the document submission." />
+        </node>
+      </node>
+    </node>
+    <node concept="0lhDl" id="2cZ4Q1qHeLQ" role="1QQeBF">
+      <property role="0lsPA" value="LC-006" />
+      <node concept="1TVFYH" id="2cZ4Q1qHeNR" role="0nOlf">
+        <node concept="3vtsJT" id="2cZ4Q1qHeNW" role="1H_VwB">
+          <ref role="KKOSj" node="3HX0uqcM69l" resolve="UCA-update_document-provided_for_wrong_document" />
+        </node>
+        <node concept="3vtsJT" id="2cZ4Q1qHePo" role="1H_VwB">
+          <ref role="KKOSj" node="3HX0uqcM69P" resolve="UCA-cancel_document-provided_for_wrong_document" />
+        </node>
+      </node>
+      <node concept="19SGf9" id="2cZ4Q1qHeLS" role="1QQeG9">
+        <node concept="19SUe$" id="2cZ4Q1qHeLT" role="19SJt6">
+          <property role="19SUeA" value="When updating or cancelling a document, the previous content is rendered" />
+        </node>
+      </node>
+    </node>
+    <node concept="0lhDl" id="2cZ4Q1qHeOJ" role="1QQeBF">
+      <property role="0lsPA" value="LS-006" />
+      <node concept="1TVFYH" id="2cZ4Q1qHeRu" role="0nOlf">
+        <node concept="3vtsJT" id="2cZ4Q1qHeRz" role="1H_VwB">
+          <ref role="KKOSj" node="3HX0uqcM6dG" resolve="UCA-list_new_documents-not_provided" />
+        </node>
+        <node concept="3vtsJT" id="2cZ4Q1qHeRD" role="1H_VwB">
+          <ref role="KKOSj" node="3HX0uqcM6dO" resolve="UCA-list_new_documents-provided_too_late" />
+        </node>
+      </node>
+      <node concept="19SGf9" id="2cZ4Q1qHeOL" role="1QQeG9">
+        <node concept="19SUe$" id="2cZ4Q1qHeOM" role="19SJt6">
+          <property role="19SUeA" value="Listing of new documents is performed automatically at reasonable time intervals" />
+        </node>
+      </node>
+    </node>
+    <node concept="0lhDl" id="2cZ4Q1qHeSJ" role="1QQeBF">
+      <property role="0lsPA" value="LS-007" />
+      <node concept="1TVFYH" id="2cZ4Q1qHeTx" role="0nOlf">
+        <node concept="3vtsJT" id="2cZ4Q1qHeTA" role="1H_VwB">
+          <ref role="KKOSj" node="3HX0uqcM6ft" resolve="UCA-auto_assign_provider-not_provided" />
+        </node>
+      </node>
+      <node concept="19SGf9" id="2cZ4Q1qHeSL" role="1QQeG9">
+        <node concept="19SUe$" id="2cZ4Q1qHeSM" role="19SJt6">
+          <property role="19SUeA" value="Providers information and identification are updated within the system " />
         </node>
       </node>
     </node>
