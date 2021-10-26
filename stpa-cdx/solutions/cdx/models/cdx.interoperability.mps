@@ -11523,10 +11523,7 @@
       </node>
       <node concept="1TVFYH" id="3HX0uqcM5HS" role="0nOlf">
         <node concept="3vtsJT" id="3HX0uqcM5HT" role="1H_VwB">
-          <ref role="KKOSj" node="2bJEt0AEc1J" resolve="UCA-auto_assign_provider-not_provided" />
-        </node>
-        <node concept="3vtsJT" id="3HX0uqcM5HU" role="1H_VwB">
-          <ref role="KKOSj" node="7JRpzsvZwhr" resolve="UCA-assign_provider-not_provided" />
+          <ref role="KKOSj" node="3HX0uqcM6ft" resolve="UCA-auto_assign_provider-not_provided" />
         </node>
       </node>
       <node concept="1QQeAY" id="3HX0uqcM5HV" role="1QQeAC">
@@ -15193,7 +15190,7 @@
             <ref role="1iqAlh" node="5M3qF83HR2r" resolve="submit_document" />
           </node>
           <node concept="19SUe$" id="3uLth44ZoLp" role="19SJt6">
-            <property role="19SUeA" value=" for a newly created, updated or cancelled document because there is a communication problem with the CDX system.&#10;???" />
+            <property role="19SUeA" value=" for a newly created, updated or cancelled document because there is a communication problem with the CDX system.&#10;* Out of scope: System or users should decide if they will try it again when the connection is re-established." />
           </node>
         </node>
         <node concept="DABN8" id="3uLth44ZoLq" role="AYXo$">
@@ -15290,7 +15287,7 @@
             <ref role="1iqAlh" node="5M3qF83HR2r" resolve="submit_document" />
           </node>
           <node concept="19SUe$" id="3uLth44ZnKd" role="19SJt6">
-            <property role="19SUeA" value="before completing the submission of a document because there is a communication problem with the CDX system.&#10;???" />
+            <property role="19SUeA" value="before completing the submission of a document because there is a communication problem with the CDX system.&#10;* Out of scope: System or users should decide if they will try it again when the connection is re-established." />
           </node>
         </node>
         <node concept="DABN8" id="3uLth44ZnKe" role="AYXo$">
@@ -15410,7 +15407,7 @@
             <ref role="1iqAlh" node="5M3qF83HQWg" resolve="list_clinics" />
           </node>
           <node concept="19SUe$" id="3uLth44ZoUr" role="19SJt6">
-            <property role="19SUeA" value="when a document is being created because there is a communication problem with the CDX system. &#10;???" />
+            <property role="19SUeA" value="when a document is being created because there is a communication problem with the CDX system. &#10;* Out of scope: System or users should decide if they will try it again when the connection is re-established." />
           </node>
         </node>
         <node concept="DABN8" id="3uLth44ZoUs" role="AYXo$">
@@ -15502,7 +15499,7 @@
             <ref role="1iqAlh" node="5M3qF83HQXk" resolve="list_providers" />
           </node>
           <node concept="19SUe$" id="3uLth44Zpdf" role="19SJt6">
-            <property role="19SUeA" value="when a document is being created because there is a communication problem with the CDX system. &#10;???" />
+            <property role="19SUeA" value="when a document is being created because there is a communication problem with the CDX system. &#10;* Out of scope: System or users should decide if they will try it again when the connection is re-established." />
           </node>
         </node>
         <node concept="DABN8" id="3uLth44Zpdg" role="AYXo$">
@@ -15643,7 +15640,7 @@
             <ref role="2aGvrx" node="3HX0uqcM5SL" />
           </node>
           <node concept="19SUe$" id="2cZ4Q1qHfS_" role="19SJt6">
-            <property role="19SUeA" value="&#10;???" />
+            <property role="19SUeA" value="&#10;* Out of scope: System or users should decide if they will try it again when the connection is re-established." />
           </node>
         </node>
         <node concept="DABN8" id="7SToB$3E$cj" role="AYXo$">
@@ -15678,7 +15675,7 @@
             <ref role="2aGvrx" node="3HX0uqcM5SL" />
           </node>
           <node concept="19SUe$" id="2cZ4Q1qHfSr" role="19SJt6">
-            <property role="19SUeA" value="&#10;???" />
+            <property role="19SUeA" value="&#10;* Out of scope: System or users should decide if they will try it again when the connection is re-established." />
           </node>
         </node>
         <node concept="DABN8" id="7SToB$3E$oi" role="AYXo$">
@@ -15713,7 +15710,7 @@
             <ref role="2aGvrx" node="3HX0uqcM5SL" />
           </node>
           <node concept="19SUe$" id="2cZ4Q1qHfSh" role="19SJt6">
-            <property role="19SUeA" value="&#10;???" />
+            <property role="19SUeA" value="&#10;* Out of scope: Resubmit a document without being sure that the previous attempt was unsuccessful will cause the document to be duplicated at the recipient side. " />
           </node>
         </node>
         <node concept="DABN8" id="7SToB$3E$$Q" role="AYXo$">
@@ -15748,7 +15745,7 @@
             <ref role="2aGvrx" node="3HX0uqcM5SL" />
           </node>
           <node concept="19SUe$" id="2cZ4Q1qHfS7" role="19SJt6">
-            <property role="19SUeA" value="&#10;???" />
+            <property role="19SUeA" value="&#10;* Out of scope: System or users should decide if they will try it again when the connection is re-established." />
           </node>
         </node>
         <node concept="DABN8" id="7SToB$3E$Xd" role="AYXo$">
@@ -16030,8 +16027,18 @@
             <ref role="1iqAlh" node="5M3qF83HRzL" resolve="restore_document" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_Vzu" role="19SJt6">
-            <property role="19SUeA" value="for a wrong deleted document because the listing of deleted documents does not provide enough information to distinguish similar documents.&#10;???" />
+            <property role="19SUeA" value="for a wrong deleted document because the listing of deleted documents does not provide enough information to distinguish similar documents.&#10;* Mitigated by " />
           </node>
+          <node concept="2aGvr3" id="2cZ4Q1qHfYA" role="19SJt6">
+            <ref role="2aGvrx" node="3HX0uqcM5IV" />
+          </node>
+          <node concept="19SUe$" id="2cZ4Q1qHfYB" role="19SJt6">
+            <property role="19SUeA" value=" and " />
+          </node>
+          <node concept="2aGvr3" id="2cZ4Q1qHfYt" role="19SJt6">
+            <ref role="2aGvrx" node="3HX0uqcM5J7" />
+          </node>
+          <node concept="19SUe$" id="2cZ4Q1qHfYu" role="19SJt6" />
         </node>
         <node concept="DABN8" id="5Nyc18U_Vzv" role="AYXo$">
           <ref role="DABNb" node="3HX0uqcM6u5" resolve="Order/report is delayed, not delivered, or lost" />
@@ -16581,8 +16588,12 @@
             <ref role="1iqAlh" node="5M3qF83HRtI" resolve="store_attachment" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VKC" role="19SJt6">
-            <property role="19SUeA" value="for a wrong patient because the matched/linked patient was not correct.&#10;* New CC? (???)" />
+            <property role="19SUeA" value="for a wrong patient because the matched/linked patient was not correct.&#10;* New " />
           </node>
+          <node concept="2aGvr3" id="2cZ4Q1qHfY3" role="19SJt6">
+            <ref role="2aGvrx" node="2cZ4Q1qHfWW" />
+          </node>
+          <node concept="19SUe$" id="2cZ4Q1qHfY4" role="19SJt6" />
         </node>
         <node concept="DABN8" id="5Nyc18U_VKD" role="AYXo$">
           <ref role="DABNb" node="3HX0uqcM6u2" resolve="Order/report content (body or attachment) is incorrect or incomplete" />
@@ -16644,7 +16655,7 @@
             <ref role="2aGvrx" node="3HX0uqcM5SL" />
           </node>
           <node concept="19SUe$" id="2cZ4Q1qHfRX" role="19SJt6">
-            <property role="19SUeA" value="&#10;???" />
+            <property role="19SUeA" value="&#10;* Out of scope: System or users should decide if they will try it again when the connection is re-established." />
           </node>
         </node>
         <node concept="DABN8" id="7SToB$3E_7v" role="AYXo$">
@@ -16679,7 +16690,7 @@
             <ref role="2aGvrx" node="3HX0uqcM5SL" />
           </node>
           <node concept="19SUe$" id="2cZ4Q1qHfRK" role="19SJt6">
-            <property role="19SUeA" value="&#10;???" />
+            <property role="19SUeA" value="&#10;* Out of scope: System or users should decide if they will try it again when the connection is re-established." />
           </node>
         </node>
         <node concept="DABN8" id="7SToB$3E_hr" role="AYXo$">
@@ -16714,7 +16725,13 @@
             <ref role="2aGvrx" node="3HX0uqcM5SL" />
           </node>
           <node concept="19SUe$" id="2cZ4Q1qHfRC" role="19SJt6">
-            <property role="19SUeA" value="&#10;???" />
+            <property role="19SUeA" value="&#10;* New " />
+          </node>
+          <node concept="2aGvr3" id="2cZ4Q1qHfVW" role="19SJt6">
+            <ref role="2aGvrx" node="2cZ4Q1qHfTu" />
+          </node>
+          <node concept="19SUe$" id="2cZ4Q1qHfVX" role="19SJt6">
+            <property role="19SUeA" value=" " />
           </node>
         </node>
         <node concept="DABN8" id="7SToB$3E_rJ" role="AYXo$">
@@ -16726,7 +16743,7 @@
   <node concept="1QQeGf" id="2cZ4Q1qHeHN">
     <property role="TrG5h" value="6_New Constraints" />
     <node concept="0lhDl" id="2cZ4Q1qHeHP" role="1QQeBF">
-      <property role="0lsPA" value="LC-001" />
+      <property role="0lsPA" value="CC-101" />
       <node concept="19SGf9" id="2cZ4Q1qHeHR" role="1QQeG9">
         <node concept="19SUe$" id="2cZ4Q1qHeHS" role="19SJt6">
           <property role="19SUeA" value="Preview the document using the approved document viewer before submission" />
@@ -16742,7 +16759,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2cZ4Q1qHeIN" role="1QQeBF">
-      <property role="0lsPA" value="LC-002" />
+      <property role="0lsPA" value="CC-102" />
       <node concept="1TVFYH" id="2cZ4Q1qHeJg" role="0nOlf">
         <node concept="3vtsJT" id="2cZ4Q1qHeJw" role="1H_VwB">
           <ref role="KKOSj" node="3HX0uqcM68U" resolve="UCA-create_document-provided_with_wrong_content" />
@@ -16755,7 +16772,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2cZ4Q1qHeJJ" role="1QQeBF">
-      <property role="0lsPA" value="LC-003" />
+      <property role="0lsPA" value="CC-103" />
       <node concept="1TVFYH" id="2cZ4Q1qHeKd" role="0nOlf">
         <node concept="3vtsJT" id="2cZ4Q1qHeKi" role="1H_VwB">
           <ref role="KKOSj" node="3HX0uqcM692" resolve="UCA-create_document-provided_repeatedly" />
@@ -16771,7 +16788,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2cZ4Q1qHeKN" role="1QQeBF">
-      <property role="0lsPA" value="LC-004" />
+      <property role="0lsPA" value="CC-104" />
       <node concept="1TVFYH" id="2cZ4Q1qHeLd" role="0nOlf">
         <node concept="3vtsJT" id="2cZ4Q1qHeLi" role="1H_VwB">
           <ref role="KKOSj" node="3HX0uqcM69a" resolve="UCA-create_document-stopped_too_soon" />
@@ -16790,7 +16807,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2cZ4Q1qHeLQ" role="1QQeBF">
-      <property role="0lsPA" value="LC-005" />
+      <property role="0lsPA" value="CC-105" />
       <node concept="1TVFYH" id="2cZ4Q1qHeNR" role="0nOlf">
         <node concept="3vtsJT" id="2cZ4Q1qHeNW" role="1H_VwB">
           <ref role="KKOSj" node="3HX0uqcM69l" resolve="UCA-update_document-provided_for_wrong_document" />
@@ -16806,7 +16823,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2cZ4Q1qHeOJ" role="1QQeBF">
-      <property role="0lsPA" value="LC-006" />
+      <property role="0lsPA" value="CC-106" />
       <node concept="1TVFYH" id="2cZ4Q1qHeRu" role="0nOlf">
         <node concept="3vtsJT" id="2cZ4Q1qHeRz" role="1H_VwB">
           <ref role="KKOSj" node="3HX0uqcM6dG" resolve="UCA-list_new_documents-not_provided" />
@@ -16822,7 +16839,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2cZ4Q1qHeWG" role="1QQeBF">
-      <property role="0lsPA" value="LC-007" />
+      <property role="0lsPA" value="CC-107" />
       <node concept="1TVFYH" id="2cZ4Q1qHeXu" role="0nOlf">
         <node concept="3vtsJT" id="2cZ4Q1qHeXz" role="1H_VwB">
           <ref role="KKOSj" node="3HX0uqcM6eq" resolve="UCA-get_document-provided_too_late" />
@@ -16835,7 +16852,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2cZ4Q1qHeSJ" role="1QQeBF">
-      <property role="0lsPA" value="LC-008" />
+      <property role="0lsPA" value="CC-108" />
       <node concept="1TVFYH" id="2cZ4Q1qHeTx" role="0nOlf">
         <node concept="3vtsJT" id="2cZ4Q1qHeTA" role="1H_VwB">
           <ref role="KKOSj" node="3HX0uqcM6ft" resolve="UCA-auto_assign_provider-not_provided" />
@@ -16848,7 +16865,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2cZ4Q1qHfTu" role="1QQeBF">
-      <property role="0lsPA" value="LC-009" />
+      <property role="0lsPA" value="CC-109" />
       <node concept="1TVFYH" id="2cZ4Q1qHfUl" role="0nOlf">
         <node concept="3vtsJT" id="2cZ4Q1qHfUq" role="1H_VwB">
           <ref role="KKOSj" node="3HX0uqcM6ei" resolve="UCA-get_document-stopped_too_soon" />
@@ -16857,6 +16874,19 @@
       <node concept="19SGf9" id="2cZ4Q1qHfTw" role="1QQeG9">
         <node concept="19SUe$" id="2cZ4Q1qHfTx" role="19SJt6">
           <property role="19SUeA" value="Receiving system is responsible for keeping track of problems in getting documents" />
+        </node>
+      </node>
+    </node>
+    <node concept="0lhDl" id="2cZ4Q1qHfWW" role="1QQeBF">
+      <property role="0lsPA" value="CC-110" />
+      <node concept="1TVFYH" id="2cZ4Q1qHfXS" role="0nOlf">
+        <node concept="3vtsJT" id="2cZ4Q1qHfXX" role="1H_VwB">
+          <ref role="KKOSj" node="3uLth44ZmQC" resolve="UCA-store_attachment-provided_for_wrong_patient" />
+        </node>
+      </node>
+      <node concept="19SGf9" id="2cZ4Q1qHfWY" role="1QQeG9">
+        <node concept="19SUe$" id="2cZ4Q1qHfWZ" role="19SJt6">
+          <property role="19SUeA" value="Receiving system allows a document to be manually matched to another patient in case it is associated to the wrong patient" />
         </node>
       </node>
     </node>
