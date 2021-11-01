@@ -7507,13 +7507,13 @@
             <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
           </node>
           <node concept="19SUe$" id="3uLth44ZmSW" role="19SJt6">
-            <property role="19SUeA" value="provides" />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="3uLth44ZmSX" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQT6" resolve="create_document" />
           </node>
           <node concept="19SUe$" id="3uLth44ZmSY" role="19SJt6">
-            <property role="19SUeA" value="with the wrong target information when a document is being created because other patients are registered in the EMR system with a similar name, or the patient changed their name and the EMR system is not up to date.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" with the wrong target information when a document is being created because other patients are registered in the EMR system with a similar name, or the patient changed their name and the EMR system is not up to date.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="3vfF0pVYe6K" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Ml" />
@@ -7534,13 +7534,13 @@
             <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
           </node>
           <node concept="19SUe$" id="3uLth44ZmSJ" role="19SJt6">
-            <property role="19SUeA" value="provides" />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="3uLth44ZmSK" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQT6" resolve="create_document" />
           </node>
           <node concept="19SUe$" id="3uLth44ZmSL" role="19SJt6">
-            <property role="19SUeA" value="with the wrong target information when a document is being created because he/she inserts the incorrect patient information into the EMR system.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" with the wrong target information when a document is being created because he/she inserts the incorrect patient information into the EMR system.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="3vfF0pVYe6A" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Ml" />
@@ -7561,13 +7561,13 @@
             <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
           </node>
           <node concept="19SUe$" id="3uLth44ZmTN" role="19SJt6">
-            <property role="19SUeA" value="provides" />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="3uLth44ZmTO" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQT6" resolve="create_document" />
           </node>
           <node concept="19SUe$" id="3uLth44ZmTP" role="19SJt6">
-            <property role="19SUeA" value="with the wrong target information when a document is being created because he/she forgets to select or insert the patient information in the document.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" with the wrong target information when a document is being created because he/she forgets to select or insert the patient information in the document.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="3uLth44Zn2c" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Ml" />
@@ -7599,13 +7599,13 @@
             <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
           </node>
           <node concept="19SUe$" id="3uLth44ZmV3" role="19SJt6">
-            <property role="19SUeA" value="provides" />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="3uLth44ZmV4" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQT6" resolve="create_document" />
           </node>
           <node concept="19SUe$" id="3uLth44ZmV5" role="19SJt6">
-            <property role="19SUeA" value="with the wrong recipient (provider or clinic) when a document is being created because other recipients (providers or clinics) have similar name or id.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" with the wrong recipient (provider or clinic) when a document is being created because other recipients (providers or clinics) have similar name or id.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="7UpQVz39sJS" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5MH" />
@@ -7629,13 +7629,13 @@
             <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
           </node>
           <node concept="19SUe$" id="3uLth44ZoKK" role="19SJt6">
-            <property role="19SUeA" value="provides " />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="3uLth44ZoKL" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQT6" resolve="create_document" />
           </node>
           <node concept="19SUe$" id="3uLth44ZoKM" role="19SJt6">
-            <property role="19SUeA" value="with the wrong recipient (provider or clinic) when a document is being created because the provider changed his/her name and the CDX system is not updated, or the provider is not attending on the selected clinic anymore and the CDX system is not updated.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" with the wrong recipient (provider or clinic) when a document is being created because the provider changed his/her name and the CDX system is not updated, or the provider is not attending on the selected clinic anymore and the CDX system is not updated.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="7UpQVz39sK2" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5MH" />
@@ -7661,13 +7661,13 @@
             <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
           </node>
           <node concept="19SUe$" id="3uLth44Zn05" role="19SJt6">
-            <property role="19SUeA" value="provides" />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="3uLth44Zn06" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQT6" resolve="create_document" />
           </node>
           <node concept="19SUe$" id="3uLth44Zn07" role="19SJt6">
-            <property role="19SUeA" value="with the wrong recipient (provider or clinic) when a document is being created because he/she forgets to select the recipients for the document.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" with the wrong recipient (provider or clinic) when a document is being created because he/she forgets to select the recipients for the document.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="3uLth44Zn0i" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5MH" />
@@ -7700,13 +7700,13 @@
             <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
           </node>
           <node concept="19SUe$" id="3uLth44ZmX8" role="19SJt6">
-            <property role="19SUeA" value="provides" />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="3uLth44ZmX9" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQT6" resolve="create_document" />
           </node>
           <node concept="19SUe$" id="3uLth44ZmXa" role="19SJt6">
-            <property role="19SUeA" value="with the wrong content when a document is being created because he/she gets an outdated exam or clinical information from the EMR system.&#10;* New " />
+            <property role="19SUeA" value=" with the wrong content when a document is being created because he/she gets an outdated exam or clinical information from the EMR system.&#10;* New " />
           </node>
           <node concept="2aGvr3" id="2cZ4Q1qHeI3" role="19SJt6">
             <ref role="2aGvrx" node="2cZ4Q1qHeHP" />
@@ -7729,13 +7729,13 @@
             <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
           </node>
           <node concept="19SUe$" id="3uLth44Zn1v" role="19SJt6">
-            <property role="19SUeA" value="provides" />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="3uLth44Zn1w" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQT6" resolve="create_document" />
           </node>
           <node concept="19SUe$" id="3uLth44Zn1x" role="19SJt6">
-            <property role="19SUeA" value="with the wrong content when a document is being created because he/she forgets to select the patients medical information from the EMR system or to insert the document content.&#10;* New " />
+            <property role="19SUeA" value=" with the wrong content when a document is being created because he/she forgets to select the patients medical information from the EMR system or to insert the document content.&#10;* New " />
           </node>
           <node concept="2aGvr3" id="2cZ4Q1qHeJ2" role="19SJt6">
             <ref role="2aGvrx" node="2cZ4Q1qHeHP" />
@@ -7767,13 +7767,13 @@
             <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
           </node>
           <node concept="19SUe$" id="3uLth44ZmZG" role="19SJt6">
-            <property role="19SUeA" value="provides repeatedly" />
+            <property role="19SUeA" value=" provides repeatedly " />
           </node>
           <node concept="1iqAl5" id="3uLth44ZmZH" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQT6" resolve="create_document" />
           </node>
           <node concept="19SUe$" id="3uLth44ZmZI" role="19SJt6">
-            <property role="19SUeA" value="for a same document because he/she believes the document was not successfully created.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for a same document because he/she believes the document was not successfully created.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="3uLth44Zn22" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Nf" />
@@ -7802,13 +7802,13 @@
             <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
           </node>
           <node concept="19SUe$" id="3uLth44Zn1R" role="19SJt6">
-            <property role="19SUeA" value="provides repeatedly" />
+            <property role="19SUeA" value=" provides repeatedly " />
           </node>
           <node concept="1iqAl5" id="3uLth44Zn1S" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQT6" resolve="create_document" />
           </node>
           <node concept="19SUe$" id="3uLth44Zn1T" role="19SJt6">
-            <property role="19SUeA" value="for a same document because the EMR system receives and processes miltiple create_documents actions.&#10;* New " />
+            <property role="19SUeA" value=" for a same document because the EMR system receives and processes miltiple create_documents actions.&#10;* New " />
           </node>
           <node concept="2aGvr3" id="2cZ4Q1qHeKn" role="19SJt6">
             <ref role="2aGvrx" node="2cZ4Q1qHeJJ" />
@@ -7834,13 +7834,13 @@
             <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
           </node>
           <node concept="19SUe$" id="3uLth44Zn2y" role="19SJt6">
-            <property role="19SUeA" value="stop providing" />
+            <property role="19SUeA" value=" stop providing " />
           </node>
           <node concept="1iqAl5" id="3uLth44Zn2z" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQT6" resolve="create_document" />
           </node>
           <node concept="19SUe$" id="3uLth44Zn2$" role="19SJt6">
-            <property role="19SUeA" value="before completing a document because he/she performs some action that cancels the document creation believing that he/she is executing the create_document action.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" before completing a document because he/she performs some action that cancels the document creation believing that he/she is executing the create_document action.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="7UpQVz39sKu" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Nf" />
@@ -7879,13 +7879,13 @@
             <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
           </node>
           <node concept="19SUe$" id="3uLth44Zn5U" role="19SJt6">
-            <property role="19SUeA" value="provides" />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="3uLth44Zn5V" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQTR" resolve="update_document" />
           </node>
           <node concept="19SUe$" id="3uLth44Zn5W" role="19SJt6">
-            <property role="19SUeA" value="for a wrong document because he/she picks the wrong document to update.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for a wrong document because he/she picks the wrong document to update.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="7UpQVz39sKE" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Ml" />
@@ -7935,13 +7935,13 @@
             <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
           </node>
           <node concept="19SUe$" id="3uLth44Zn9C" role="19SJt6">
-            <property role="19SUeA" value="provides" />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="3uLth44Zn9D" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQTR" resolve="update_document" />
           </node>
           <node concept="19SUe$" id="3uLth44Zn9E" role="19SJt6">
-            <property role="19SUeA" value="with wrong content when updating a document because  he/she gets and outdated exam or clinical inforrmation from the EMR system.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" with wrong content when updating a document because  he/she gets and outdated exam or clinical inforrmation from the EMR system.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="2cZ4Q1qHeUk" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Or" />
@@ -7976,13 +7976,13 @@
             <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
           </node>
           <node concept="19SUe$" id="3uLth44Zna0" role="19SJt6">
-            <property role="19SUeA" value="provides" />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="3uLth44Zna1" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQTR" resolve="update_document" />
           </node>
           <node concept="19SUe$" id="3uLth44Zna2" role="19SJt6">
-            <property role="19SUeA" value="with wrong content when updating a document because he/she forgets to update the document content.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" with wrong content when updating a document because he/she forgets to update the document content.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="2cZ4Q1qHeUy" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Or" />
@@ -8020,13 +8020,13 @@
             <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
           </node>
           <node concept="19SUe$" id="3uLth44Zneh" role="19SJt6">
-            <property role="19SUeA" value="provides repeatedly" />
+            <property role="19SUeA" value=" provides repeatedly " />
           </node>
           <node concept="1iqAl5" id="3uLth44Znei" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQTR" resolve="update_document" />
           </node>
           <node concept="19SUe$" id="3uLth44Znej" role="19SJt6">
-            <property role="19SUeA" value="for a same document because he/she believes the document was not successfully updated.&#10;* New " />
+            <property role="19SUeA" value=" for a same document because he/she believes the document was not successfully updated.&#10;* New " />
           </node>
           <node concept="2aGvr3" id="2cZ4Q1qHeMw" role="19SJt6">
             <ref role="2aGvrx" node="2cZ4Q1qHeJJ" />
@@ -8047,13 +8047,13 @@
             <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
           </node>
           <node concept="19SUe$" id="3uLth44Znjc" role="19SJt6">
-            <property role="19SUeA" value="provides repeatedly" />
+            <property role="19SUeA" value=" provides repeatedly " />
           </node>
           <node concept="1iqAl5" id="3uLth44Znjd" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQTR" resolve="update_document" />
           </node>
           <node concept="19SUe$" id="3uLth44Znje" role="19SJt6">
-            <property role="19SUeA" value="for a same document because the system receives and processes multiple update_documents actions.&#10;* New " />
+            <property role="19SUeA" value=" for a same document because the system receives and processes multiple update_documents actions.&#10;* New " />
           </node>
           <node concept="2aGvr3" id="2cZ4Q1qHeMG" role="19SJt6">
             <ref role="2aGvrx" node="2cZ4Q1qHeJJ" />
@@ -8079,13 +8079,13 @@
             <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
           </node>
           <node concept="19SUe$" id="3uLth44ZniL" role="19SJt6">
-            <property role="19SUeA" value="stop providing" />
+            <property role="19SUeA" value=" stop providing " />
           </node>
           <node concept="1iqAl5" id="3uLth44ZniM" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQTR" resolve="update_document" />
           </node>
           <node concept="19SUe$" id="3uLth44ZniN" role="19SJt6">
-            <property role="19SUeA" value="before completing the update of a document because he/she performs some action that cancels the document update believing that  he/she is executing the update_document action.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" before completing the update of a document because he/she performs some action that cancels the document update believing that  he/she is executing the update_document action.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="7UpQVz39sL9" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Nf" />
@@ -8118,13 +8118,13 @@
             <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
           </node>
           <node concept="19SUe$" id="3uLth44Znoi" role="19SJt6">
-            <property role="19SUeA" value="provides" />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="3uLth44Znoj" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQTW" resolve="cancel_document" />
           </node>
           <node concept="19SUe$" id="3uLth44Znok" role="19SJt6">
-            <property role="19SUeA" value="for a wrong document because he/she picks the wrong document to cancel.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for a wrong document because he/she picks the wrong document to cancel.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="7UpQVz39sLu" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Ml" />
@@ -8160,13 +8160,13 @@
             <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
           </node>
           <node concept="19SUe$" id="3uLth44ZntA" role="19SJt6">
-            <property role="19SUeA" value="stop providing" />
+            <property role="19SUeA" value=" stop providing " />
           </node>
           <node concept="1iqAl5" id="3uLth44ZntB" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQTW" resolve="cancel_document" />
           </node>
           <node concept="19SUe$" id="3uLth44ZntC" role="19SJt6">
-            <property role="19SUeA" value="before completing the cancellation of a document because he/she performs some action that cancels the document cancelation believing that he/she is executing the cancel_document action.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" before completing the cancellation of a document because he/she performs some action that cancels the document cancelation believing that he/she is executing the cancel_document action.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="7UpQVz39sLk" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Nf" />
@@ -8198,13 +8198,13 @@
             <ref role="1irL7C" node="5M3qF83HQQ4" resolve="EMR Document Entry" />
           </node>
           <node concept="19SUe$" id="3uLth44Znzp" role="19SJt6">
-            <property role="19SUeA" value="does not provide" />
+            <property role="19SUeA" value=" does not provide " />
           </node>
           <node concept="1iqAl5" id="3uLth44Znzq" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HR2r" resolve="submit_document" />
           </node>
           <node concept="19SUe$" id="3uLth44Znzr" role="19SJt6">
-            <property role="19SUeA" value="for a newly created, updated or cancelled document because the ERM-DE does not receive a command to submit the document.&#10;* Addressed in " />
+            <property role="19SUeA" value=" for a newly created, updated or cancelled document because the ERM-DE does not receive a command to submit the document.&#10;* Addressed in " />
           </node>
           <node concept="1AqBnM" id="5Nyc18U_Vdw" role="19SJt6">
             <ref role="1AqBnL" node="3uLth44ZmYR" resolve="LS-SD-005.1" />
@@ -8237,7 +8237,7 @@
             <ref role="1irL7C" node="5M3qF83HQQ4" resolve="EMR Document Entry" />
           </node>
           <node concept="19SUe$" id="3uLth44ZoLn" role="19SJt6">
-            <property role="19SUeA" value="does not provide " />
+            <property role="19SUeA" value=" does not provide " />
           </node>
           <node concept="1iqAl5" id="3uLth44ZoLo" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HR2r" resolve="submit_document" />
@@ -8261,19 +8261,19 @@
             <ref role="1irL7C" node="5M3qF83HQQ4" resolve="EMR Document Entry" />
           </node>
           <node concept="19SUe$" id="3uLth44ZnDl" role="19SJt6">
-            <property role="19SUeA" value="provides too soon" />
+            <property role="19SUeA" value=" provides too soon " />
           </node>
           <node concept="1iqAl5" id="3uLth44ZnDm" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HR2r" resolve="submit_document" />
           </node>
           <node concept="19SUe$" id="3uLth44ZnDn" role="19SJt6">
-            <property role="19SUeA" value="when" />
+            <property role="19SUeA" value=" when " />
           </node>
           <node concept="1irL6x" id="3uLth44ZnDo" role="19SJt6">
             <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
           </node>
           <node concept="19SUe$" id="3uLth44ZnDp" role="19SJt6">
-            <property role="19SUeA" value="is still providing " />
+            <property role="19SUeA" value=" is still providing " />
           </node>
           <node concept="1iqAl5" id="3uLth44ZnDq" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQT6" resolve="create_document" />
@@ -8285,13 +8285,13 @@
             <ref role="1iqAlh" node="5M3qF83HQTR" resolve="update_document" />
           </node>
           <node concept="19SUe$" id="3uLth44ZnDt" role="19SJt6">
-            <property role="19SUeA" value="or" />
+            <property role="19SUeA" value=" or " />
           </node>
           <node concept="1iqAl5" id="3uLth44ZnDu" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQTW" resolve="cancel_document" />
           </node>
           <node concept="19SUe$" id="3uLth44ZnDv" role="19SJt6">
-            <property role="19SUeA" value="for a document because the EMR-DE receives a command to submit the document but does not check for the document completeness before submitting it.&#10;* Addressed in " />
+            <property role="19SUeA" value=" for a document because the EMR-DE receives a command to submit the document but does not check for the document completeness before submitting it.&#10;* Addressed in " />
           </node>
           <node concept="1AqBnM" id="5Nyc18U_Veg" role="19SJt6">
             <ref role="1AqBnL" node="3uLth44ZmTo" resolve="LS-SD-001.3" />
@@ -8303,7 +8303,7 @@
             <ref role="1AqBnL" node="3uLth44ZmZR" resolve="LS-SD-002.3" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_Vey" role="19SJt6">
-            <property role="19SUeA" value="and" />
+            <property role="19SUeA" value=" and " />
           </node>
           <node concept="1AqBnM" id="5Nyc18U_VeO" role="19SJt6">
             <ref role="1AqBnL" node="3uLth44Zn1i" resolve="LS-SD-003.2" />
@@ -8334,13 +8334,13 @@
             <ref role="1irL7C" node="5M3qF83HQQ4" resolve="EMR Document Entry" />
           </node>
           <node concept="19SUe$" id="3uLth44ZnKb" role="19SJt6">
-            <property role="19SUeA" value="stops too soon providing" />
+            <property role="19SUeA" value=" stops too soon providing " />
           </node>
           <node concept="1iqAl5" id="3uLth44ZnKc" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HR2r" resolve="submit_document" />
           </node>
           <node concept="19SUe$" id="3uLth44ZnKd" role="19SJt6">
-            <property role="19SUeA" value="before completing the submission of a document because there is a communication problem with the CDX system.&#10;* Suggestion: System or users should decide if they will try it again when the connection is re-established." />
+            <property role="19SUeA" value=" before completing the submission of a document because there is a communication problem with the CDX system.&#10;* Suggestion: System or users should decide if they will try it again when the connection is re-established." />
           </node>
         </node>
         <node concept="DABN8" id="3uLth44ZnKe" role="AYXo$">
@@ -8358,13 +8358,13 @@
             <ref role="1irL7C" node="5M3qF83HQQ4" resolve="EMR Document Entry" />
           </node>
           <node concept="19SUe$" id="3uLth44Zolk" role="19SJt6">
-            <property role="19SUeA" value="does not provide" />
+            <property role="19SUeA" value=" does not provide " />
           </node>
           <node concept="1iqAl5" id="3uLth44Zoll" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HR67" resolve="get_patient" />
           </node>
           <node concept="19SUe$" id="3uLth44Zolm" role="19SJt6">
-            <property role="19SUeA" value="when a document is being created because the EMR-DE does not receive the command to get the patient information.&#10;* Addressed in " />
+            <property role="19SUeA" value=" when a document is being created because the EMR-DE does not receive the command to get the patient information.&#10;* Addressed in " />
           </node>
           <node concept="1AqBnM" id="5Nyc18UB4Qp" role="19SJt6">
             <ref role="1AqBnL" node="3uLth44ZmVR" resolve="LS-SD-003.1" />
@@ -8390,13 +8390,13 @@
             <ref role="1irL7C" node="5M3qF83HQQ4" resolve="EMR Document Entry" />
           </node>
           <node concept="19SUe$" id="3uLth44Zot2" role="19SJt6">
-            <property role="19SUeA" value="provides" />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="3uLth44Zot3" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HR67" resolve="get_patient" />
           </node>
           <node concept="19SUe$" id="3uLth44Zot4" role="19SJt6">
-            <property role="19SUeA" value="for a wrong patient because the registered patient information is outdated or incorrect.&#10;* Addressed in " />
+            <property role="19SUeA" value=" for a wrong patient because the registered patient information is outdated or incorrect.&#10;* Addressed in " />
           </node>
           <node concept="1AqBnM" id="5Nyc18U_Vwu" role="19SJt6">
             <ref role="1AqBnL" node="5ttixt18nKK" resolve="LS-SD-001.1" />
@@ -8418,19 +8418,19 @@
             <ref role="1irL7C" node="5M3qF83HQQ4" resolve="EMR Document Entry" />
           </node>
           <node concept="19SUe$" id="2cZ4Q1qHfJZ" role="19SJt6">
-            <property role="19SUeA" value="does not provide " />
+            <property role="19SUeA" value=" does not provide " />
           </node>
           <node concept="1iqAl5" id="2cZ4Q1qHfK0" role="19SJt6">
             <ref role="1iqAlh" node="2cZ4Q1qHf2y" resolve="link_document" />
           </node>
           <node concept="19SUe$" id="2cZ4Q1qHfK1" role="19SJt6">
-            <property role="19SUeA" value="for the original document (order) when sending a document (report) because the " />
+            <property role="19SUeA" value=" for the original document (order) when sending a document (report) because the " />
           </node>
           <node concept="1irL6x" id="2cZ4Q1qHfRp" role="19SJt6">
             <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
           </node>
           <node concept="19SUe$" id="2cZ4Q1qHfRr" role="19SJt6">
-            <property role="19SUeA" value="creates a new order instead of a report.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" creates a new order instead of a report.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="2cZ4Q1qHfKc" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Pz" />
@@ -8454,13 +8454,13 @@
             <ref role="1irL7C" node="5M3qF83HQQ4" resolve="EMR Document Entry" />
           </node>
           <node concept="19SUe$" id="3uLth44ZoUp" role="19SJt6">
-            <property role="19SUeA" value="does not provide" />
+            <property role="19SUeA" value=" does not provide " />
           </node>
           <node concept="1iqAl5" id="3uLth44ZoUq" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQWg" resolve="list_clinics" />
           </node>
           <node concept="19SUe$" id="3uLth44ZoUr" role="19SJt6">
-            <property role="19SUeA" value="when a document is being created because there is a communication problem with the CDX system. &#10;* Suggestion: System or users should decide if they will try it again when the connection is re-established." />
+            <property role="19SUeA" value=" when a document is being created because there is a communication problem with the CDX system. &#10;* Suggestion: System or users should decide if they will try it again when the connection is re-established." />
           </node>
         </node>
         <node concept="DABN8" id="3uLth44ZoUs" role="AYXo$">
@@ -8480,13 +8480,13 @@
             <ref role="1irL7C" node="5M3qF83HQQ4" resolve="EMR Document Entry" />
           </node>
           <node concept="19SUe$" id="3uLth44Zp3J" role="19SJt6">
-            <property role="19SUeA" value="does not provide" />
+            <property role="19SUeA" value=" does not provide " />
           </node>
           <node concept="1iqAl5" id="3uLth44Zp3K" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQWg" resolve="list_clinics" />
           </node>
           <node concept="19SUe$" id="3uLth44Zp3L" role="19SJt6">
-            <property role="19SUeA" value="when a document is being created because the EMR-DE does not receive the command to get the clinics information.&#10;* Addressed in " />
+            <property role="19SUeA" value=" when a document is being created because the EMR-DE does not receive the command to get the clinics information.&#10;* Addressed in " />
           </node>
           <node concept="1AqBnM" id="5Nyc18U_VwB" role="19SJt6">
             <ref role="1AqBnL" node="3uLth44ZmZR" resolve="LS-SD-002.3" />
@@ -8513,13 +8513,13 @@
             <ref role="1irL7C" node="5M3qF83HQQ4" resolve="EMR Document Entry" />
           </node>
           <node concept="19SUe$" id="3uLth44Zp3h" role="19SJt6">
-            <property role="19SUeA" value="provides " />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="3uLth44Zp3i" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQWg" resolve="list_clinics" />
           </node>
           <node concept="19SUe$" id="3uLth44Zp3j" role="19SJt6">
-            <property role="19SUeA" value="for a wrong clinic because there are other clinics registered with similar name or id.&#10;* Addressed in " />
+            <property role="19SUeA" value=" for a wrong clinic because there are other clinics registered with similar name or id.&#10;* Addressed in " />
           </node>
           <node concept="1AqBnM" id="5Nyc18U_VwK" role="19SJt6">
             <ref role="1AqBnL" node="3uLth44ZmUv" resolve="LS-SD-002.1" />
@@ -8546,13 +8546,13 @@
             <ref role="1irL7C" node="5M3qF83HQQ4" resolve="EMR Document Entry" />
           </node>
           <node concept="19SUe$" id="3uLth44Zpdd" role="19SJt6">
-            <property role="19SUeA" value="does not provide" />
+            <property role="19SUeA" value=" does not provide " />
           </node>
           <node concept="1iqAl5" id="3uLth44Zpde" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQXk" resolve="list_providers" />
           </node>
           <node concept="19SUe$" id="3uLth44Zpdf" role="19SJt6">
-            <property role="19SUeA" value="when a document is being created because there is a communication problem with the CDX system. &#10;* Suggestion: System or users should decide if they will try it again when the connection is re-established." />
+            <property role="19SUeA" value=" when a document is being created because there is a communication problem with the CDX system. &#10;* Suggestion: System or users should decide if they will try it again when the connection is re-established." />
           </node>
         </node>
         <node concept="DABN8" id="3uLth44Zpdg" role="AYXo$">
@@ -8572,13 +8572,13 @@
             <ref role="1irL7C" node="5M3qF83HQQ4" resolve="EMR Document Entry" />
           </node>
           <node concept="19SUe$" id="3uLth44ZpdF" role="19SJt6">
-            <property role="19SUeA" value="does not provide" />
+            <property role="19SUeA" value=" does not provide " />
           </node>
           <node concept="1iqAl5" id="3uLth44ZpdG" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQXk" resolve="list_providers" />
           </node>
           <node concept="19SUe$" id="3uLth44ZpdH" role="19SJt6">
-            <property role="19SUeA" value="when a document is being created because the EMR-DE does not receive the command to get the providers information.&#10;* Addressed in " />
+            <property role="19SUeA" value=" when a document is being created because the EMR-DE does not receive the command to get the providers information.&#10;* Addressed in " />
           </node>
           <node concept="1AqBnM" id="5Nyc18U_VwU" role="19SJt6">
             <ref role="1AqBnL" node="3uLth44ZmZR" resolve="LS-SD-002.3" />
@@ -8607,13 +8607,13 @@
             <ref role="1irL7C" node="5M3qF83HQQ4" resolve="EMR Document Entry" />
           </node>
           <node concept="19SUe$" id="3uLth44ZpnM" role="19SJt6">
-            <property role="19SUeA" value="provides " />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="3uLth44ZpnN" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQXk" resolve="list_providers" />
           </node>
           <node concept="19SUe$" id="3uLth44ZpnO" role="19SJt6">
-            <property role="19SUeA" value="for a wrong document because there are other providers registered with similar name or id.&#10;* Addressed in " />
+            <property role="19SUeA" value=" for a wrong document because there are other providers registered with similar name or id.&#10;* Addressed in " />
           </node>
           <node concept="1AqBnM" id="5Nyc18U_Vx5" role="19SJt6">
             <ref role="1AqBnL" node="3uLth44ZmUv" resolve="LS-SD-002.1" />
@@ -8643,13 +8643,13 @@
             <ref role="1irL7C" node="5M3qF83HQR3" resolve="CDX Document Distribution" />
           </node>
           <node concept="19SUe$" id="57SYOblyFyn" role="19SJt6">
-            <property role="19SUeA" value="provides" />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="57SYOblyFyo" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRcI" resolve="route_document" />
           </node>
           <node concept="19SUe$" id="57SYOblyFyp" role="19SJt6">
-            <property role="19SUeA" value="out of sequence for two or more versions of a same document when one or more updates or cancelations are submitted short time after the first document.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" out of sequence for two or more versions of a same document when one or more updates or cancelations are submitted short time after the first document.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="2cZ4Q1qHf16" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Jv" />
@@ -8681,7 +8681,7 @@
             <ref role="1irL7C" node="5M3qF83HQQ4" resolve="EMR Document Entry" />
           </node>
           <node concept="19SUe$" id="7SToB$3E$ca" role="19SJt6">
-            <property role="19SUeA" value="provides " />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="7SToB$3E$cb" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQWg" resolve="list_clinics" />
@@ -8716,7 +8716,7 @@
             <ref role="1irL7C" node="5M3qF83HQQ4" resolve="EMR Document Entry" />
           </node>
           <node concept="19SUe$" id="7SToB$3E$o2" role="19SJt6">
-            <property role="19SUeA" value="provides " />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="7SToB$3E$o3" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HQXk" resolve="list_providers" />
@@ -8751,7 +8751,7 @@
             <ref role="1irL7C" node="5M3qF83HQQ4" resolve="EMR Document Entry" />
           </node>
           <node concept="19SUe$" id="7SToB$3E$$q" role="19SJt6">
-            <property role="19SUeA" value="provides " />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="7SToB$3E$$D" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HR2r" resolve="submit_document" />
@@ -8786,7 +8786,7 @@
             <ref role="1irL7C" node="5M3qF83HQQ4" resolve="EMR Document Entry" />
           </node>
           <node concept="19SUe$" id="7SToB$3E$X0" role="19SJt6">
-            <property role="19SUeA" value="provides " />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="7SToB$3E$X1" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HR3T" resolve="get_document_status" />
@@ -8819,13 +8819,13 @@
             <ref role="1irL7C" node="5M3qF83HQPX" resolve="Receiver Care Giver" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_Vyk" role="19SJt6">
-            <property role="19SUeA" value="does not provide" />
+            <property role="19SUeA" value=" does not provide " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_Vyl" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRxa" resolve="open_document" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_Vym" role="19SJt6">
-            <property role="19SUeA" value="for a received document because he/she is not notified or see the received documents in the EMR system.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for a received document because he/she is not notified or see the received documents in the EMR system.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="2cZ4Q1qHf0V" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Kf" />
@@ -8861,19 +8861,19 @@
             <ref role="1irL7C" node="5M3qF83HQPX" resolve="Receiver Care Giver" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_Vyt" role="19SJt6">
-            <property role="19SUeA" value="provides " />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_Vyu" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRxa" resolve="open_document" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_Vyv" role="19SJt6">
-            <property role="19SUeA" value="for a wrong document because the EMR system automatic matched the document for other patient with same name.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for a wrong document because the EMR system automatic matched the document for other patient with same name.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="5Nyc18UB4QF" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5HZ" />
           </node>
           <node concept="19SUe$" id="5Nyc18UB4QG" role="19SJt6">
-            <property role="19SUeA" value=" and req" />
+            <property role="19SUeA" value=" and " />
           </node>
           <node concept="2aGvr3" id="5Nyc18UB4QO" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Id" />
@@ -8894,13 +8894,13 @@
             <ref role="1irL7C" node="5M3qF83HQPX" resolve="Receiver Care Giver" />
           </node>
           <node concept="19SUe$" id="2cZ4Q1qHeZV" role="19SJt6">
-            <property role="19SUeA" value="provides " />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="2cZ4Q1qHeZW" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRxa" resolve="open_document" />
           </node>
           <node concept="19SUe$" id="2cZ4Q1qHeZX" role="19SJt6">
-            <property role="19SUeA" value="for a canceled document because he/she is not notified that the document is canceled or updated.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for a canceled document because he/she is not notified that the document is canceled or updated.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="2cZ4Q1qHf0d" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5JR" />
@@ -8930,13 +8930,13 @@
             <ref role="1irL7C" node="5M3qF83HQPX" resolve="Receiver Care Giver" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VyJ" role="19SJt6">
-            <property role="19SUeA" value="provides" />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_VyK" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRzQ" resolve="assign_provider" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VyL" role="19SJt6">
-            <property role="19SUeA" value="for a wrong provider becuse the document was addressed for the wrong clinic and there is a provider with same name in the clinic, or the document was addressed only for the clinic by mistake.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for a wrong provider becuse the document was addressed for the wrong clinic and there is a provider with same name in the clinic, or the document was addressed only for the clinic by mistake.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="5Nyc18UB4S0" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5IV" />
@@ -8960,13 +8960,13 @@
             <ref role="1irL7C" node="5M3qF83HQPX" resolve="Receiver Care Giver" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VyS" role="19SJt6">
-            <property role="19SUeA" value="provides " />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_VyT" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRzW" resolve="match_patient" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VyU" role="19SJt6">
-            <property role="19SUeA" value="for a received document with a wrong patient because there are other patients with the same or similar information.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for a received document with a wrong patient because there are other patients with the same or similar information.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="5Nyc18UB4S9" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Id" />
@@ -8988,13 +8988,13 @@
             <ref role="1irL7C" node="5M3qF83HQPX" resolve="Receiver Care Giver" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_Vz1" role="19SJt6">
-            <property role="19SUeA" value="does not provide" />
+            <property role="19SUeA" value=" does not provide " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_Vz2" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRXj" resolve="create_patient" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_Vz3" role="19SJt6">
-            <property role="19SUeA" value="for a received document with new patient because the document was already matched with a existing patient that has same or similar information.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for a received document with new patient because the document was already matched with a existing patient that has same or similar information.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="5Nyc18UB4Si" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Id" />
@@ -9016,13 +9016,13 @@
             <ref role="1irL7C" node="5M3qF83HQPX" resolve="Receiver Care Giver" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_Vza" role="19SJt6">
-            <property role="19SUeA" value="provides " />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_Vzb" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRzH" resolve="delete_document" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_Vzc" role="19SJt6">
-            <property role="19SUeA" value="for a wrong document and the EMR system does not allow restore deleted documents.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for a wrong document and the EMR system does not allow restore deleted documents.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="5Nyc18UBpwv" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5J7" />
@@ -9044,13 +9044,13 @@
             <ref role="1irL7C" node="5M3qF83HQPX" resolve="Receiver Care Giver" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_Vzj" role="19SJt6">
-            <property role="19SUeA" value="does not provide" />
+            <property role="19SUeA" value=" does not provide " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_Vzk" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRzL" resolve="restore_document" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_Vzl" role="19SJt6">
-            <property role="19SUeA" value="for a deleted document because the EMR system does not provide the restore action or listing deleted documents.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for a deleted document because the EMR system does not provide the restore action or listing deleted documents.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="5Nyc18UBpwD" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5J7" />
@@ -9074,13 +9074,13 @@
             <ref role="1irL7C" node="5M3qF83HQPX" resolve="Receiver Care Giver" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_Vzs" role="19SJt6">
-            <property role="19SUeA" value="provides " />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_Vzt" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRzL" resolve="restore_document" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_Vzu" role="19SJt6">
-            <property role="19SUeA" value="for a wrong deleted document because the listing of deleted documents does not provide enough information to distinguish similar documents.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for a wrong deleted document because the listing of deleted documents does not provide enough information to distinguish similar documents.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="2cZ4Q1qHfYA" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5IV" />
@@ -9110,13 +9110,13 @@
             <ref role="1irL7C" node="5M3qF83HQPX" resolve="Receiver Care Giver" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_Vz_" role="19SJt6">
-            <property role="19SUeA" value="does not provide" />
+            <property role="19SUeA" value=" does not provide " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_VzA" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HR$b" resolve="update_patient" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VzB" role="19SJt6">
-            <property role="19SUeA" value="for a received document because the he/she is not notified about changes in the patient information or is not clear what are the diferences between the patient information in the document and in the EMR chart.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for a received document because the he/she is not notified about changes in the patient information or is not clear what are the diferences between the patient information in the document and in the EMR chart.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="5Nyc18UBpxG" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Id" />
@@ -9140,13 +9140,13 @@
             <ref role="1irL7C" node="5M3qF83HQPX" resolve="Receiver Care Giver" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VzI" role="19SJt6">
-            <property role="19SUeA" value="provides " />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_VzJ" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HR$b" resolve="update_patient" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VzK" role="19SJt6">
-            <property role="19SUeA" value="with a wrong patient because the document is matched to another patient with the similar information.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" with a wrong patient because the document is matched to another patient with the similar information.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="5Nyc18UBpxP" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Id" />
@@ -9168,13 +9168,13 @@
             <ref role="1irL7C" node="5M3qF83HQQq" resolve="EMR Document Processing" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VIJ" role="19SJt6">
-            <property role="19SUeA" value="does not provide" />
+            <property role="19SUeA" value=" does not provide " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_VIK" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRl1" resolve="list_new_documents" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VIL" role="19SJt6">
-            <property role="19SUeA" value="because the EMR-DP is not configured to list new documents automatically.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" because the EMR-DP is not configured to list new documents automatically.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="5Nyc18U_VIM" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5RH" />
@@ -9204,13 +9204,13 @@
             <ref role="1irL7C" node="5M3qF83HQQq" resolve="EMR Document Processing" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VIU" role="19SJt6">
-            <property role="19SUeA" value="provides too late" />
+            <property role="19SUeA" value=" provides too late " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_VIV" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRl1" resolve="list_new_documents" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VIW" role="19SJt6">
-            <property role="19SUeA" value="because the time interval to list new documents is not short enought or is a manual action.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" because the time interval to list new documents is not short enought or is a manual action.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="5Nyc18U_VIX" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5RH" />
@@ -9240,13 +9240,13 @@
             <ref role="1irL7C" node="5M3qF83HQQq" resolve="EMR Document Processing" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VJ5" role="19SJt6">
-            <property role="19SUeA" value="does not provide" />
+            <property role="19SUeA" value=" does not provide " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_VJ6" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRnp" resolve="search_document" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VJ7" role="19SJt6">
-            <property role="19SUeA" value="for a missed document because the EMR-DP does not list missed or erroed documents.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for a missed document because the EMR-DP does not list missed or erroed documents.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="5Nyc18U_VJ8" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5RH" />
@@ -9268,13 +9268,13 @@
             <ref role="1irL7C" node="5M3qF83HQQq" resolve="EMR Document Processing" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VJg" role="19SJt6">
-            <property role="19SUeA" value="does not provide" />
+            <property role="19SUeA" value=" does not provide " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_VJh" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRnt" resolve="get_document" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VJi" role="19SJt6">
-            <property role="19SUeA" value="for a new document because the EMR-DP is not configured to get documents automatically.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for a new document because the EMR-DP is not configured to get documents automatically.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="5Nyc18U_VJj" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5RX" />
@@ -9304,13 +9304,13 @@
             <ref role="1irL7C" node="5M3qF83HQQq" resolve="EMR Document Processing" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VJr" role="19SJt6">
-            <property role="19SUeA" value="provides too late" />
+            <property role="19SUeA" value=" provides too late " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_VJs" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRnt" resolve="get_document" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VJt" role="19SJt6">
-            <property role="19SUeA" value="for a new document because the EMR-DP is not configured to get documents automatically or is a manual action.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for a new document because the EMR-DP is not configured to get documents automatically or is a manual action.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="5Nyc18U_VJu" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5RX" />
@@ -9335,13 +9335,13 @@
             <ref role="1irL7C" node="5M3qF83HQQq" resolve="EMR Document Processing" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VJ_" role="19SJt6">
-            <property role="19SUeA" value="provides too late" />
+            <property role="19SUeA" value=" provides too late " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_VJA" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRnt" resolve="get_document" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VJB" role="19SJt6">
-            <property role="19SUeA" value="for a new document because the EMR-DP does not list new documents or does not notify the user about new documents.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for a new document because the EMR-DP does not list new documents or does not notify the user about new documents.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="5Nyc18UBpxY" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Kf" />
@@ -9366,13 +9366,13 @@
             <ref role="1irL7C" node="5M3qF83HQQq" resolve="EMR Document Processing" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VJJ" role="19SJt6">
-            <property role="19SUeA" value="stops too soon providing" />
+            <property role="19SUeA" value=" stops too soon providing " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_VJK" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRnt" resolve="get_document" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VJL" role="19SJt6">
-            <property role="19SUeA" value="for a new document due to a connection error with CDX system.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for a new document due to a connection error with CDX system.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="2cZ4Q1qHfUD" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5RH" />
@@ -9397,19 +9397,19 @@
             <ref role="1irL7C" node="5M3qF83HQQq" resolve="EMR Document Processing" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VJR" role="19SJt6">
-            <property role="19SUeA" value="does not provide" />
+            <property role="19SUeA" value=" does not provide " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_VJS" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRtC" resolve="retain_replaced_document" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VJT" role="19SJt6">
-            <property role="19SUeA" value="after " />
+            <property role="19SUeA" value=" after  " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_VJU" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRtz" resolve="replace_document" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VJV" role="19SJt6">
-            <property role="19SUeA" value="for an updated document, instead the EMR-DP deletes previous versions of the update document.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for an updated document, instead the EMR-DP deletes previous versions of the update document.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="2cZ4Q1qHeZ7" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5JF" />
@@ -9437,13 +9437,13 @@
             <ref role="1irL7C" node="5M3qF83HQQq" resolve="EMR Document Processing" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VK2" role="19SJt6">
-            <property role="19SUeA" value="does not provide" />
+            <property role="19SUeA" value=" does not provide " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_VK3" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRtz" resolve="replace_document" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VK4" role="19SJt6">
-            <property role="19SUeA" value="for an updated document, instead the EMR-DP treats the documents versions as different documents.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for an updated document, instead the EMR-DP treats the documents versions as different documents.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="5Nyc18UBpyi" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Jv" />
@@ -9470,7 +9470,7 @@
             <ref role="1irL7C" node="5M3qF83HQQq" resolve="EMR Document Processing" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VKc" role="19SJt6">
-            <property role="19SUeA" value="provides " />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_VKd" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRtz" resolve="replace_document" />
@@ -9495,13 +9495,13 @@
             <ref role="1irL7C" node="5M3qF83HQQq" resolve="EMR Document Processing" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VKk" role="19SJt6">
-            <property role="19SUeA" value="does not provide" />
+            <property role="19SUeA" value=" does not provide " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_VKl" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRr0" resolve="auto_assign_provider" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VKm" role="19SJt6">
-            <property role="19SUeA" value="for received document because the provider is not registered within the EMR system or the registry is incomplete (missing identifier).&#10;* New " />
+            <property role="19SUeA" value=" for received document because the provider is not registered within the EMR system or the registry is incomplete (missing identifier).&#10;* New " />
           </node>
           <node concept="2aGvr3" id="2cZ4Q1qHeTF" role="19SJt6">
             <ref role="2aGvrx" node="2cZ4Q1qHeSJ" />
@@ -9525,13 +9525,13 @@
             <ref role="1irL7C" node="5M3qF83HQQq" resolve="EMR Document Processing" />
           </node>
           <node concept="19SUe$" id="5Nyc18UBpF1" role="19SJt6">
-            <property role="19SUeA" value="does not provide " />
+            <property role="19SUeA" value=" does not provide " />
           </node>
           <node concept="1iqAl5" id="5Nyc18UBpF2" role="19SJt6">
             <ref role="1iqAlh" node="5Nyc18UB4Wm" resolve="auto_match_patient" />
           </node>
           <node concept="19SUe$" id="5Nyc18UBpF3" role="19SJt6">
-            <property role="19SUeA" value="for received document because the patient is not registered within the EMR system or the registry is incomplete.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for received document because the patient is not registered within the EMR system or the registry is incomplete.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="2cZ4Q1qHeY4" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Ip" />
@@ -9567,13 +9567,13 @@
             <ref role="1irL7C" node="5M3qF83HQQq" resolve="EMR Document Processing" />
           </node>
           <node concept="19SUe$" id="5Nyc18UBpOn" role="19SJt6">
-            <property role="19SUeA" value="provides " />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="5Nyc18UBpOo" role="19SJt6">
             <ref role="1iqAlh" node="5Nyc18UB4Wm" resolve="auto_match_patient" />
           </node>
           <node concept="19SUe$" id="5Nyc18UBpOp" role="19SJt6">
-            <property role="19SUeA" value="for a wrong patient because the registered patient information is incorrect or incomplete.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for a wrong patient because the registered patient information is incorrect or incomplete.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="5Nyc18UBpOy" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Id" />
@@ -9597,13 +9597,13 @@
             <ref role="1irL7C" node="5M3qF83HQQq" resolve="EMR Document Processing" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VKt" role="19SJt6">
-            <property role="19SUeA" value="does not provide" />
+            <property role="19SUeA" value=" does not provide " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_VKu" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRtI" resolve="store_attachment" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VKv" role="19SJt6">
-            <property role="19SUeA" value="for a received document because the EMR-DP does not extract the attachments from the documents.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for a received document because the EMR-DP does not extract the attachments from the documents.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="2cZ4Q1qHf1F" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5KN" />
@@ -9635,13 +9635,13 @@
             <ref role="1irL7C" node="5M3qF83HQQq" resolve="EMR Document Processing" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VKA" role="19SJt6">
-            <property role="19SUeA" value="provides " />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_VKB" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRtI" resolve="store_attachment" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VKC" role="19SJt6">
-            <property role="19SUeA" value="for a wrong patient because the matched/linked patient was not correct.&#10;* New " />
+            <property role="19SUeA" value=" for a wrong patient because the matched/linked patient was not correct.&#10;* New " />
           </node>
           <node concept="2aGvr3" id="2cZ4Q1qHfY3" role="19SJt6">
             <ref role="2aGvrx" node="2cZ4Q1qHfWW" />
@@ -9663,13 +9663,13 @@
             <ref role="1irL7C" node="5M3qF83HQQq" resolve="EMR Document Processing" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VKJ" role="19SJt6">
-            <property role="19SUeA" value="does not provide" />
+            <property role="19SUeA" value=" does not provide " />
           </node>
           <node concept="1iqAl5" id="5Nyc18U_VKK" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRXE" resolve="link_document" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VKL" role="19SJt6">
-            <property role="19SUeA" value="for a received document (report) because the EMR-DP does not link related documents.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for a received document (report) because the EMR-DP does not link related documents.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="5Nyc18UBpOP" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Pz" />
@@ -9696,7 +9696,7 @@
             <ref role="1irL7C" node="5M3qF83HQQq" resolve="EMR Document Processing" />
           </node>
           <node concept="19SUe$" id="7SToB$3E_6X" role="19SJt6">
-            <property role="19SUeA" value="provides " />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="7SToB$3E_6W" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRl1" resolve="list_new_documents" />
@@ -9731,7 +9731,7 @@
             <ref role="1irL7C" node="5M3qF83HQQq" resolve="EMR Document Processing" />
           </node>
           <node concept="19SUe$" id="7SToB$3E_he" role="19SJt6">
-            <property role="19SUeA" value="provides " />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="7SToB$3E_hf" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRnp" resolve="search_document" />
@@ -9766,7 +9766,7 @@
             <ref role="1irL7C" node="5M3qF83HQQq" resolve="EMR Document Processing" />
           </node>
           <node concept="19SUe$" id="7SToB$3E_ry" role="19SJt6">
-            <property role="19SUeA" value="provides " />
+            <property role="19SUeA" value=" provides " />
           </node>
           <node concept="1iqAl5" id="7SToB$3E_rx" role="19SJt6">
             <ref role="1iqAlh" node="5M3qF83HRnt" resolve="get_document" />
