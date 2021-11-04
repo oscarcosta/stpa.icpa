@@ -4575,8 +4575,17 @@
         </node>
       </node>
       <node concept="1TVFYH" id="3HX0uqcM5HS" role="0nOlf">
-        <node concept="3vtsJT" id="3HX0uqcM5HT" role="1H_VwB">
-          <ref role="KKOSj" node="3HX0uqcM6ft" resolve="UCA-auto_assign_provider-not_provided" />
+        <node concept="1fzK9F" id="AepcJnGcOO" role="1H_VwB">
+          <ref role="ANrEU" node="5M3qF83HQPX" resolve="Receiver Care Giver" />
+          <node concept="1fzLKQ" id="AepcJnGcOY" role="1fzK9R">
+            <ref role="1fzLKL" node="5M3qF83HRzQ" resolve="assign_provider" />
+          </node>
+        </node>
+        <node concept="1fzK9F" id="AepcJnGcOv" role="1H_VwB">
+          <ref role="ANrEU" node="5M3qF83HQQq" resolve="EMR Document Processing" />
+          <node concept="1fzLKQ" id="AepcJnGcOB" role="1fzK9R">
+            <ref role="1fzLKL" node="5M3qF83HRr0" resolve="auto_assign_provider" />
+          </node>
         </node>
       </node>
       <node concept="1QQeAY" id="3HX0uqcM5HV" role="1QQeAC">
@@ -4811,7 +4820,7 @@
         <node concept="0nzK2" id="3HX0uqcM5JC" role="1QQeAV">
           <node concept="19SGf9" id="3HX0uqcM5JD" role="0nzdz">
             <node concept="19SUe$" id="3HX0uqcM5JE" role="19SJt6">
-              <property role="19SUeA" value="Reference: CDX Conformance Profile - CDA Level 1, &#10;Conformance Sessions IDs 21, 22, 24" />
+              <property role="19SUeA" value="Reference: CDX Conformance Profile - CDA Level 1, &#10;Conformance Sessions IDs 21, 22, 24&#10;* Updated constraint to replace documents by version, and not status." />
             </node>
           </node>
         </node>
@@ -4861,7 +4870,7 @@
         <node concept="0nzK2" id="3HX0uqcM5K0" role="1QQeAV">
           <node concept="19SGf9" id="3HX0uqcM5K1" role="0nzdz">
             <node concept="19SUe$" id="3HX0uqcM5K2" role="19SJt6">
-              <property role="19SUeA" value="Reference: CDX Conformance Profile - CDA Level 1, &#10;Conformance Sessions IDs 23&#10;* SHOULD constraint!" />
+              <property role="19SUeA" value="Reference: CDX Conformance Profile - CDA Level 1, &#10;Conformance Sessions IDs 23&#10;* Updated to SHOULD constraint" />
             </node>
           </node>
         </node>
@@ -5535,7 +5544,7 @@
         <node concept="0nzK2" id="3HX0uqcM5P8" role="1QQeAV">
           <node concept="19SGf9" id="3HX0uqcM5P9" role="0nzdz">
             <node concept="19SUe$" id="3HX0uqcM5Pa" role="19SJt6">
-              <property role="19SUeA" value="Reference: CDX Conformance Profile - CDA Level 1, &#10;Conformance Sessions IDs 57&#10;* SHOULD constraint!" />
+              <property role="19SUeA" value="Reference: CDX Conformance Profile - CDA Level 1, &#10;Conformance Sessions IDs 57&#10;* Updated to SHOULD constraint" />
             </node>
           </node>
         </node>
@@ -6114,6 +6123,29 @@
             <ref role="DABNb" node="3HX0uqcM6u2" resolve="Order/report content (body or attachment) is incorrect or incomplete" />
           </node>
         </node>
+        <node concept="1E0uc6" id="AepcJnG3Uz" role="1E0tWM">
+          <property role="TrG5h" value="UCA-create_document-provided_for_wrong_order" />
+          <node concept="19SGf9" id="AepcJnG3V3" role="1E0uc7">
+            <node concept="19SUe$" id="AepcJnG3V4" role="19SJt6">
+              <property role="19SUeA" value="" />
+            </node>
+            <node concept="1irL6x" id="AepcJnG3V0" role="19SJt6">
+              <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
+            </node>
+            <node concept="19SUe$" id="AepcJnG3V1" role="19SJt6">
+              <property role="19SUeA" value="provides " />
+            </node>
+            <node concept="1iqAl5" id="AepcJnG3V2" role="19SJt6">
+              <ref role="1iqAlh" node="5M3qF83HQT6" resolve="create_document" />
+            </node>
+            <node concept="19SUe$" id="AepcJnG3V7" role="19SJt6">
+              <property role="19SUeA" value="(report) for the wrong document (order)" />
+            </node>
+          </node>
+          <node concept="DABN8" id="AepcJnG3Vd" role="2Dy4$W">
+            <ref role="DABNb" node="3HX0uqcM6ul" resolve="Report is not linked to the correct order" />
+          </node>
+        </node>
         <node concept="1E0uc6" id="3HX0uqcM692" role="1E0tXb">
           <property role="TrG5h" value="UCA-create_document-provided_repeatedly" />
           <node concept="19SGf9" id="3HX0uqcM693" role="1E0uc7">
@@ -6194,6 +6226,55 @@
             </node>
           </node>
           <node concept="DABN8" id="3HX0uqcM6Dy" role="2Dy4$W">
+            <ref role="DABNb" node="3HX0uqcM6u5" resolve="Order/report is delayed, not delivered, or lost" />
+          </node>
+        </node>
+        <node concept="1E0uc6" id="AepcJnG32W" role="1E0tWM">
+          <property role="TrG5h" value="UCA-update_document-provided_with_wrong_target" />
+          <node concept="19SGf9" id="AepcJnG33f" role="1E0uc7">
+            <node concept="19SUe$" id="AepcJnG33g" role="19SJt6">
+              <property role="19SUeA" value="" />
+            </node>
+            <node concept="1irL6x" id="AepcJnG33j" role="19SJt6">
+              <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
+            </node>
+            <node concept="19SUe$" id="AepcJnG33k" role="19SJt6">
+              <property role="19SUeA" value="provides " />
+            </node>
+            <node concept="1iqAl5" id="AepcJnG33l" role="19SJt6">
+              <ref role="1iqAlh" node="5M3qF83HQTR" resolve="update_document" />
+            </node>
+            <node concept="19SUe$" id="AepcJnG33m" role="19SJt6">
+              <property role="19SUeA" value="with a wrong target when a document is being updated" />
+            </node>
+          </node>
+          <node concept="DABN8" id="AepcJnG33t" role="2Dy4$W">
+            <ref role="DABNb" node="3HX0uqcM6tX" resolve="Order/report target (patient) is incorrect or incomplete" />
+          </node>
+        </node>
+        <node concept="1E0uc6" id="AepcJnG33T" role="1E0tWM">
+          <property role="TrG5h" value="UCA-update_document-provided_with_wrong_recipient" />
+          <node concept="19SGf9" id="AepcJnG34k" role="1E0uc7">
+            <node concept="19SUe$" id="AepcJnG34l" role="19SJt6">
+              <property role="19SUeA" value="" />
+            </node>
+            <node concept="1irL6x" id="AepcJnG34p" role="19SJt6">
+              <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
+            </node>
+            <node concept="19SUe$" id="AepcJnG34q" role="19SJt6">
+              <property role="19SUeA" value="provides " />
+            </node>
+            <node concept="1iqAl5" id="AepcJnG34r" role="19SJt6">
+              <ref role="1iqAlh" node="5M3qF83HQTR" resolve="update_document" />
+            </node>
+            <node concept="19SUe$" id="AepcJnG34s" role="19SJt6">
+              <property role="19SUeA" value="with a wrong recipient (provider or clinic) when a document is being updated" />
+            </node>
+          </node>
+          <node concept="DABN8" id="AepcJnG34y" role="2Dy4$W">
+            <ref role="DABNb" node="3HX0uqcM6u0" resolve="Order/report recipient (clinic or provider) is incorrect" />
+          </node>
+          <node concept="DABN8" id="AepcJnG34B" role="2Dy4$W">
             <ref role="DABNb" node="3HX0uqcM6u5" resolve="Order/report is delayed, not delivered, or lost" />
           </node>
         </node>
@@ -6523,6 +6604,7 @@
             <ref role="DABNb" node="3HX0uqcM6ul" resolve="Report is not linked to the correct order" />
           </node>
         </node>
+        <node concept="3XErhT" id="AepcJnG6Ni" role="1E0tWM" />
       </node>
       <node concept="1E0nOJ" id="3HX0uqcM6bj" role="1E0nOC">
         <ref role="1E0n_N" node="5M3qF83HQWg" resolve="list_clinics" />
@@ -7755,10 +7837,67 @@
         </node>
       </node>
     </node>
+    <node concept="AYXo0" id="AepcJnG4bI" role="AYXoY">
+      <ref role="AYXoz" node="AepcJnG3Uz" resolve="UCA-create_document-provided_for_wrong_order" />
+      <node concept="AYXoK" id="AepcJnG4bK" role="AYXoP">
+        <property role="TrG5h" value="LS-SD-004.1" />
+        <node concept="19SGf9" id="AepcJnG4k2" role="AYXoN">
+          <node concept="19SUe$" id="AepcJnG4k3" role="19SJt6">
+            <property role="19SUeA" value="" />
+          </node>
+          <node concept="1irL6x" id="AepcJnG4k4" role="19SJt6">
+            <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG4k5" role="19SJt6">
+            <property role="19SUeA" value="provides " />
+          </node>
+          <node concept="1iqAl5" id="AepcJnG4k6" role="19SJt6">
+            <ref role="1iqAlh" node="5M3qF83HQT6" resolve="create_document" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG4k7" role="19SJt6">
+            <property role="19SUeA" value="(report) for the wrong document (order) because he/she picks the wrong document (order) from the correct patient while creating the report.&#10;* New " />
+          </node>
+          <node concept="2aGvr3" id="AepcJnG6g2" role="19SJt6">
+            <ref role="2aGvrx" node="AepcJnG5mR" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG6g3" role="19SJt6" />
+        </node>
+        <node concept="DABN8" id="AepcJnG4k8" role="AYXo$">
+          <ref role="DABNb" node="3HX0uqcM6ul" resolve="Report is not linked to the correct order" />
+        </node>
+      </node>
+      <node concept="AYXoK" id="AepcJnG5cA" role="AYXoP">
+        <property role="TrG5h" value="LS-SD-004.2" />
+        <node concept="19SGf9" id="AepcJnG5cK" role="AYXoN">
+          <node concept="19SUe$" id="AepcJnG5cL" role="19SJt6">
+            <property role="19SUeA" value="" />
+          </node>
+          <node concept="1irL6x" id="AepcJnG5cM" role="19SJt6">
+            <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG5cN" role="19SJt6">
+            <property role="19SUeA" value="provides " />
+          </node>
+          <node concept="1iqAl5" id="AepcJnG5cO" role="19SJt6">
+            <ref role="1iqAlh" node="5M3qF83HQT6" resolve="create_document" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG5cP" role="19SJt6">
+            <property role="19SUeA" value="(report) for the wrong vesrion of a document (order) while creating the report.&#10;* New " />
+          </node>
+          <node concept="2aGvr3" id="AepcJnG6fT" role="19SJt6">
+            <ref role="2aGvrx" node="AepcJnG5pH" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG6fU" role="19SJt6" />
+        </node>
+        <node concept="DABN8" id="AepcJnG5cQ" role="AYXo$">
+          <ref role="DABNb" node="3HX0uqcM6ul" resolve="Report is not linked to the correct order" />
+        </node>
+      </node>
+    </node>
     <node concept="AYXo0" id="3uLth44ZmXj" role="AYXoY">
       <ref role="AYXoz" node="3HX0uqcM692" resolve="UCA-create_document-provided_repeatedly" />
       <node concept="AYXoK" id="3uLth44ZmXl" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-004.1" />
+        <property role="TrG5h" value="LS-SD-005.1" />
         <node concept="19SGf9" id="3uLth44ZmZD" role="AYXoN">
           <node concept="19SUe$" id="3uLth44ZmZE" role="19SJt6">
             <property role="19SUeA" value="" />
@@ -7793,7 +7932,7 @@
         </node>
       </node>
       <node concept="AYXoK" id="3uLth44Zn1E" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-004.2" />
+        <property role="TrG5h" value="LS-SD-005.2" />
         <node concept="19SGf9" id="3uLth44Zn1O" role="AYXoN">
           <node concept="19SUe$" id="3uLth44Zn1P" role="19SJt6">
             <property role="19SUeA" value="" />
@@ -7825,7 +7964,7 @@
     <node concept="AYXo0" id="3uLth44ZmYP" role="AYXoY">
       <ref role="AYXoz" node="3HX0uqcM69a" resolve="UCA-create_document-stopped_too_soon" />
       <node concept="AYXoK" id="3uLth44ZmYR" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-005.1" />
+        <property role="TrG5h" value="LS-SD-006.1" />
         <node concept="19SGf9" id="3uLth44Zn2v" role="AYXoN">
           <node concept="19SUe$" id="3uLth44Zn2w" role="19SJt6">
             <property role="19SUeA" value="" />
@@ -7866,11 +8005,53 @@
           <ref role="DABNb" node="3HX0uqcM6u5" resolve="Order/report is delayed, not delivered, or lost" />
         </node>
       </node>
+      <node concept="AYXoK" id="AepcJnG2Zf" role="AYXoP">
+        <property role="TrG5h" value="LS-SD-006.2" />
+        <node concept="19SGf9" id="AepcJnG2ZU" role="AYXoN">
+          <node concept="19SUe$" id="AepcJnG2ZV" role="19SJt6">
+            <property role="19SUeA" value="" />
+          </node>
+          <node concept="1irL6x" id="AepcJnG2ZW" role="19SJt6">
+            <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG2ZX" role="19SJt6">
+            <property role="19SUeA" value="stop providing " />
+          </node>
+          <node concept="1iqAl5" id="AepcJnG2ZY" role="19SJt6">
+            <ref role="1iqAlh" node="5M3qF83HQT6" resolve="create_document" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG2ZZ" role="19SJt6">
+            <property role="19SUeA" value=" because he/she attempts to submit the document, but the document is not delivered due to some connection error, and the provider is not informed or does not see the error message and closes the form.&#10;* Mitigated by " />
+          </node>
+          <node concept="2aGvr3" id="AepcJnG30i" role="19SJt6">
+            <ref role="2aGvrx" node="3HX0uqcM5Nf" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG30h" role="19SJt6">
+            <property role="19SUeA" value="&#10;* New " />
+          </node>
+          <node concept="2aGvr3" id="AepcJnG32v" role="19SJt6">
+            <ref role="2aGvrx" node="AepcJnG31m" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG32w" role="19SJt6" />
+        </node>
+        <node concept="DABN8" id="AepcJnG300" role="AYXo$">
+          <ref role="DABNb" node="3HX0uqcM6tX" resolve="Order/report target (patient) is incorrect or incomplete" />
+        </node>
+        <node concept="DABN8" id="AepcJnG301" role="AYXo$">
+          <ref role="DABNb" node="3HX0uqcM6u0" resolve="Order/report recipient (clinic or provider) is incorrect" />
+        </node>
+        <node concept="DABN8" id="AepcJnG302" role="AYXo$">
+          <ref role="DABNb" node="3HX0uqcM6u2" resolve="Order/report content (body or attachment) is incorrect or incomplete" />
+        </node>
+        <node concept="DABN8" id="AepcJnG303" role="AYXo$">
+          <ref role="DABNb" node="3HX0uqcM6u5" resolve="Order/report is delayed, not delivered, or lost" />
+        </node>
+      </node>
     </node>
     <node concept="AYXo0" id="3uLth44Zn4g" role="AYXoY">
       <ref role="AYXoz" node="3HX0uqcM69l" resolve="UCA-update_document-provided_for_wrong_document" />
       <node concept="AYXoK" id="3uLth44Zn4i" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-006.1" />
+        <property role="TrG5h" value="LS-SD-007.1" />
         <node concept="19SGf9" id="3uLth44Zn5R" role="AYXoN">
           <node concept="19SUe$" id="3uLth44Zn5S" role="19SJt6">
             <property role="19SUeA" value="" />
@@ -7885,7 +8066,7 @@
             <ref role="1iqAlh" node="5M3qF83HQTR" resolve="update_document" />
           </node>
           <node concept="19SUe$" id="3uLth44Zn5W" role="19SJt6">
-            <property role="19SUeA" value=" for a wrong document because he/she picks the wrong document to update.&#10;* Mitigated by " />
+            <property role="19SUeA" value=" for a wrong document because he/she picks the wrong document from the correct patient.&#10;* Mitigated by " />
           </node>
           <node concept="2aGvr3" id="7UpQVz39sKE" role="19SJt6">
             <ref role="2aGvrx" node="3HX0uqcM5Ml" />
@@ -7922,11 +8103,101 @@
           <ref role="DABNb" node="3HX0uqcM6u5" resolve="Order/report is delayed, not delivered, or lost" />
         </node>
       </node>
+      <node concept="AYXoK" id="AepcJnG4kg" role="AYXoP">
+        <property role="TrG5h" value="LS-SD-007.2" />
+        <node concept="19SGf9" id="AepcJnG4kA" role="AYXoN">
+          <node concept="19SUe$" id="AepcJnG4kB" role="19SJt6">
+            <property role="19SUeA" value="" />
+          </node>
+          <node concept="1irL6x" id="AepcJnG4kC" role="19SJt6">
+            <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG4kD" role="19SJt6">
+            <property role="19SUeA" value="provides " />
+          </node>
+          <node concept="1iqAl5" id="AepcJnG4kE" role="19SJt6">
+            <ref role="1iqAlh" node="5M3qF83HQTR" resolve="update_document" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG4kF" role="19SJt6">
+            <property role="19SUeA" value="for an outdated version of a document, resulting in document with missing information.&#10;* New " />
+          </node>
+          <node concept="2aGvr3" id="AepcJnG4nF" role="19SJt6">
+            <ref role="2aGvrx" node="AepcJnG4lZ" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG4nG" role="19SJt6" />
+        </node>
+        <node concept="DABN8" id="AepcJnG4nO" role="AYXo$">
+          <ref role="DABNb" node="3HX0uqcM6u2" resolve="Order/report content (body or attachment) is incorrect or incomplete" />
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="AepcJnG3dd" role="AYXoY">
+      <ref role="AYXoz" node="AepcJnG32W" resolve="UCA-update_document-provided_with_wrong_target" />
+      <node concept="AYXoK" id="AepcJnG3df" role="AYXoP">
+        <property role="TrG5h" value="LS-SD-008.1" />
+        <node concept="19SGf9" id="AepcJnG3MW" role="AYXoN">
+          <node concept="19SUe$" id="AepcJnG3MX" role="19SJt6">
+            <property role="19SUeA" value="" />
+          </node>
+          <node concept="1irL6x" id="AepcJnG3MY" role="19SJt6">
+            <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG3MZ" role="19SJt6">
+            <property role="19SUeA" value="provides " />
+          </node>
+          <node concept="1iqAl5" id="AepcJnG3N0" role="19SJt6">
+            <ref role="1iqAlh" node="5M3qF83HQTR" resolve="update_document" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG3N1" role="19SJt6">
+            <property role="19SUeA" value="with a differnet target when a document is being updated, because he/she notice that the original target was incorrect. The receiver system will update the document, but the document will continue linked to the original target, since it is an update of an existing document.&#10;* New " />
+          </node>
+          <node concept="2aGvr3" id="AepcJnG3Rr" role="19SJt6">
+            <ref role="2aGvrx" node="AepcJnG3Qb" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG3Rs" role="19SJt6" />
+        </node>
+        <node concept="DABN8" id="AepcJnG3N2" role="AYXo$">
+          <ref role="DABNb" node="3HX0uqcM6tX" resolve="Order/report target (patient) is incorrect or incomplete" />
+        </node>
+      </node>
+    </node>
+    <node concept="AYXo0" id="AepcJnG3Fh" role="AYXoY">
+      <ref role="AYXoz" node="AepcJnG33T" resolve="UCA-update_document-provided_with_wrong_recipient" />
+      <node concept="AYXoK" id="AepcJnG3Fj" role="AYXoP">
+        <property role="TrG5h" value="LS-SD-009.1" />
+        <node concept="19SGf9" id="AepcJnG3Na" role="AYXoN">
+          <node concept="19SUe$" id="AepcJnG3Nb" role="19SJt6">
+            <property role="19SUeA" value="" />
+          </node>
+          <node concept="1irL6x" id="AepcJnG3Nc" role="19SJt6">
+            <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG3Nd" role="19SJt6">
+            <property role="19SUeA" value="provides " />
+          </node>
+          <node concept="1iqAl5" id="AepcJnG3Ne" role="19SJt6">
+            <ref role="1iqAlh" node="5M3qF83HQTR" resolve="update_document" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG3Nf" role="19SJt6">
+            <property role="19SUeA" value="with a wrong recipient (provider or clinic) when a document is being updated&#10;* New " />
+          </node>
+          <node concept="2aGvr3" id="AepcJnG3TZ" role="19SJt6">
+            <ref role="2aGvrx" node="AepcJnG3SE" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG3U0" role="19SJt6" />
+        </node>
+        <node concept="DABN8" id="AepcJnG3Ng" role="AYXo$">
+          <ref role="DABNb" node="3HX0uqcM6u0" resolve="Order/report recipient (clinic or provider) is incorrect" />
+        </node>
+        <node concept="DABN8" id="AepcJnG3Nh" role="AYXo$">
+          <ref role="DABNb" node="3HX0uqcM6u5" resolve="Order/report is delayed, not delivered, or lost" />
+        </node>
+      </node>
     </node>
     <node concept="AYXo0" id="3uLth44Zn7O" role="AYXoY">
       <ref role="AYXoz" node="3HX0uqcM69u" resolve="UCA-update_document-provided_with_wrong_content" />
       <node concept="AYXoK" id="3uLth44Zn7Q" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-007.1" />
+        <property role="TrG5h" value="LS-SD-010.1" />
         <node concept="19SGf9" id="3uLth44Zn9_" role="AYXoN">
           <node concept="19SUe$" id="3uLth44Zn9A" role="19SJt6">
             <property role="19SUeA" value="" />
@@ -7967,7 +8238,7 @@
         </node>
       </node>
       <node concept="AYXoK" id="3uLth44Zn9N" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-007.2" />
+        <property role="TrG5h" value="LS-SD-010.2" />
         <node concept="19SGf9" id="3uLth44Zn9X" role="AYXoN">
           <node concept="19SUe$" id="3uLth44Zn9Y" role="19SJt6">
             <property role="19SUeA" value="" />
@@ -8011,7 +8282,7 @@
     <node concept="AYXo0" id="3uLth44Zncc" role="AYXoY">
       <ref role="AYXoz" node="3HX0uqcM69C" resolve="UCA-update_document-provided_repeatedly" />
       <node concept="AYXoK" id="3uLth44Znce" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-008.1" />
+        <property role="TrG5h" value="LS-SD-011.1" />
         <node concept="19SGf9" id="3uLth44Znee" role="AYXoN">
           <node concept="19SUe$" id="3uLth44Znef" role="19SJt6">
             <property role="19SUeA" value="" />
@@ -8038,7 +8309,7 @@
         </node>
       </node>
       <node concept="AYXoK" id="3uLth44ZniZ" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-008.2" />
+        <property role="TrG5h" value="LS-SD-011.2" />
         <node concept="19SGf9" id="3uLth44Znj9" role="AYXoN">
           <node concept="19SUe$" id="3uLth44Znja" role="19SJt6">
             <property role="19SUeA" value="" />
@@ -8070,7 +8341,7 @@
     <node concept="AYXo0" id="3uLth44Zngz" role="AYXoY">
       <ref role="AYXoz" node="3HX0uqcM69G" resolve="UCA-update_document-stopped_too_soon" />
       <node concept="AYXoK" id="3uLth44Zng_" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-009.1" />
+        <property role="TrG5h" value="LS-SD-012.1" />
         <node concept="19SGf9" id="3uLth44ZniI" role="AYXoN">
           <node concept="19SUe$" id="3uLth44ZniJ" role="19SJt6">
             <property role="19SUeA" value="" />
@@ -8105,11 +8376,49 @@
           <ref role="DABNb" node="3HX0uqcM6u5" resolve="Order/report is delayed, not delivered, or lost" />
         </node>
       </node>
+      <node concept="AYXoK" id="AepcJnG3Nt" role="AYXoP">
+        <property role="TrG5h" value="LS-SD-012.2" />
+        <node concept="19SGf9" id="AepcJnG3NG" role="AYXoN">
+          <node concept="19SUe$" id="AepcJnG3NH" role="19SJt6">
+            <property role="19SUeA" value="" />
+          </node>
+          <node concept="1irL6x" id="AepcJnG3NI" role="19SJt6">
+            <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG3NJ" role="19SJt6">
+            <property role="19SUeA" value="stop providing " />
+          </node>
+          <node concept="1iqAl5" id="AepcJnG3NK" role="19SJt6">
+            <ref role="1iqAlh" node="5M3qF83HQTR" resolve="update_document" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG3NL" role="19SJt6">
+            <property role="19SUeA" value="because he/she attempts to submit the document, but the document is not delivered due to some connection error, and the provider is not informed or does not see the error message and closes the form.&#10;* Mitigated by " />
+          </node>
+          <node concept="2aGvr3" id="AepcJnG3NZ" role="19SJt6">
+            <ref role="2aGvrx" node="3HX0uqcM5Nf" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG3O0" role="19SJt6">
+            <property role="19SUeA" value="&#10;* New " />
+          </node>
+          <node concept="2aGvr3" id="AepcJnG3O1" role="19SJt6">
+            <ref role="2aGvrx" node="AepcJnG31m" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG3O2" role="19SJt6">
+            <property role="19SUeA" value="" />
+          </node>
+        </node>
+        <node concept="DABN8" id="AepcJnG3NM" role="AYXo$">
+          <ref role="DABNb" node="3HX0uqcM6u2" resolve="Order/report content (body or attachment) is incorrect or incomplete" />
+        </node>
+        <node concept="DABN8" id="AepcJnG3NN" role="AYXo$">
+          <ref role="DABNb" node="3HX0uqcM6u5" resolve="Order/report is delayed, not delivered, or lost" />
+        </node>
+      </node>
     </node>
     <node concept="AYXo0" id="3uLth44ZnlN" role="AYXoY">
       <ref role="AYXoz" node="3HX0uqcM69P" resolve="UCA-cancel_document-provided_for_wrong_document" />
       <node concept="AYXoK" id="3uLth44ZnlP" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-010.1" />
+        <property role="TrG5h" value="LS-SD-013.1" />
         <node concept="19SGf9" id="3uLth44Znof" role="AYXoN">
           <node concept="19SUe$" id="3uLth44Znog" role="19SJt6">
             <property role="19SUeA" value="" />
@@ -8151,7 +8460,7 @@
     <node concept="AYXo0" id="3uLth44ZnqY" role="AYXoY">
       <ref role="AYXoz" node="3HX0uqcM69Z" resolve="UCA-cancel_document_stopped_too_soon" />
       <node concept="AYXoK" id="3uLth44Znr0" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-011.1" />
+        <property role="TrG5h" value="LS-SD-014.1" />
         <node concept="19SGf9" id="3uLth44Zntz" role="AYXoN">
           <node concept="19SUe$" id="3uLth44Znt$" role="19SJt6">
             <property role="19SUeA" value="" />
@@ -8185,11 +8494,46 @@
           <ref role="DABNb" node="3HX0uqcM6u5" resolve="Order/report is delayed, not delivered, or lost" />
         </node>
       </node>
+      <node concept="AYXoK" id="AepcJnG3Od" role="AYXoP">
+        <property role="TrG5h" value="LS-SD-014.2" />
+        <node concept="19SGf9" id="AepcJnG3Or" role="AYXoN">
+          <node concept="19SUe$" id="AepcJnG3Os" role="19SJt6">
+            <property role="19SUeA" value="" />
+          </node>
+          <node concept="1irL6x" id="AepcJnG3Ot" role="19SJt6">
+            <ref role="1irL7C" node="5M3qF83HQPI" resolve="Sender Care Giver" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG3Ou" role="19SJt6">
+            <property role="19SUeA" value="stop providing" />
+          </node>
+          <node concept="1iqAl5" id="AepcJnG3Ov" role="19SJt6">
+            <ref role="1iqAlh" node="5M3qF83HQTW" resolve="cancel_document" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG3Ow" role="19SJt6">
+            <property role="19SUeA" value="because he/she attempts to submit the document, but the document is not delivered due to some connection error, and the provider is not informed or does not see the error message and closes the form. &#10;* Mitigated by " />
+          </node>
+          <node concept="2aGvr3" id="AepcJnG3OE" role="19SJt6">
+            <ref role="2aGvrx" node="3HX0uqcM5Nf" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG3OF" role="19SJt6">
+            <property role="19SUeA" value="&#10;* New " />
+          </node>
+          <node concept="2aGvr3" id="AepcJnG3OG" role="19SJt6">
+            <ref role="2aGvrx" node="AepcJnG31m" />
+          </node>
+          <node concept="19SUe$" id="AepcJnG3OH" role="19SJt6">
+            <property role="19SUeA" value="" />
+          </node>
+        </node>
+        <node concept="DABN8" id="AepcJnG3Ox" role="AYXo$">
+          <ref role="DABNb" node="3HX0uqcM6u5" resolve="Order/report is delayed, not delivered, or lost" />
+        </node>
+      </node>
     </node>
     <node concept="AYXo0" id="3uLth44ZnwC" role="AYXoY">
       <ref role="AYXoz" node="3HX0uqcM6a9" resolve="UCA-submit_document-not_provided" />
       <node concept="AYXoK" id="3uLth44ZnwE" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-012.1" />
+        <property role="TrG5h" value="LS-SD-015.1" />
         <node concept="19SGf9" id="3uLth44Znzm" role="AYXoN">
           <node concept="19SUe$" id="3uLth44Znzn" role="19SJt6">
             <property role="19SUeA" value=" " />
@@ -8207,19 +8551,19 @@
             <property role="19SUeA" value=" for a newly created, updated or cancelled document because the ERM-DE does not receive a command to submit the document.&#10;* Addressed in " />
           </node>
           <node concept="1AqBnM" id="5Nyc18U_Vdw" role="19SJt6">
-            <ref role="1AqBnL" node="3uLth44ZmYR" resolve="LS-SD-005.1" />
+            <ref role="1AqBnL" node="3uLth44ZmYR" resolve="LS-SD-006.1" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VdE" role="19SJt6">
             <property role="19SUeA" value=", " />
           </node>
           <node concept="1AqBnM" id="5Nyc18U_VdD" role="19SJt6">
-            <ref role="1AqBnL" node="3uLth44Zng_" resolve="LS-SD-009.1" />
+            <ref role="1AqBnL" node="3uLth44Zng_" resolve="LS-SD-012.1" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VdQ" role="19SJt6">
             <property role="19SUeA" value=" and " />
           </node>
           <node concept="1AqBnM" id="5Nyc18U_VdP" role="19SJt6">
-            <ref role="1AqBnL" node="3uLth44Znr0" resolve="LS-SD-011.1" />
+            <ref role="1AqBnL" node="3uLth44Znr0" resolve="LS-SD-014.1" />
           </node>
           <node concept="19SUe$" id="5Nyc18U_VdR" role="19SJt6" />
         </node>
@@ -8228,7 +8572,7 @@
         </node>
       </node>
       <node concept="AYXoK" id="3uLth44ZoLa" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-012.2" />
+        <property role="TrG5h" value="LS-SD-015.2" />
         <node concept="19SGf9" id="3uLth44ZoLk" role="AYXoN">
           <node concept="19SUe$" id="3uLth44ZoLl" role="19SJt6">
             <property role="19SUeA" value=" " />
@@ -8254,7 +8598,7 @@
     <node concept="AYXo0" id="3uLth44ZnAr" role="AYXoY">
       <ref role="AYXoz" node="3HX0uqcM6ah" resolve="UCA-submit_document-provided_too_soon" />
       <node concept="AYXoK" id="3uLth44ZnAt" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-013.1" />
+        <property role="TrG5h" value="LS-SD-016.1" />
         <node concept="19SGf9" id="3uLth44ZnDi" role="AYXoN">
           <node concept="19SUe$" id="3uLth44ZnDj" role="19SJt6" />
           <node concept="1irL6x" id="3uLth44ZnDk" role="19SJt6">
@@ -8327,7 +8671,7 @@
     <node concept="AYXo0" id="3uLth44ZnGX" role="AYXoY">
       <ref role="AYXoz" node="3HX0uqcM6a$" resolve="UCA-submit_document-stopped_too_soon" />
       <node concept="AYXoK" id="3uLth44ZnGZ" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-014.2" />
+        <property role="TrG5h" value="LS-SD-017.1" />
         <node concept="19SGf9" id="3uLth44ZnK8" role="AYXoN">
           <node concept="19SUe$" id="3uLth44ZnK9" role="19SJt6" />
           <node concept="1irL6x" id="3uLth44ZnKa" role="19SJt6">
@@ -8351,7 +8695,7 @@
     <node concept="AYXo0" id="3uLth44ZohC" role="AYXoY">
       <ref role="AYXoz" node="6fz1DuylHo$" resolve="UCA-get_patient-not_provided" />
       <node concept="AYXoK" id="3uLth44ZohE" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-015.1" />
+        <property role="TrG5h" value="LS-SD-018.1" />
         <node concept="19SGf9" id="3uLth44Zolh" role="AYXoN">
           <node concept="19SUe$" id="3uLth44Zoli" role="19SJt6" />
           <node concept="1irL6x" id="3uLth44Zolj" role="19SJt6">
@@ -8381,7 +8725,7 @@
     <node concept="AYXo0" id="3uLth44Zopd" role="AYXoY">
       <ref role="AYXoz" node="3HX0uqcM6bf" resolve="UCA-get_patient-provided_for_wrong_patient" />
       <node concept="AYXoK" id="3uLth44Zopf" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-016.1" />
+        <property role="TrG5h" value="LS-SD-019.1" />
         <node concept="19SGf9" id="3uLth44ZosZ" role="AYXoN">
           <node concept="19SUe$" id="3uLth44Zot0" role="19SJt6">
             <property role="19SUeA" value="" />
@@ -8411,7 +8755,7 @@
     <node concept="AYXo0" id="2cZ4Q1qHfCW" role="AYXoY">
       <ref role="AYXoz" node="2cZ4Q1qHf4N" resolve="UCA-link_document-not_provided_for_order" />
       <node concept="AYXoK" id="2cZ4Q1qHfCY" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-017.1" />
+        <property role="TrG5h" value="LS-SD-020.1" />
         <node concept="19SGf9" id="2cZ4Q1qHfJW" role="AYXoN">
           <node concept="19SUe$" id="2cZ4Q1qHfJX" role="19SJt6" />
           <node concept="1irL6x" id="2cZ4Q1qHfJY" role="19SJt6">
@@ -8445,7 +8789,7 @@
     <node concept="AYXo0" id="3uLth44ZoQa" role="AYXoY">
       <ref role="AYXoz" node="3HX0uqcM6bk" resolve="UCA-list_clinics-not_provided" />
       <node concept="AYXoK" id="3uLth44ZoQc" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-018.1" />
+        <property role="TrG5h" value="LS-SD-021.1" />
         <node concept="19SGf9" id="3uLth44ZoUm" role="AYXoN">
           <node concept="19SUe$" id="3uLth44ZoUn" role="19SJt6">
             <property role="19SUeA" value="" />
@@ -8471,7 +8815,7 @@
         </node>
       </node>
       <node concept="AYXoK" id="3uLth44Zp3x" role="AYXoP">
-        <property role="TrG5h" value="Ls-SD-018.2" />
+        <property role="TrG5h" value="Ls-SD-021.2" />
         <node concept="19SGf9" id="3uLth44Zp3G" role="AYXoN">
           <node concept="19SUe$" id="3uLth44Zp3H" role="19SJt6">
             <property role="19SUeA" value="" />
@@ -8504,7 +8848,7 @@
     <node concept="AYXo0" id="3uLth44ZoYS" role="AYXoY">
       <ref role="AYXoz" node="3HX0uqcM6bt" resolve="UCA-list_clinics-provided_for_wrong_clinic" />
       <node concept="AYXoK" id="3uLth44ZoYU" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-019.1" />
+        <property role="TrG5h" value="LS-SD-022.1" />
         <node concept="19SGf9" id="3uLth44Zp3e" role="AYXoN">
           <node concept="19SUe$" id="3uLth44Zp3f" role="19SJt6">
             <property role="19SUeA" value="" />
@@ -8537,7 +8881,7 @@
     <node concept="AYXo0" id="3uLth44Zp8x" role="AYXoY">
       <ref role="AYXoz" node="3HX0uqcM6bD" resolve="UCA-list_providers-not_provided" />
       <node concept="AYXoK" id="3uLth44Zp8z" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-020.1" />
+        <property role="TrG5h" value="LS-SD-023.1" />
         <node concept="19SGf9" id="3uLth44Zpda" role="AYXoN">
           <node concept="19SUe$" id="3uLth44Zpdb" role="19SJt6">
             <property role="19SUeA" value="" />
@@ -8563,7 +8907,7 @@
         </node>
       </node>
       <node concept="AYXoK" id="3uLth44Zpdt" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-020.2" />
+        <property role="TrG5h" value="LS-SD-023.2" />
         <node concept="19SGf9" id="3uLth44ZpdC" role="AYXoN">
           <node concept="19SUe$" id="3uLth44ZpdD" role="19SJt6">
             <property role="19SUeA" value="" />
@@ -8598,7 +8942,7 @@
     <node concept="AYXo0" id="3uLth44ZpiN" role="AYXoY">
       <ref role="AYXoz" node="3HX0uqcM6bM" resolve="UCA-list_providers-provided_for_wrong_document" />
       <node concept="AYXoK" id="3uLth44ZpiP" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-021.1" />
+        <property role="TrG5h" value="LS-SD-024.1" />
         <node concept="19SGf9" id="3uLth44ZpnJ" role="AYXoN">
           <node concept="19SUe$" id="3uLth44ZpnK" role="19SJt6">
             <property role="19SUeA" value="" />
@@ -8633,7 +8977,7 @@
     <node concept="AYXo0" id="57SYOblyFmY" role="AYXoY">
       <ref role="AYXoz" node="3HX0uqcM6d1" resolve="UCA-route_document-provided_out_of_sequence" />
       <node concept="AYXoK" id="57SYOblyFn0" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-022.1" />
+        <property role="TrG5h" value="LS-SD-025.1" />
         <node concept="DABN8" id="57SYOblyFsa" role="AYXo$">
           <ref role="DABNb" node="3HX0uqcM6u5" resolve="Order/report is delayed, not delivered, or lost" />
         </node>
@@ -8672,7 +9016,7 @@
         <ref role="1fzLKL" node="5M3qF83HQWg" resolve="list_clinics" />
       </node>
       <node concept="AYXoK" id="7SToB$3E$5D" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-023.1" />
+        <property role="TrG5h" value="LS-SD-026.1" />
         <node concept="19SGf9" id="7SToB$3E$c3" role="AYXoN">
           <node concept="19SUe$" id="7SToB$3E$c4" role="19SJt6">
             <property role="19SUeA" value="" />
@@ -8707,7 +9051,7 @@
         <ref role="1fzLKL" node="5M3qF83HQXk" resolve="list_providers" />
       </node>
       <node concept="AYXoK" id="7SToB$3E$ia" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-024.1" />
+        <property role="TrG5h" value="LS-SD-027.1" />
         <node concept="19SGf9" id="7SToB$3E$o4" role="AYXoN">
           <node concept="19SUe$" id="7SToB$3E$o5" role="19SJt6">
             <property role="19SUeA" value="" />
@@ -8742,7 +9086,7 @@
         <ref role="1fzLKL" node="5M3qF83HR2r" resolve="submit_document" />
       </node>
       <node concept="AYXoK" id="7SToB$3E$uk" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-025.1" />
+        <property role="TrG5h" value="LS-SD-028.1" />
         <node concept="19SGf9" id="7SToB$3E$$l" role="AYXoN">
           <node concept="19SUe$" id="7SToB$3E$$m" role="19SJt6">
             <property role="19SUeA" value="" />
@@ -8777,7 +9121,7 @@
         <ref role="1fzLKL" node="5M3qF83HR3T" resolve="get_document_status" />
       </node>
       <node concept="AYXoK" id="7SToB$3E$QO" role="AYXoP">
-        <property role="TrG5h" value="LS-SD-026.1" />
+        <property role="TrG5h" value="LS-SD-029.1" />
         <node concept="19SGf9" id="7SToB$3E$X3" role="AYXoN">
           <node concept="19SUe$" id="7SToB$3E$X4" role="19SJt6">
             <property role="19SUeA" value="" />
@@ -9824,8 +10168,34 @@
         </node>
       </node>
     </node>
-    <node concept="0lhDl" id="2cZ4Q1qHeJJ" role="1QQeBF">
+    <node concept="0lhDl" id="AepcJnG5mR" role="1QQeBF">
       <property role="0lsPA" value="CC-103" />
+      <node concept="1TVFYH" id="AepcJnG5of" role="0nOlf">
+        <node concept="3vtsJT" id="AepcJnG5ok" role="1H_VwB">
+          <ref role="KKOSj" node="AepcJnG3Uz" resolve="UCA-create_document-provided_for_wrong_order" />
+        </node>
+      </node>
+      <node concept="19SGf9" id="AepcJnG5mT" role="1QQeG9">
+        <node concept="19SUe$" id="AepcJnG5mU" role="19SJt6">
+          <property role="19SUeA" value="When linking a document in a clinical workflow, a brief summary of the linked document is displayed." />
+        </node>
+      </node>
+    </node>
+    <node concept="0lhDl" id="AepcJnG5pH" role="1QQeBF">
+      <property role="0lsPA" value="CC-104" />
+      <node concept="1TVFYH" id="AepcJnG6fL" role="0nOlf">
+        <node concept="3vtsJT" id="AepcJnG6fQ" role="1H_VwB">
+          <ref role="KKOSj" node="AepcJnG3Uz" resolve="UCA-create_document-provided_for_wrong_order" />
+        </node>
+      </node>
+      <node concept="19SGf9" id="AepcJnG5pJ" role="1QQeG9">
+        <node concept="19SUe$" id="AepcJnG5pK" role="19SJt6">
+          <property role="19SUeA" value="Only the latest version of a document can be linked in a clinical workflow" />
+        </node>
+      </node>
+    </node>
+    <node concept="0lhDl" id="2cZ4Q1qHeJJ" role="1QQeBF">
+      <property role="0lsPA" value="CC-105" />
       <node concept="1TVFYH" id="2cZ4Q1qHeKd" role="0nOlf">
         <node concept="3vtsJT" id="2cZ4Q1qHeKi" role="1H_VwB">
           <ref role="KKOSj" node="3HX0uqcM692" resolve="UCA-create_document-provided_repeatedly" />
@@ -9841,7 +10211,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2cZ4Q1qHeKN" role="1QQeBF">
-      <property role="0lsPA" value="CC-104" />
+      <property role="0lsPA" value="CC-106" />
       <node concept="1TVFYH" id="2cZ4Q1qHeLd" role="0nOlf">
         <node concept="3vtsJT" id="2cZ4Q1qHeLi" role="1H_VwB">
           <ref role="KKOSj" node="3HX0uqcM69a" resolve="UCA-create_document-stopped_too_soon" />
@@ -9859,8 +10229,27 @@
         </node>
       </node>
     </node>
+    <node concept="0lhDl" id="AepcJnG31m" role="1QQeBF">
+      <property role="0lsPA" value="CC-107" />
+      <node concept="1TVFYH" id="AepcJnG32n" role="0nOlf">
+        <node concept="3vtsJT" id="AepcJnG32s" role="1H_VwB">
+          <ref role="KKOSj" node="3HX0uqcM69a" resolve="UCA-create_document-stopped_too_soon" />
+        </node>
+        <node concept="3vtsJT" id="AepcJnG3OX" role="1H_VwB">
+          <ref role="KKOSj" node="3HX0uqcM69G" resolve="UCA-update_document-stopped_too_soon" />
+        </node>
+        <node concept="3vtsJT" id="AepcJnG3P5" role="1H_VwB">
+          <ref role="KKOSj" node="3HX0uqcM69Z" resolve="UCA-cancel_document_stopped_too_soon" />
+        </node>
+      </node>
+      <node concept="19SGf9" id="AepcJnG31o" role="1QQeG9">
+        <node concept="19SUe$" id="AepcJnG31p" role="19SJt6">
+          <property role="19SUeA" value="Documents not submited are indicated." />
+        </node>
+      </node>
+    </node>
     <node concept="0lhDl" id="2cZ4Q1qHeLQ" role="1QQeBF">
-      <property role="0lsPA" value="CC-105" />
+      <property role="0lsPA" value="CC-108" />
       <node concept="1TVFYH" id="2cZ4Q1qHeNR" role="0nOlf">
         <node concept="3vtsJT" id="2cZ4Q1qHeNW" role="1H_VwB">
           <ref role="KKOSj" node="3HX0uqcM69l" resolve="UCA-update_document-provided_for_wrong_document" />
@@ -9875,8 +10264,50 @@
         </node>
       </node>
     </node>
+    <node concept="0lhDl" id="AepcJnG4lZ" role="1QQeBF">
+      <property role="0lsPA" value="CC-109" />
+      <node concept="1TVFYH" id="AepcJnG4nh" role="0nOlf">
+        <node concept="3vtsJT" id="AepcJnG4nm" role="1H_VwB">
+          <ref role="KKOSj" node="3HX0uqcM69l" resolve="UCA-update_document-provided_for_wrong_document" />
+        </node>
+        <node concept="3vtsJT" id="AepcJnG5cu" role="1H_VwB">
+          <ref role="KKOSj" node="3HX0uqcM69l" resolve="UCA-update_document-provided_for_wrong_document" />
+        </node>
+      </node>
+      <node concept="19SGf9" id="AepcJnG4m1" role="1QQeG9">
+        <node concept="19SUe$" id="AepcJnG4m2" role="19SJt6">
+          <property role="19SUeA" value="Only the latest version of a document can be updated" />
+        </node>
+      </node>
+    </node>
+    <node concept="0lhDl" id="AepcJnG3Qb" role="1QQeBF">
+      <property role="0lsPA" value="CC-110" />
+      <node concept="1TVFYH" id="AepcJnG3Rj" role="0nOlf">
+        <node concept="3vtsJT" id="AepcJnG3Ro" role="1H_VwB">
+          <ref role="KKOSj" node="AepcJnG32W" resolve="UCA-update_document-provided_with_wrong_target" />
+        </node>
+      </node>
+      <node concept="19SGf9" id="AepcJnG3Qd" role="1QQeG9">
+        <node concept="19SUe$" id="AepcJnG3Qe" role="19SJt6">
+          <property role="19SUeA" value="Record target (patient) of a sent document cannot be updated " />
+        </node>
+      </node>
+    </node>
+    <node concept="0lhDl" id="AepcJnG3SE" role="1QQeBF">
+      <property role="0lsPA" value="CC-111" />
+      <node concept="1TVFYH" id="AepcJnG3TR" role="0nOlf">
+        <node concept="3vtsJT" id="AepcJnG3TW" role="1H_VwB">
+          <ref role="KKOSj" node="AepcJnG33T" resolve="UCA-update_document-provided_with_wrong_recipient" />
+        </node>
+      </node>
+      <node concept="19SGf9" id="AepcJnG3SG" role="1QQeG9">
+        <node concept="19SUe$" id="AepcJnG3SH" role="19SJt6">
+          <property role="19SUeA" value="When updating a document, recipients can only be added, not removed" />
+        </node>
+      </node>
+    </node>
     <node concept="0lhDl" id="2cZ4Q1qHeOJ" role="1QQeBF">
-      <property role="0lsPA" value="CC-106" />
+      <property role="0lsPA" value="CC-112" />
       <node concept="1TVFYH" id="2cZ4Q1qHeRu" role="0nOlf">
         <node concept="3vtsJT" id="2cZ4Q1qHeRz" role="1H_VwB">
           <ref role="KKOSj" node="3HX0uqcM6dG" resolve="UCA-list_new_documents-not_provided" />
@@ -9892,7 +10323,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2cZ4Q1qHeWG" role="1QQeBF">
-      <property role="0lsPA" value="CC-107" />
+      <property role="0lsPA" value="CC-113" />
       <node concept="1TVFYH" id="2cZ4Q1qHeXu" role="0nOlf">
         <node concept="3vtsJT" id="2cZ4Q1qHeXz" role="1H_VwB">
           <ref role="KKOSj" node="3HX0uqcM6eq" resolve="UCA-get_document-provided_too_late" />
@@ -9905,7 +10336,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2cZ4Q1qHeSJ" role="1QQeBF">
-      <property role="0lsPA" value="CC-108" />
+      <property role="0lsPA" value="CC-114" />
       <node concept="1TVFYH" id="2cZ4Q1qHeTx" role="0nOlf">
         <node concept="3vtsJT" id="2cZ4Q1qHeTA" role="1H_VwB">
           <ref role="KKOSj" node="3HX0uqcM6ft" resolve="UCA-auto_assign_provider-not_provided" />
@@ -9918,7 +10349,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2cZ4Q1qHfTu" role="1QQeBF">
-      <property role="0lsPA" value="CC-109" />
+      <property role="0lsPA" value="CC-115" />
       <node concept="1TVFYH" id="2cZ4Q1qHfUl" role="0nOlf">
         <node concept="3vtsJT" id="2cZ4Q1qHfUq" role="1H_VwB">
           <ref role="KKOSj" node="3HX0uqcM6ei" resolve="UCA-get_document-stopped_too_soon" />
@@ -9931,7 +10362,7 @@
       </node>
     </node>
     <node concept="0lhDl" id="2cZ4Q1qHfWW" role="1QQeBF">
-      <property role="0lsPA" value="CC-110" />
+      <property role="0lsPA" value="CC-116" />
       <node concept="1TVFYH" id="2cZ4Q1qHfXS" role="0nOlf">
         <node concept="3vtsJT" id="2cZ4Q1qHfXX" role="1H_VwB">
           <ref role="KKOSj" node="3uLth44ZmQC" resolve="UCA-store_attachment-provided_for_wrong_patient" />
