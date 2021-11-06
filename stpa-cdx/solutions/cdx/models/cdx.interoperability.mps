@@ -5098,7 +5098,7 @@
         <node concept="0nzK2" id="3HX0uqcM5LU" role="1QQeAV">
           <node concept="19SGf9" id="3HX0uqcM5LV" role="0nzdz">
             <node concept="19SUe$" id="3HX0uqcM5LW" role="19SJt6">
-              <property role="19SUeA" value="* REference: CDA XML Schema.&#10;* Missing constraint in conformance profile!" />
+              <property role="19SUeA" value="* Reference: CDA XML Schema.&#10;* Missing constraint in conformance profile!" />
             </node>
           </node>
         </node>
@@ -5287,7 +5287,7 @@
       </node>
       <node concept="19SGf9" id="3HX0uqcM5Np" role="1QQeG9">
         <node concept="19SUe$" id="3HX0uqcM5Nq" role="19SJt6">
-          <property role="19SUeA" value="Documents sucessfully delivered to the CDX system are indicated." />
+          <property role="19SUeA" value="Documents successfully delivered to the CDX system are indicated." />
         </node>
       </node>
       <node concept="1QQeAY" id="3HX0uqcM5Nr" role="1QQeAC">
@@ -5512,14 +5512,14 @@
       </node>
       <node concept="19SGf9" id="3HX0uqcM5Ph" role="1QQeG9">
         <node concept="19SUe$" id="3HX0uqcM5Pi" role="19SJt6">
-          <property role="19SUeA" value="Canceled documents are sent to one or more receipients." />
+          <property role="19SUeA" value="Canceled documents are sent to all recipients of the original document and its updates." />
         </node>
       </node>
       <node concept="1QQeAY" id="3HX0uqcM5Pj" role="1QQeAC">
         <node concept="0nzK2" id="3HX0uqcM5Pk" role="1QQeAV">
           <node concept="19SGf9" id="3HX0uqcM5Pl" role="0nzdz">
             <node concept="19SUe$" id="3HX0uqcM5Pm" role="19SJt6">
-              <property role="19SUeA" value="Reference: CDX Conformance Profile - CDA Level 1, &#10;Conformance Sessions IDs 57" />
+              <property role="19SUeA" value="Reference: CDX Conformance Profile - CDA Level 1, &#10;Conformance Sessions IDs 57&#10;* Updated to include all recipients of the original document and updates." />
             </node>
           </node>
         </node>
@@ -5957,7 +5957,7 @@
       </node>
       <node concept="19SGf9" id="3HX0uqcM5SF" role="1QQeG9">
         <node concept="19SUe$" id="3HX0uqcM5SG" role="19SJt6">
-          <property role="19SUeA" value="Registered clinics and providers are searcheable in the CDX system." />
+          <property role="19SUeA" value="Registered clinics and providers are searchable in the CDX system." />
         </node>
       </node>
       <node concept="1QQeAY" id="3HX0uqcM5SH" role="1QQeAC">
@@ -10614,7 +10614,7 @@
       </node>
       <node concept="19SGf9" id="AepcJnGmOF" role="1QQeG9">
         <node concept="19SUe$" id="AepcJnGmOG" role="19SJt6">
-          <property role="19SUeA" value="Users are notified if submited documents are not timely received or any error happened during the delivery ." />
+          <property role="19SUeA" value="Users are notified if submitted documents are not timely received or any error happened during the delivery ." />
         </node>
       </node>
     </node>
@@ -10782,7 +10782,7 @@
       </node>
       <node concept="19SGf9" id="AepcJnGw75" role="1QQeG9">
         <node concept="19SUe$" id="AepcJnGw76" role="19SJt6">
-          <property role="19SUeA" value="Receiving system indicates when documents have relationships (events, orders, related docs, doc version) not fullfiled." />
+          <property role="19SUeA" value="Receiving system indicates when documents have relationships (events, orders, related docs, doc version) not fulfilled" />
         </node>
       </node>
     </node>
