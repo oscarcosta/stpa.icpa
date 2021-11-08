@@ -10579,7 +10579,7 @@
       </node>
       <node concept="19SGf9" id="2cZ4Q1qHeKP" role="1QQeG9">
         <node concept="19SUe$" id="2cZ4Q1qHeKQ" role="19SJt6">
-          <property role="19SUeA" value="After starting the composition of the document, confirm to cancel the document submission." />
+          <property role="19SUeA" value="After starting the composition of the document, confirm to abort the document submission." />
         </node>
       </node>
     </node>
